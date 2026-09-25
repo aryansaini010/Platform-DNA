@@ -1,0 +1,19 @@
+# SearXNG settings (see plan section 3). The critical bit is
+# search.formats: without `json` listed, `format=json` returns 403.
+use_default_settings: true
+
+server:
+  # Generate your own: openssl rand -hex 32
+  secret_key: "change-me-to-openssl-rand-hex-32"
+  limiter: false        # private instance, no bot limiter needed
+  image_proxy: false
+
+search:
+  formats:
+    - html
+    - json
+
+# Outgoing requests identify as a browser; helps with engine blocks.
+outgoing:
+  useragents:
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"

@@ -1,0 +1,209 @@
+# PLATFORM DNA REPORT
+## {{ r.platform }} ({% if r.region %}{{ r.region }}{% if r.region == "India" %}, all language markets{% endif %}{% else %}region not set{% endif %})
+
+{{ r.header_sentence }}
+
+*{{ r.identity_line }}*
+
+---
+
+### OVERALL SCORE: {{ r.overall.score }} / 100
+**{{ r.overall.risk_tag }}**
+
+{{ r.overall.summary }}
+
+---
+
+## DNA SCORES
+
+| Dimension | Score |
+|---|---|
+{% for dim in ["content","audience","emotional","distribution","revenue","editorial"] %}| {{ dim | upper }} | {{ r.sections[dim].score }} |
+{% endfor %}
+---
+
+## POSITIONING
+
+{{ r.positioning }}
+
+---
+
+## DNA DEEP DIVE
+
+### 1. CONTENT DNA — Content Strategy [{{ r.sections.content.score }}]
+
+**One-line strategy statement:** {{ r.sections.content.strategy_line }}
+
+**EVIDENCE:** {{ r.sections.content.evidence }}
+
+**Primary Genres:** {{ r.sections.content.primary_genres }}
+
+**Secondary Genres:** {{ r.sections.content.secondary_genres }}
+
+**Originals Strategy:** {{ r.sections.content.originals_strategy }}
+
+**Franchise Presence:** {{ r.sections.content.franchise_presence }}
+
+**Content Mix:** {{ r.sections.content.content_mix }}
+
+**Language Mix:** {{ r.sections.content.language_mix }}
+
+**Era Focus:** {{ r.sections.content.era_focus }}
+
+**Quality/Budget Tier:** {{ r.sections.content.quality_tier }}
+
+**Standout Titles:**
+{% for s in r.sections.content.standout_titles %}- *{{ s.title }}* — {{ s.why }}
+{% endfor %}
+**Catalogue Gaps:** {{ r.sections.content.catalogue_gaps }}
+
+---
+
+### 2. AUDIENCE DNA — Audience Identity [{{ r.sections.audience.score }}]
+
+**One-line audience statement:** {{ r.sections.audience.strategy_line }}
+
+**EVIDENCE:** {{ r.sections.audience.evidence }}
+
+**Primary Segment:** {{ r.sections.audience.primary_segment }}
+
+**Secondary Segments:** {{ r.sections.audience.secondary_segments }}
+
+**Geographic Focus:** {{ r.sections.audience.geographic_focus }}
+
+**Cultural Identity:** {{ r.sections.audience.cultural_identity }}
+
+**Lifestyle Profile:** {{ r.sections.audience.lifestyle_profile }}
+
+**Viewing Occasion:** {{ r.sections.audience.viewing_occasion }}
+
+**Sophistication:** {{ r.sections.audience.sophistication }}
+
+**Underserved Segments:** {{ r.sections.audience.underserved_segments }}
+
+---
+
+### 3. EMOTIONAL DNA — Emotional Profile [{{ r.sections.emotional.score }}]
+
+**One-line register statement:** {{ r.sections.emotional.strategy_line }}
+
+**EVIDENCE:** {{ r.sections.emotional.evidence }}
+
+**Primary Emotion:** {{ r.sections.emotional.primary_emotion }}
+
+**Emotional Spectrum:** {{ r.sections.emotional.emotional_spectrum }}
+
+**Tone Profile:** {{ r.sections.emotional.tone_profile }}
+
+**Content Warnings:** {{ r.sections.emotional.content_warnings }}
+
+**Consistency:** {{ r.sections.emotional.consistency }}
+
+**Feel-Good Quotient:** {{ r.sections.emotional.feel_good }}
+
+**Cultural Resonance:** {{ r.sections.emotional.cultural_resonance }}
+
+**Signature Feeling:** {{ r.sections.emotional.signature_feeling }}
+
+---
+
+### 4. DISTRIBUTION DNA — Delivery & Format [{{ r.sections.distribution.score }}]
+
+**One-line model statement:** {{ r.sections.distribution.strategy_line }}
+
+**EVIDENCE:** {{ r.sections.distribution.evidence }}
+
+**Access Model:** {{ r.sections.distribution.access_model }}
+
+**Device Profile:** {{ r.sections.distribution.device_profile }}
+
+**Viewing Behaviour:** {{ r.sections.distribution.viewing_behaviour }}
+
+**Geographic Reach:** {{ r.sections.distribution.geographic_reach }}
+
+**Language Access:** {{ r.sections.distribution.language_access }}
+
+**Content Window:** {{ r.sections.distribution.content_window }}
+
+**Release Strategy:** {{ r.sections.distribution.release_strategy }}
+
+**Tech Experience:** {{ r.sections.distribution.tech_experience }}
+
+---
+
+### 5. REVENUE DNA — Monetisation [{{ r.sections.revenue.score }}]
+
+**One-line model statement:** {{ r.sections.revenue.strategy_line }}
+
+**EVIDENCE:** {{ r.sections.revenue.evidence }}
+
+**Revenue Model:** {{ r.sections.revenue.revenue_model }}
+
+**{{ r.sections.revenue.tiers_label | default('Subscription Tiers', true) }}:** {{ r.sections.revenue.tiers }}
+
+**Ad Dependency:** {{ r.sections.revenue.ad_dependency }}
+
+**Licensing Strategy:** {{ r.sections.revenue.licensing_strategy }}
+
+**Originals Investment:** {{ r.sections.revenue.originals_investment }}
+
+**Acquisition Appetite:** {{ r.sections.revenue.acquisition_appetite }}
+
+**Audience Monetisation:** {{ r.sections.revenue.audience_monetisation }}
+
+---
+
+### 6. EDITORIAL DNA — Editorial Voice [{{ r.sections.editorial.score }}]
+
+**One-line voice statement:** {{ r.sections.editorial.strategy_line }}
+
+**EVIDENCE:** {{ r.sections.editorial.evidence }}
+
+**Editorial Voice:** {{ r.sections.editorial.editorial_voice }}
+
+**Curation Philosophy:** {{ r.sections.editorial.curation_philosophy }}
+
+**Cultural Stance:** {{ r.sections.editorial.cultural_stance }}
+
+**Risk Appetite:** {{ r.sections.editorial.risk_appetite }}
+
+**Distinctiveness:** {{ r.sections.editorial.distinctiveness }}
+
+**Auteur vs. Formula:** {{ r.sections.editorial.auteur_vs_formula }}
+
+**Tonal Signature:** {{ r.sections.editorial.tonal_signature }}
+
+**Consistency:** {{ r.sections.editorial.consistency }}
+
+**Signature Move:** {{ r.sections.editorial.signature_move }}
+
+---
+
+## ACQUISITION WISHLIST
+
+{% for w in r.wishlist %}{{ loop.index }}. {{ w }}
+{% endfor %}
+---
+
+## PITCH PLAYBOOK
+
+**PITCH ANGLE:** {{ r.pitch.angle }}
+
+**IDEAL TITLE PROFILE:** {{ r.pitch.ideal_profile }}
+
+**INSTANT YES SIGNALS:**
+{% for y in r.pitch.yes %}- ✅ {{ y }}
+{% endfor %}
+**INSTANT NO SIGNALS:**
+{% for n in r.pitch.no %}- ❌ {{ n }}
+{% endfor %}
+**NEGOTIATION INTELLIGENCE:** {{ r.pitch.negotiation }}
+
+---
+
+## SOURCES
+
+Citation numbers in each section's EVIDENCE point here — click through to the page each figure was extracted from.
+
+{% for s in r.sources %}{{ s.n }}. [{{ s.label }}]({{ s.url }})
+{% endfor %}

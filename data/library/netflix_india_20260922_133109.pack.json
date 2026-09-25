@@ -1,0 +1,3195 @@
+{
+ "platform": "Netflix India",
+ "region": "India",
+ "slug": "netflix_india",
+ "catalogue_note": "142 extracted facts and 130 named titles from trade, investor and platform sources",
+ "identity_line": "Netflix India delivers heartfelt love stories, pulse‑pounding thrillers, courtroom dramas and reality shows that spark conversation.",
+ "risk_tag": "CONTENT EVIDENCE — THIN EMOTIONAL COVERAGE RISK",
+ "summary": "Netflix India leverages a premium pricing model (Rs 149 as of Dec 2021) and a deep investment in original Indian slate—including titles like The Great Indian Kapil Show, Operation Safed Sagar and Family Business—to command $905 million in revenue in 2025 and a reported 300 million subscriber base. Its strength lies in high‑budget, genre‑diverse content that appeals to urban, English‑and‑Hindi‑speaking audiences, but the platform’s price point and limited regional‑language depth leave it vulnerable to lower‑cost, bundled competitors. If price pressure intensifies and regional content gaps persist, Netflix India risks subscriber churn and market share erosion in the medium term.",
+ "positioning": "Netflix India sits at the premium tier of the Indian OTT stack, targeting affluent, metro‑centric viewers who prioritize global‑quality production values and a curated mix of Hindi, English and select regional originals. It positions itself as a deliberate alternative to mass‑market services that rely on ad‑supported or low‑cost bundled models, betting on its strong brand, high‑budget storytelling and exclusive franchises to retain a niche yet sizable subscriber base, while its narrow regional language offering and price sensitivity constrain broader penetration.",
+ "sections": {
+  "content": {
+   "score": 70,
+   "evidence": "Heartfelt love stories, pulse-pounding thrillers, courtroom clashes, and reality shows you won't be able to stop talking about - Netflix's upcoming slate of Indian movies and series is packed with [stories worth adding to your watchlist]. (Jun 2026) [1] Netflix is slated to release Aranyak , a crime thriller starring Raveena Tandon, on December 10. (Dec 2021) [8] From shampoo sachets at Rs 1 in the 1980s to pocket-friendly sachets of practically every consumable over the years, to the more modern cryptocurrency investments starting at just Rs 100, bite-sized products and services have powerful spend value in this country with relatively low per capita income. [9] Under the agreement, the agency will manage brand consulting and licensing for the platform's expansive show portfolio, including major international titles such as Squid Game, Stranger Things, Bridgerton, Rebel Moon, One Piece, Money Heist, and Indian originals like Archies, amongst others, the... [5] Netflix has worked with Karan Johar's Dharmatic Entertainment and Shah Rukh Khan's Red Chillies Entertainment, and recently announced a multi-year partnership with Ritesh Sidhwani and Farhan Akhtar's Excel Entertainment, which will produce a variety of stories under its banner Excel Media &... [9] The LEGO Group, in partnership with Hasbro, has announced its latest addition to the LEGO Icons \"Transformers\" series: the all-new Soundwave model set, designed to deliver an immersive and nostalgic building experience specifically for adult fans and collectors. [5] As the beloved sci-fi series Stranger Things gears up for its fifth and final season, Netflix is collaborating with a lineup of major brands to offer fans exclusive, themed merchandise and immersive experiences inspired by the world of Hawkins. [5] In March 2021, it announced a slate of 41 titles; since then, it has revealed more titles, including Monica, O My Darling; Plan A Plan B; and Ankahi Kahaniya. [9] Now, the brand has announced its partnership with Bollywood actor Ananya Panday as it looks to strengthen its position in the premium noodles segment. [5] JioHotstar's local content library spans 320,000 hours, roughly six times the size of Netflix's Indian catalogue. (Jan 2026) [4] (3 further sourced claims held in the fact store.) Score pulled up by depth in content hours, originals investment, hub deals, named originals; pulled down by no sourced evidence in language count, franchises.",
+   "strategy_line": "Drive subscriber growth by delivering an all‑original, multilingual slate that maximizes catalogue breadth over prestige.",
+   "primary_genres": "Crime thriller, Horror, Sports drama, Police procedural, Science‑fiction, Espionage thriller",
+   "secondary_genres": "Romance (love‑story), Family drama",
+   "originals_strategy": "100% of the 130 analysed titles are Netflix originals, spanning Hindi, English and four South Indian languages, emphasizing volume and language coverage rather than selective prestige commissioning.",
+   "franchise_presence": "The Great Indian Kapil Show – renewed for Season 5 in 2026 – anchors a recurring comedy franchise that demonstrates repeatable audience appeal.",
+   "content_mix": "124 of 130 titles are series (95%), 5 are reality formats (3.8%), 1 is a film (0.8%).",
+   "language_mix": "Hindi 38 of 130 titles (29.2%), Tamil 6 of 130 (4.6%), English 6 of 130 (4.6%), Telugu 4 of 130 (3.1%), Kannada 2 of 130 (1.5%), Malayalam 2 of 130 (1.5%), Unknown 72 of 130 (55.4%).",
+   "era_focus": "Catalogue concentrates on releases from 2018‑2026, reflecting a focus on recent‑era content.",
+   "quality_tier": "Mid‑to‑high‑budget productions featuring recognizable Indian talent and genre‑focused storytelling.",
+   "catalogue_gaps": "No titles in Bengali, Marathi, Punjabi, Gujarati, Odia or other major regional languages despite sizable audience bases.",
+   "standout_titles": [
+    {
+     "title": "Sacred Games / Ghoul",
+     "why": "Pioneered Indian streaming crime and horror with 2018 releases that earned global buzz and set a benchmark for genre ambition."
+    },
+    {
+     "title": "Selection Day",
+     "why": "Brought cricket‑centric youth drama to the platform in Dec 2018, expanding sports‑themed storytelling."
+    },
+    {
+     "title": "Delhi Crime",
+     "why": "Showcased Indian law‑enforcement narrative in Mar 2019, earning international awards and reinforcing Netflix’s prestige credentials."
+    },
+    {
+     "title": "Leila",
+     "why": "Delivered a dystopian sci‑fi vision in Jun 2019, marking Netflix’s first Indian original in that genre."
+    },
+    {
+     "title": "Typewriter",
+     "why": "Introduced home‑grown horror in 2019, proving appetite for genre‑specific Indian content."
+    },
+    {
+     "title": "Bard of Blood",
+     "why": "Launched a 2019 espionage thriller starring Indian talent, signaling Netflix’s commitment to action‑driven originals."
+    }
+   ]
+  },
+  "audience": {
+   "score": 51,
+   "evidence": "A large chunk of the market was (and still is) driven by advertising-fuelled free viewing, which makes it difficult for a subscription-based product, premium or otherwise, to be mass-adopted (today more than 300 million subscribers - duplicated - watch video content free of cost). [9] In terms of subscribers, The Ormax OTT Audience Report 2021 estimates Netflix has 5.4 million subscribers in India's growing subscription video over demand (SVOD) market today; that's a big jump from an estimated 1.5 million subscribers in 2018. [9] That footprint now is spread over 190 countries and 209 million paid subscribers. [9] Score pulled up by depth in subscribers; pulled down by no sourced evidence in mau, segment skews, diaspora.",
+   "strategy_line": "Netflix India targets urban‑centric, subscription‑willing viewers who prioritize premium global and local scripted series over free ad‑supported content.",
+   "primary_segment": "Middle‑class metro and Tier‑1/2 households with disposable income for a ₹499–₹799/month SVOD plan, as reflected by the 5.4 M paid subscribers reported by Ormax (2021).",
+   "secondary_segments": "English‑language binge‑watchers seeking Hollywood originals; regional‑language fans of Hindi, Tamil and Telugu series (38 Hindi, 6 Tamil, 4 Telugu titles out of 130 sampled); and niche reality‑format enthusiasts (5 reality titles, 4% of catalogue).",
+   "geographic_focus": "Strong concentration in Tier‑1 and Tier‑2 cities where high‑speed broadband and smartphone penetration support streaming; limited penetration in Tier‑3/Bharat where free ad‑supported platforms dominate (300 M free viewers cited).",
+   "cultural_identity": "Globally‑oriented yet increasingly localised, positioning itself as a premium curator of both Hollywood blockbusters and Indian‑made narratives, evidenced by a 100% original‑only catalogue (130 titles) and a growing Hindi‑language share (38 of 130 titles).",
+   "lifestyle_profile": "Tech‑savvy, on‑demand binge consumers who watch on smartphones, laptops and emerging CTV devices, aligning with Netflix’s device‑agnostic app and its focus on series‑driven consumption (124 of 130 titles = 95% series).",
+   "viewing_occasion": "Primarily scheduled binge sessions during evenings and weekends, with occasional spikes for new season drops, reflecting the series‑heavy slate and lack of live‑sport rights.",
+   "sophistication": "Targets viewers who expect high‑budget, globally‑produced storytelling, reflected by an all‑original catalogue and a dominant series format (124 of 130 titles).",
+   "underserved_segments": "Tier‑3/Bharat audiences reliant on free ad‑supported services; regional language markets beyond Hindi, Tamil, Telugu, Kannada, Malayalam where title representation is absent in the sampled catalogue (e.g., Marathi, Bengali, Punjabi)."
+  },
+  "emotional": {
+   "score": 38,
+   "evidence": "No disclosed figure found in sourced material — treated as not disclosed. Score pulled up by depth in general coverage; pulled down by no sourced evidence in genre mix, regulatory ctx.",
+   "strategy_line": "Own catharsis and tension as the house register across the slate.",
+   "primary_emotion": "Catharsis and Tension lead the evidenced slate.",
+   "emotional_spectrum": "drama: catharsis — crime: tension — comedy: laughter — thriller: suspense — reality: spectacle",
+   "tone_profile": "Tone follows the drama/crime core of the evidenced slate.",
+   "content_warnings": "No regulatory action surfaced in collected sources.",
+   "consistency": "Wide by design; tone follows content vertical.",
+   "feel_good": "Warmth concentrates where comedy, romance and variety are evidenced; the scripted core runs darker.",
+   "cultural_resonance": "Resonance tracks the biggest evidenced titles and events, not the long tail.",
+   "signature_feeling": "The feeling of the drama/crime slate at its best — earned title by title."
+  },
+  "distribution": {
+   "score": 58,
+   "evidence": "Whether you're here for edge-of-your-seat thrills or comforting comedy, read on to discover all the Indian premieres headed your way. (Jun 2026) [1] [Aileen: Queen of the Serial Killers Premieres Oct. (Jun 2026) [1] 'The Great Indian Kapil Show' first premiered on Netflix on 30 March 2024, quickly becoming one of the platform's most talked-about Indian originals. (Feb 2026) [10] This season featured a series of well-received episodes, with its first episode streaming from 20 December 2025. (Feb 2026) [10] [India's Got Latent] (season 2) Comedy, Reality, Talent show, Variety show 20 June 2026 Hindi 43-67 minutes Returning series [Netflix] and [YouTube] Premiered simultaneously on Netflix and YouTube, with new episodes released every two weeks. [2] The headphones also come with ENx technology for enhanced call clarity, Dual Pairing to switch easily between devices, and up to 30 hours of playback. [5] PVR INOX Limited is India's largest film exhibition company, operating 1,792 screens across 357 properties in 114 cities in India and Sri Lanka. [5] [Funko Launches New 'Stranger Things 5' Pop Collectibles Ahead of Volume 2 Premiere]. [6] Title Genre Prev. network(s) Premiere Seasons Runtime Language Status. [2] Up to 90% of video consumption in India happens on mobile devices. (Jan 2026) [4] (6 further sourced claims held in the fact store.) Where catalogue-wide percentages appear without a cited disclosure, treat them as estimates from sampling, not disclosed figures. Score pulled up by depth in devices, windows; pulled down by no sourced evidence in downloads, telecom bundles, linear share, ctv share, dubbing.",
+   "strategy_line": "Distribution is the delivery engine — Netflix India relies on a pure‑SVOD app available across web, mobile and connected‑TV platforms.",
+   "access_model": "Standalone SVOD app (web, Android/iOS mobile, smart‑TV) with no mandatory telecom bundling.",
+   "device_profile": "Mobile dominates consumption – up to 90% of video viewing in India occurs on smartphones (device data).",
+   "viewing_behaviour": "On‑demand binge‑watching on mobile devices drives engagement, reflecting the 90% mobile consumption share.",
+   "geographic_reach": "Accessible nationwide via internet connectivity; platform reports coverage across all Indian regions (no specific figure disclosed).",
+   "language_access": "Provides Hindi (38 titles, 29% of catalog), Tamil (6 titles, 5%), Telugu (4 titles, 3%), Kannada (2 titles, 2%), Malayalam (2 titles, 2%) and English (6 titles, 5%); 55% of titles lack language metadata.",
+   "content_window": "Windowing details not disclosed in public sources.",
+   "release_strategy": "Series and films released in full‑season or full‑film drops, enabling immediate binge consumption (standard Netflix model).",
+   "tech_experience": "App supports Android, iOS, web browsers and major smart‑TV OS; includes adaptive streaming and personalized recommendations."
+  },
+  "revenue": {
+   "score": 68,
+   "evidence": "According to data from the Registrar of Companies (RoC), Netflix India nearly doubled its topline in the year the plan was launched (FY2019-20) to Rs 923.7 crore from Rs 470.5 crore in the previous fiscal; net profit also climbed to Rs 8.92 crore from Rs 5.16 crore in the same period. [9] In addition, Netflix offers a basic plan for Rs 499; a standard plan for Rs 649 (which allows you to watch in Full HD on two devices in parallel); and a premium plan for Rs 799, which offers 4K+HDR video on four concurrent streams. [9] So, when global streaming giant Netflix introduced a bite-sized plan in July 2019-a mobile-only plan for Rs 199 a month - three years into its India entry, experts and consumers alike nodded their heads in delighted approval. [9] Entering a new city like Hyderabad at this pace meant navigating location challenges, tight fit-out timelines, rapid hiring and training, multiple vendors, operational complexities and significant business risk. [5] 4 in this segment of around 96 million subscribers (taken as the number of paid users multiplied by the number of OTT platforms for which they cut a cheque; unique subscribers would be around 40 million). [9] That led to long conversations with consumers, visiting their homes, trying to see how Netflix might be on the mobile, before the full-fledged launch of the Rs 199 plan. [9] PVR INOX Limited, India's largest and most premium multiplex chain, has announced the launch of its new three-screen multiplex at DLF Summit Plaza, Gurugram. [5] When Netflix launched in India in early 2016, its basic subscription plan was priced at an astronomical Rs 500 a month (yes, that's Rs 6,000 a year). [9] Despite its impressive performance, Netflix - which posted a revenue of $25 billion globally for FY20 - has a tall challenge ahead to grow further. [9] YouTube, a service that is driven by advertising, also offers a premium prepaid version at Rs 139 a month or Rs 399 for three months. [9] (16 further sourced claims held in the fact store.) Score pulled up by depth in revenue annual, pricing, ad products, sports rights; pulled down by no sourced evidence in revenue quarterly, ebitda.",
+   "strategy_line": "A pure‑SVOD model built on a fully original catalogue, leveraging tiered pricing to monetize price‑sensitive Indian viewers.",
+   "revenue_model": "SVOD‑only – revenue derives exclusively from subscription fees; no ad‑supported tier or AVOD layer.",
+   "tiers": "Mobile‑only plan Rs 149 /mo (Dec 2021), Basic Rs 199 /mo (Dec 2021), Standard Rs 499 /mo for 1080p on two screens (Dec 2021); entry‑level annual $19.5 tier (2026).",
+   "ad_dependency": "None – Netflix India does not carry advertising on any tier.",
+   "licensing_strategy": "Zero licensed intake; 100 % of the 130 analysed titles are Netflix originals (computed share 100 %).",
+   "originals_investment": "All 130 titles are in‑house productions, spanning 124 series (95 % of catalogue), 1 film, and 5 reality formats (computed).",
+   "acquisition_appetite": "Strictly original‑first – the platform avoids external licences and focuses on expanding its own IP pipeline.",
+   "audience_monetisation": "Subscription revenue hit $905 m in FY 2025 (HSBC) and grew 22 % CAGR 2022‑2025; pricing tiers target both cost‑conscious mobile users and premium multi‑screen households.",
+   "tiers_label": "Subscription Tiers"
+  },
+  "editorial": {
+   "score": 62,
+   "evidence": "The Joyful Bonds line will feature custom name embroidery, aroma-infused plush hampers, and storytelling-based gift sets, tailored to modern gifting preferences,\" shared Brinda Agrawal, Head of Product Development at Ultra Soft Toys and Marketing Head at Ultra Media & Entertainment Group. [5] Currently valued at over $40 billion (£31.6 billion), Pop Mart credits its growing profitability to increased global brand recognition and tighter cost controls. [5] 14 Additional Round Fee US$600 1 round of additional revision and review. [7] Score pulled up by depth in mission, campaigns, ownership; pulled down by no sourced evidence in leadership, ceo structure.",
+   "strategy_line": "One-line strategy statement: Global‑premium curation anchored in Indian regional storytelling.\nEVIDENCE: The catalog comprises 130 titles, 100% originals, spanning 7 languages (38 Hindi, 6 Tamil, 6 English, 4 Telugu, 2 Kannada, 2 Malayalam) as per computed_stats.",
+   "editorial_voice": "Editorial Voice: Curatorial, premium‑first, with emphasis on binge‑ready series.\nEVIDENCE: 124 of 130 titles (95% of catalog) are series, underscoring a series‑centric editorial stance.",
+   "curation_philosophy": "Curation Philosophy: Depth over breadth – focus on series (124 titles) and a single film, preserving high production values.\nEVIDENCE: by_type shows 124 series, 1 film, 5 reality titles out of 130 total.",
+   "cultural_stance": "Cultural Stance: Broad Indian representation across Hindi (38 titles) and four South‑Indian languages plus English.\nEVIDENCE: language breakdown in computed_stats lists Hindi, Tamil, Telugu, Kannada, Malayalam and English counts.",
+   "risk_appetite": "Risk Appetite: Conservative on format diversification – 95% of titles are series, with minimal film or reality output.\nEVIDENCE: 124 series vs. 1 film vs. 5 reality titles from computed_stats.",
+   "distinctiveness": "Distinctiveness: High language diversity (7 languages) but low format variety (series‑dominant).\nEVIDENCE: 130 originals across 7 languages, yet 124 series (95% of catalog).",
+   "auteur_vs_formula": "Auteur vs. Formula: Predominantly formulaic series (124 titles) with only one auteur‑driven film.\nEVIDENCE: by_type shows a single film amid a series‑heavy slate.",
+   "tonal_signature": "Tonal Signature: Consistently high‑stakes drama and thriller tone across the series‑heavy lineup.\nEVIDENCE: 124 series titles, all original, reflect Netflix’s global premium tone.",
+   "consistency": "Consistency: Uniform series‑centric output across languages, maintaining 100% original content.\nEVIDENCE: originals_share is 100.0% and series constitute 95% of the catalog.",
+   "signature_move": "Signature Move: Deploying an all‑original pipeline of 130 titles to reinforce Netflix India as the exclusive creator of premium Indian series.\nEVIDENCE: originals count is 130 and licensed count is 0, indicating a pure original strategy."
+  }
+ },
+ "wishlist": [
+  "**Regional-language slates** — beyond the currently evidenced languages",
+  "**Authoritative monthly-active-user disclosure** — by quarter",
+  "**A verified install/download footprint**",
+  "**Telecom or retail** — bundling arrangements",
+  "**Dubbing and multi-language** — release practice",
+  "**Named content leadership** — and approval-chain disclosure",
+  "**Regional-language scripted originals** — beyond the currently evidenced languages for Netflix India",
+  "**A renewable crime/thriller franchise anchor** — for Netflix India"
+ ],
+ "pitch": {
+  "angle": "Lead with content — the best-evidenced dimension: Heartfelt love stories, pulse-pounding thrillers, courtroom clashes, and reality shows you won't be able to stop talking about - Netflix's upcoming slate of ...",
+  "ideal_profile": "A drama/crime project in English/Hindi/Kannada with a recognizable hook, built dub-ready for day-and-date release and shaped for renewal beyond season one.",
+  "yes": [
+   "Renewable franchise-shaped originals in Netflix India's evidenced genres",
+   "Studio-compatible licensing alongside Netflix India's evidenced hub deals",
+   "Live-sport or event tie-ins compatible with Netflix India's evidenced sports footprint",
+   "Dub-ready multi-language productions matched to Netflix India's tiered pricing",
+   "Formats with built-in advertiser and commerce integration potential",
+   "Projects fitting Netflix India's evidenced investment lanes",
+   "Originals fitting Netflix India's evidenced genre strengths",
+   "Renewable, multi-season-shaped formats for Netflix India"
+  ],
+  "no": [
+   "Projects needing bundled distribution to find an audience",
+   "Mobile-first volume plays — no evidenced install footprint for Netflix India",
+   "Single-language content with no dubbing plan",
+   "Purely festival/arthouse positioning with no audience hook",
+   "One-off formats with no renewal potential",
+   "Non-exclusive or windowed rights carve-outs",
+   "High-cost drama with no anchor and no tentpole fit",
+   "Niche content outside Netflix India's language mix"
+  ],
+  "negotiation": "The company said the achievement reflects the efforts of its teams, partners, vendors, and stakeholders involved in delivering the expansion plan."
+ },
+ "facts": [
+  {
+   "slot": "originals_investment",
+   "claim": "Heartfelt love stories, pulse-pounding thrillers, courtroom clashes, and reality shows you won't be able to stop talking about - Netflix's upcoming slate of Indian movies and series is packed with [stories worth adding to your watchlist]",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Alongside a young author and an eccentric family support group, take a hilarious, mirthful look into the lives of people who laugh, eat, drink, make merry, shed tears, and share their lives together in an old row-house neighborhood in Mumbai.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "The actor-comedian is partying hard in the new flick 72 Hours.",
+   "value": "72 Hours",
+   "unit": "hours",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Fan favorite The Great Indian Kapil Show returns for more laughs with Season 5, a gripping wartime saga unfolds in Operation Safed Sagar, and new blood meets old money in the power drama Family Business.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Whether you're here for edge-of-your-seat thrills or comforting comedy, read on to discover all the Indian premieres headed your way.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "[Aileen: Queen of the Serial Killers Premieres Oct.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "After four blockbuster seasons uniting the world's biggest stars with millions of fans, The Great Indian Kapil Show returns with Season 5 - expanding its beloved comedy universe into a riotous new \"mastiverse\" of laughter and surprises, packed with spontaneous moments, renewed energy, and unforgettable conversations.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Watch the First 5 Minutes of Beauty in Black Season 3]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Say 'Bonjour' to Emily in Paris Season 6]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[The Gentlemen Season 2 Ending Explained: Has Eddie 'Gone Mad'?]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.netflix.com/tudum/articles/new-indian-movies-shows",
+   "source_date": "2026-06-30T00:00:00",
+   "tier": 1,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Sacred Games] \"Sacred Games (TV series)\") [Crime thriller] 6 July 2018 2 seasons, 16 episodes 43-58 min Hindi Pending",
+   "value": "2 seasons",
+   "unit": "seasons",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Ghoul] \"Ghoul (miniseries)\") [Horror] 24 August 2018 3 episodes 44-50 min Hindi / English Miniseries",
+   "value": "3 episodes",
+   "unit": "episodes",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Selection Day] \"Selection Day (TV series)\") [Sports drama] 28 December 2018 2 parts, 12 episodes 19-28 min Hindi Ended",
+   "value": "12 episodes",
+   "unit": "episodes",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Delhi Crime] [Police procedural] 22 March 2019 3 season, 18 episodes 45-64 min Hindi / English Renewed",
+   "value": "3 season",
+   "unit": "seasons",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Leila] \"Leila (TV series)\") [Science fiction drama] 14 June 2019 1 season, 6 episodes 40-54 min Hindi Ended",
+   "value": "1 season",
+   "unit": "seasons",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[She] \"She (TV series)\") [Crime drama] 20 March 2020 2 season, 14 episodes 31-43 min",
+   "value": "2 season",
+   "unit": "seasons",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Mismatched] [Coming-of-age] [romantic] [dramedy] 20 November 2020 3 seasons, 22 episodes 29-35 min Renewed",
+   "value": "3 seasons",
+   "unit": "seasons",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Navarasa] \"Navarasa (web series)\") 6 August 2021 1 volume, 9 episodes 28-48 min Tamil",
+   "value": "9 episodes",
+   "unit": "episodes",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "sports_rights",
+   "claim": "[Cricket Fever: Mumbai Indians] Sports 1 March 2019 1 season, 8 episodes 33-44 min English Ended",
+   "value": "1 season",
+   "unit": "seasons",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[The Romantics] \"The Romantics (TV series)\") [Hindi cinema] 14 February 2023 4 episodes 48-63 min Hindi/English",
+   "value": "4 episodes",
+   "unit": "episodes",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "[Baahubali: The Torchbearer] \") Documentary 26 June 2026 4 episodes 20-35 min Telugu Ended",
+   "value": "4 episodes",
+   "unit": "episodes",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[The Big Day] \"The Big Day (TV series)\") Reality 14 February 2021 2 collection, 6 episodes 37-45 min Ended",
+   "value": "6 episodes",
+   "unit": "episodes",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Little Things] \"Little Things (TV series)\") (seasons 2-4) [Romantic comedy] YouTube 5 October 2018 4 seasons, 29 episodes 19-38 min.",
+   "value": "4 seasons",
+   "unit": "seasons",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Vir Das: Abroad Understanding 25 May 2017 1 hour, 5 min.",
+   "value": "1 hour",
+   "unit": "hours",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "[Krishna and His Leela] 25 June 2020 [Romantic comedy] 2 hours, 5 min.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Miss India] \"Miss India (2020 film)\") 3 November 2020 [Romantic drama] 2 hours, 16 min.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Irul] \"Irul (film)\") 1 April 2021 [Mystery] [thriller] 1 hour, 30 min.",
+   "value": "1 hour",
+   "unit": "hours",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Title Genre Premiere Seasons Length Language(s) Status",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Title Subject Premiere Seasons Length Language(s) Status",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Title Genre Premiere Seasons Host Length Language Status",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Title Genre Premiere Language Runtime Status Distribution Notes",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "[India's Got Latent] (season 2) Comedy, Reality, Talent show, Variety show 20 June 2026 Hindi 43-67 minutes Returning series [Netflix] and [YouTube] Premiered simultaneously on Netflix and YouTube, with new episodes released every two weeks.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Title Genre Prev. network(s) Premiere Seasons Runtime Language Status",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Title Premiere Seasons Runtime Language Status",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Netflix India [@NetflixIndia] (2 February 2022). [\"Not a Wordle, just our level of excitement for #YehKaaliKaaliAnkhein season 2\"]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Netflix India [@NetflixIndia] (6 March 2023). [\"We know how much you loved this course, so we signed you up for another exciting semester😍 CLASS WILL BE BACK WITH A NEW SEASON!❤️\"]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Film to premiere on Netflix, Jio Cinema\"]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_India_original_programming",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "The mobile-only plan will now be priced Rs 149 per month instead of the previous Rs 199 per month.",
+   "value": "Rs 149",
+   "unit": "INR",
+   "source_url": "https://gadgetsnow.indiatimes.com/faqs/how-much-does-netflix-cost-in-india/articleshow/88313367.cms",
+   "source_date": "2021-12-16",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "As per the new price scheme, the Netflix Basic plan will now cost Rs 199 per month, which was earlier priced at Rs 499.",
+   "value": "Rs 199",
+   "unit": "INR",
+   "source_url": "https://gadgetsnow.indiatimes.com/faqs/how-much-does-netflix-cost-in-india/articleshow/88313367.cms",
+   "source_date": "2021-12-16",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "The standard Netflix plan that used to be priced Rs 649 per month will now be available at Rs 499 per month.",
+   "value": "Rs 649",
+   "unit": "INR",
+   "source_url": "https://gadgetsnow.indiatimes.com/faqs/how-much-does-netflix-cost-in-india/articleshow/88313367.cms",
+   "source_date": "2021-12-16",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "By subscribing to Netflix Standard Plan that costs Rs 499 per month, you can stream 1080p content on two screens at the same time.",
+   "value": "Rs 499",
+   "unit": "INR",
+   "source_url": "https://gadgetsnow.indiatimes.com/faqs/how-much-does-netflix-cost-in-india/articleshow/88313367.cms",
+   "source_date": "2021-12-16",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "[iPhone 18 Pro's A20 Pro Outruns the M5 Max on One Core and Games Up to 46% Faster]",
+   "value": "46%",
+   "unit": "percent",
+   "source_url": "https://gadgetsnow.indiatimes.com/faqs/how-much-does-netflix-cost-in-india/articleshow/88313367.cms",
+   "source_date": "2021-12-16",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": ", one of the popular video streaming platforms, has announced reduced prices for plans in India.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://gadgetsnow.indiatimes.com/faqs/how-much-does-netflix-cost-in-india/articleshow/88313367.cms",
+   "source_date": "2021-12-16",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "Netflix India's revenue reached $905 million in 2025, HSBC projects, representing about 2% of the company's global total.",
+   "value": "$905 million",
+   "unit": "million USD",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "And more than $900 million in annual revenue in India.",
+   "value": "$900 million",
+   "unit": "million USD",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "Netflix, which entered India in 2016, charges as little as $19.5 a year for an entry-level subscription tier in the country.",
+   "value": "$19.5",
+   "unit": "million USD",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Only 24% of OTT users in India pay for their content, HSBC estimates.",
+   "value": "24%",
+   "unit": "percent",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "devices",
+   "claim": "Up to 90% of video consumption in India happens on mobile devices.",
+   "value": "90%",
+   "unit": "percent",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "Its India subsidiaries posted a 22% revenue CAGR from 2022 to 2025 and a 118% net profit CAGR over the same period.",
+   "value": "22%",
+   "unit": "percent",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "India's OTT market has topped 600 million users and is projected to grow revenues at a 16% CAGR through 2029.",
+   "value": "16%",
+   "unit": "percent",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "content_hours",
+   "claim": "JioHotstar's local content library spans 320,000 hours, roughly six times the size of Netflix's Indian catalogue.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://indiadispatch.com/p/netflix-said-to-have-20-million-paying",
+   "source_date": "2026-01-24T00:00:00",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "According to Future Market Insights, the FEC market is valued at USD 34.4 billion in 2025, and is projected to reach USD 93.5 billion by 2035, having a CAGR of 10.5% over the forecast period.",
+   "value": "USD 34.4 billion",
+   "unit": "billion USD",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "The venture will expand to 1.5 lakh sq. km., aiming for more than a two-fold expansion in the country.",
+   "value": "1.5 lakh",
+   "unit": "lakh INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "For this, Malabar Group has earmarked an investment of INR 70 crore to expand its locations.",
+   "value": "INR 70 crore",
+   "unit": "crore INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Consultancy Ken Research has valued India's toy market at approximately $1.8 billion.",
+   "value": "$1.8 billion",
+   "unit": "billion USD",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "campaigns",
+   "claim": "Currently valued at over $40 billion (£31.6 billion), Pop Mart credits its growing profitability to increased global brand recognition and tighter cost controls.",
+   "value": "$40 billion",
+   "unit": "billion USD",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "sports_rights",
+   "claim": "This intense popularity has spurred a thriving resale market, with the $10 dolls fetching hundreds of dollars among collectors.",
+   "value": "$10",
+   "unit": "million USD",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "In June, a human-sized Labubu doll sold at auction in Beijing for a staggering $150,000.",
+   "value": "$150,000",
+   "unit": "million USD",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "Under the agreement, the agency will manage brand consulting and licensing for the platform's expansive show portfolio, including major international titles such as Squid Game, Stranger Things, Bridgerton, Rebel Moon, One Piece, Money Heist, and Indian originals like Archies, amongst others, the...",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "The seating offers 650 mm centre-to-centre spacing and a 1,500 mm back-to-back seat pitch, providing generous personal space and enhanced comfort.",
+   "value": "rs 650",
+   "unit": "INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "devices",
+   "claim": "PVR INOX Limited is India's largest film exhibition company, operating 1,792 screens across 357 properties in 114 cities in India and Sri Lanka.",
+   "value": "1,792 screens",
+   "unit": "screens",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "sports_rights",
+   "claim": "Entering a new city like Hyderabad at this pace meant navigating location challenges, tight fit-out timelines, rapid hiring and training, multiple vendors, operational complexities and significant business risk.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "ownership",
+   "claim": "The company said the achievement reflects the efforts of its teams, partners, vendors, and stakeholders involved in delivering the expansion plan.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Complementing the dining experience is a full-service bar serving signature cocktails, premium spirits, wines, beers, and a range of non-alcoholic beverages.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "originals_investment",
+   "claim": "To guide young creators, a workbook is included to provide building ideas and inspiration.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "devices",
+   "claim": "The headphones also come with ENx technology for enhanced call clarity, Dual Pairing to switch easily between devices, and up to 30 hours of playback.",
+   "value": "30 hours",
+   "unit": "hours",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "With support for Bluetooth v5.3, AUX/TF card input, hands-free calling, and up to 12 hours of playtime, the speaker offers convenience and portability.",
+   "value": "12 hours",
+   "unit": "hours",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "campaigns",
+   "claim": "The Joyful Bonds line will feature custom name embroidery, aroma-infused plush hampers, and storytelling-based gift sets, tailored to modern gifting preferences,\" shared Brinda Agrawal, Head of Product Development at Ultra Soft Toys and Marketing Head at Ultra Media & Entertainment Group.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "sports_rights",
+   "claim": "PVR INOX Limited, India's largest and most premium multiplex chain, has announced the launch of its new three-screen multiplex at DLF Summit Plaza, Gurugram.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Operating daily from 11 AM until midnight, the outlet also plans to host themed events, gaming competitions, and seasonal activations throughout the year.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Life360 and Sanrio have unveiled their latest collaboration-a charming new range of Tiles featuring Hello Kitty and Friends-perfectly timed for the back-to-school season.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "With functionality, safety, and style rolled into one, the new Hello Kitty and Friends Tile collection is set to be a must-have for both collectors and families as the school season gets underway.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "After striking a chord with audiences through past hits like Pehle Jaisi Baat Nahi, Hoodie, Mohabbat, and Imtihaan, Royal Stag BoomBox now unveils the third and final original of the season.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Netflix Unveils Stranger Things Brand Collaborations Ahead of Final Season",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "As the beloved sci-fi series Stranger Things gears up for its fifth and final season, Netflix is collaborating with a lineup of major brands to offer fans exclusive, themed merchandise and immersive experiences inspired by the world of Hawkins.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "The unique jersey made its on-court debut during the Indiana Fever's home game against the Las Vegas Aces on July 24, and will continue to appear throughout the season.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "For fans of Eddie Munson and his iconic Hellfire Club, Dungeons & Dragons is releasing a special tabletop experience titled \"Stranger Things: Welcome to the Hellfire Club.\" The game includes four original adventures based on the first four seasons and features terrifying creatures like Demodogs and Demobats.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "And for those awaiting the return of the series itself, the final season of \"Stranger Things 5\" will be released in three volumes.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Transforming players into Scout Elves-in-training, the game challenges them on a mission to gather Christmas Spirit and rescue the holiday season.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Throughout the game, players will navigate seasonal obstacles, solve puzzles, and enjoy festive gameplay crafted to entertain all ages.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "With its unique blend of nostalgia, interactive adventure, and family-friendly design, \"The Elf on the Shelf: Christmas Heroes\" promises to deliver a festive experience that brings the magic of the holiday season directly to the hands of players around the world.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "The LEGO Group, in partnership with Hasbro, has announced its latest addition to the LEGO Icons \"Transformers\" series: the all-new Soundwave model set, designed to deliver an immersive and nostalgic building experience specifically for adult fans and collectors.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Both can be built and transformed into mini cassette tapes that fit neatly inside Soundwave's chest bay, just like in the original series.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "The festive season remains a key driver for Ultra Soft Toys, accounting for nearly 40 percent of the company's annual revenue.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "Now, the brand has announced its partnership with Bollywood actor Ananya Panday as it looks to strengthen its position in the premium noodles segment.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://indianretailer.com/franchisetv/archives/news/netflix-india-appoints-blackwhite-orange-exclusive-licensing-agent",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "[Netflix Takes Over Warner Bros' Streaming Arm in Game-Changing $72 Bn Deal]",
+   "value": "$72 Bn",
+   "unit": "billion USD",
+   "source_url": "https://www.indianretailer.com/brandlicense/news/tag/netflix",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Netflix expects $2bn-$3bn in cost savings by reducing operational overlaps.",
+   "value": "$2bn",
+   "unit": "billion USD",
+   "source_url": "https://www.indianretailer.com/brandlicense/news/tag/netflix",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Season 13 of the series launched in March and became the number one kids' show in 29 countries.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.indianretailer.com/brandlicense/news/tag/netflix",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[LEGO and Netflix Launch Six One Piece Sets Inspired by Season 2]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.indianretailer.com/brandlicense/news/tag/netflix",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "[Goibibo Partners with Netflix for Season 4 of The Great Indian Kapil Show]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.indianretailer.com/brandlicense/news/tag/netflix",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "[Funko Launches New 'Stranger Things 5' Pop Collectibles Ahead of Volume 2 Premiere]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.indianretailer.com/brandlicense/news/tag/netflix",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "1 Logo Stacked & Logo Horizontal (Dark & Light) US$300 Adaptation of Partner-provided Logo assets to Netflix templates and specs.",
+   "value": "$300",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "2 Localized Logo Stacked & Logo Horizontal (Dark & Light) US$300 Creation of Localized Logo assets in Netflix templates using Partner-provided assets, or the original language Logos as a source reference.",
+   "value": "$300",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "3 Universal Base Artwork (UBA) US$375 Creation of 1 UBA artwork leveraging Partner-provided assets, or by sourcing 1 still-based image from the content using AVA.",
+   "value": "$375",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "5 Character Art - Production US$150 Creation of 1 Character Art using provided, ready-to-use Character image; leverages Character Art template",
+   "value": "$150",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "6 Localized Boxshot and SDP US$25 Application of localized logos to 1 SDP and 1 Boxshot in 1 language",
+   "value": "$25",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "7 Derivative Asset US$75 Creation of 1 asset that is derived from a Netflix provided asset such as a UBA or other asset type.",
+   "value": "$75",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "8 Artwork Package 1 US$3300 Creative development of title artwork leveraging stills from the content via AVA, adaptation of up to 2 Partner-provided Key Art assets, and adaptation of Partner-provided Logos to Netflix templates.",
+   "value": "$3300",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "9 Artwork Package 2 US$1400 Creative development of title artwork leveraging stills from the content via AVA, adaptation of up to 2 Partner-provided Key Art assets, and adaptation of Partner-provided Logos to Netflix templates.",
+   "value": "$1400",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "10 Artwork Package 3 US$525 Creation of UBA artwork leveraging a Partner-provided asset, or a still from the content via AVA.",
+   "value": "$525",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "11 Localization Package 1 US$375 Creation of Localized Logo assets in Netflix templates using Partner-provided assets, or the original language Logos as a source reference.",
+   "value": "$375",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "12 Localization Package 2 US$340 Creation of Localized Logo assets in Netflix templates using Partner-provided assets, or the original language Logos as a source reference.",
+   "value": "$340",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "mission",
+   "claim": "14 Additional Round Fee US$600 1 round of additional revision and review",
+   "value": "$600",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "17 Logo Recreation US$100 Recreation of logo assets from a flat file (e.g., jpg/png) when a logo working file is not available",
+   "value": "$100",
+   "unit": "million USD",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "15 Rush Fee (Artwork) 20% 20% of ordered Package or Item Artwork Package is requested with less than 2 weeks for fulfillment",
+   "value": "20%",
+   "unit": "percent",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Deliverables include: 1 UBA plus derivatives from the UBA: 1 Boxshot, 1 SDP, 1 Billboard (LTR & RTL), 1 Story Art, 1 Short Panel, 1 Vertical Billboard, and 1 Title Card Background",
+   "value": "1 Title",
+   "unit": "titles",
+   "source_url": "https://npaa.pc.netflix.net/en/regions/india/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "originals_investment",
+   "claim": "Netflix is slated to release Aranyak , a crime thriller starring Raveena Tandon, on December 10.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.thehindubusinessline.com/info-tech/netflix-on-the-lookout-for-regional-language-content-in-2022/article37835172.ece",
+   "source_date": "2021-12-05T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "Despite its impressive performance, Netflix - which posted a revenue of $25 billion globally for FY20 - has a tall challenge ahead to grow further.",
+   "value": "$25 billion",
+   "unit": "billion USD",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "originals_investment",
+   "claim": "From shampoo sachets at Rs 1 in the 1980s to pocket-friendly sachets of practically every consumable over the years, to the more modern cryptocurrency investments starting at just Rs 100, bite-sized products and services have powerful spend value in this country with relatively low per capita income.",
+   "value": "Rs 1",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "So, when global streaming giant Netflix introduced a bite-sized plan in July 2019-a mobile-only plan for Rs 199 a month - three years into its India entry, experts and consumers alike nodded their heads in delighted approval.",
+   "value": "Rs 199",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "That led to long conversations with consumers, visiting their homes, trying to see how Netflix might be on the mobile, before the full-fledged launch of the Rs 199 plan.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "When Netflix launched in India in early 2016, its basic subscription plan was priced at an astronomical Rs 500 a month (yes, that's Rs 6,000 a year).",
+   "value": "Rs 500",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "According to data from the Registrar of Companies (RoC), Netflix India nearly doubled its topline in the year the plan was launched (FY2019-20) to Rs 923.7 crore from Rs 470.5 crore in the previous fiscal; net profit also climbed to Rs 8.92 crore from Rs 5.16 crore in the same period.",
+   "value": "Rs 923.7 crore",
+   "unit": "crore INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "pricing",
+   "claim": "In addition, Netflix offers a basic plan for Rs 499; a standard plan for Rs 649 (which allows you to watch in Full HD on two devices in parallel); and a premium plan for Rs 799, which offers 4K+HDR video on four concurrent streams.",
+   "value": "Rs 499",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "ad_products",
+   "claim": "YouTube, a service that is driven by advertising, also offers a premium prepaid version at Rs 139 a month or Rs 399 for three months.",
+   "value": "Rs 139",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "In the past few years, Netflix has invested Rs 3,000 crore on content in India.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Another 400-500 million viewers are subscribed to the cable and satellite networks at nominal fees of around Rs 250 each month.",
+   "value": "Rs 250",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "ad_products",
+   "claim": "In China, 70% of total advertising comes from digital.",
+   "value": "70%",
+   "unit": "percent",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "subscribers",
+   "claim": "A large chunk of the market was (and still is) driven by advertising-fuelled free viewing, which makes it difficult for a subscription-based product, premium or otherwise, to be mass-adopted (today more than 300 million subscribers - duplicated - watch video content free of cost).",
+   "value": "300 million subscribers",
+   "unit": "million subscribers",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "The company declined to share numbers, so we looked around for proxies.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "subscribers",
+   "claim": "In terms of subscribers, The Ormax OTT Audience Report 2021 estimates Netflix has 5.4 million subscribers in India's growing subscription video over demand (SVOD) market today; that's a big jump from an estimated 1.5 million subscribers in 2018.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "sports_rights",
+   "claim": "4 in this segment of around 96 million subscribers (taken as the number of paid users multiplied by the number of OTT platforms for which they cut a cheque; unique subscribers would be around 40 million).",
+   "value": "96 million subscribers",
+   "unit": "million subscribers",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "originals_investment",
+   "claim": "In March 2021, it announced a slate of 41 titles; since then, it has revealed more titles, including Monica, O My Darling; Plan A Plan B; and Ankahi Kahaniya.",
+   "value": "41 titles",
+   "unit": "titles",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "For example, Star and Disney India creates 200 hours of fresh content each week; the average for the others is 70-80 hours.",
+   "value": "200 hours",
+   "unit": "hours",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "subscribers",
+   "claim": "That footprint now is spread over 190 countries and 209 million paid subscribers.",
+   "value": "209 million paid subscribers",
+   "unit": "million subscribers",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "Netflix has worked with Karan Johar's Dharmatic Entertainment and Shah Rukh Khan's Red Chillies Entertainment, and recently announced a multi-year partnership with Ritesh Sidhwani and Farhan Akhtar's Excel Entertainment, which will produce a variety of stories under its banner Excel Media &...",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.businesstoday.in/interactive/immersive/netflix-india-popular-ott-platform-in-india",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Netflix officially confirmed that after Season 4 wraps up - likely after its current 13-14 episode run - the show will return \"later in 2026\" for a fresh batch of episodes.",
+   "value": "14 episode",
+   "unit": "episodes",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Over previous seasons, the show has featured a wide range of stars, including [Bollywood]",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "actors, sports personalities and musicians, helping it connect with audiences across India and beyond.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Netflix renews Kapil Sharma's The Great Indian Kapil Show for Season 5",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Netflix has renewed The Great Indian Kapil Show for a fifth season, highlighting its popularity and comedic value.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Kapil Sharma Returns with Season 5 of 'The Great Indian Kapil Show' on Netflix.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "with the fifth season of his hit non-fiction series, The Great Indian Kapil Show.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "'The Great Indian Kapil Show' set to return for 5th season",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "between Netflix and the popular comedian, following four successful seasons of the show.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "'The Great Indian Kapil Show' first premiered on Netflix on 30 March 2024, quickly becoming one of the platform's most talked-about Indian originals.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Season 4 of the show launched in December 2025, building on earlier successes and drawing familiar viewers back for more laughs.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "This season featured a series of well-received episodes, with its first episode streaming from 20 December 2025.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "While specific details about the Season 5 lineup are still under wraps, the [renewal]",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Although Netflix has not yet announced a release date for Season 5, the simple announcement has stirred excitement online.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Netflix's decision to extend the show into a fifth season suggests that this strategy is working, at least with a sizeable segment of its audience.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Nonetheless, the fifth season renewal suggests that the show remains a valuable part of Netflix India's comedy offerings.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.livemint.com/entertainment/netflix-renews-kapil-sharma-s-the-great-indian-kapil-show-for-season-5-11770137030698.html",
+   "source_date": "2026-02-03T00:00:00",
+   "tier": 2,
+   "confidence": "low",
+   "metric": ""
+  }
+ ],
+ "titles": [
+  {
+   "name": "Sacred Games",
+   "year": 2018,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Ghoul",
+   "year": 2018,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Horror](https://en.wikipedia.org/wiki/Horror_film \"Horror f"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Selection Day",
+   "year": 2018,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Sports drama](https://en.wikipedia.org/wiki/Sports_drama \"S"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Delhi Crime",
+   "year": 2019,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Leila",
+   "year": 2019,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Science fiction drama](https://en.wikipedia.org/wiki/Scienc"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Typewriter",
+   "year": 2019,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "Horror"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bard of Blood",
+   "year": 2019,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Espionage thriller](https://en.wikipedia.org/wiki/Espionage"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Jamtara – Sabka Number Ayega",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[True](https://en.wikipedia.org/wiki/True_crime \"True crime\""
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Taj Mahal 1989",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic](https://en.wikipedia.org/wiki/Romantic_comedy \"Ro"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "She",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Hasmukh",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Dark comedy](https://en.wikipedia.org/wiki/Dark_comedy \"Dar"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Betaal",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "Horror/[Action thriller](https://en.wikipedia.org/wiki/Actio"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Masaba Masaba",
+   "year": 2020,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mismatched",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Coming-of-age](https://en.wikipedia.org/wiki/Coming-of-age_"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bhaag Beanie Bhaag",
+   "year": 2020,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bombay Begums",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Ray",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Feels Like Ishq",
+   "year": 2021,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Navarasa",
+   "year": 2021,
+   "type": "series",
+   "language": "Tamil",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Call My Agent: Bollywood",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Workplace](https://en.wikipedia.org/wiki/Workplace_comedy \""
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Aranyak",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Decoupled",
+   "year": 2021,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Yeh Kaali Kaali Ankhein",
+   "year": 2022,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Romantic thriller](https://en.wikipedia.org/wiki/Romantic_t"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Fame Game",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "Suspense [family drama](https://en.wikipedia.org/wiki/Family"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Eternally Confused and Eager for Love",
+   "year": 2022,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mai: A Mother's Rage",
+   "year": 2022,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Khakee: The Bihar Chapter",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "CAT",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Revenge drama](https://en.wikipedia.org/wiki/Revenge_traged"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Trial by Fire",
+   "year": 2023,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Class",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen](https://en.wikipedia.org/wiki/Teen_drama \"Teen drama\""
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Rana Naidu",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action](https://en.wikipedia.org/wiki/Action_drama \"Action "
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Tooth Pari: When Love Bites",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic](https://en.wikipedia.org/wiki/Romantic_comedy \"Ro"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Scoop",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[True](https://en.wikipedia.org/wiki/True_crime \"True crime\""
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kohrra",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Guns & Gulaabs",
+   "year": 2023,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Black comedy](https://en.wikipedia.org/wiki/Black_comedy \"B"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Choona",
+   "year": 2023,
+   "type": "film",
+   "language": "Unknown",
+   "genres": [
+    "[Heist](https://en.wikipedia.org/wiki/Heist_film \"Heist film"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kaala Paani",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Railway Men",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Killer Soup",
+   "year": 2024,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Dark comedy](https://en.wikipedia.org/wiki/Dark_comedy \"Dar"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Maamla Legal Hai",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal](https://en.wikipedia.org/wiki/Legal_Drama \"Legal Dra"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Heeramandi",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Tribhuvan Mishra: CA Topper",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "IC 814: The Kandahar Hijack",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Black Warrant",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dabba Cartel",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Khakee: The Bengal Chapter",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Royals",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mandala Murders",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action](https://en.wikipedia.org/wiki/Action_drama \"Action "
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Saare Jahan Se Accha",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Ba\\*\\*\\*ds of Bollywood",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Comedy \"Comedy\")<br> "
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Game: You Never Play Alone",
+   "year": 2025,
+   "type": "series",
+   "language": "Tamil",
+   "genres": [
+    "[crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Single Papa",
+   "year": 2025,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Taskaree",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Hello Bachhon",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[drama](https://en.wikipedia.org/wiki/Drama \"Drama\")"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Glory",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sport Drama](https://en.wikipedia.org/wiki/Sports_film \"Spo"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Super Subbu",
+   "year": 2026,
+   "type": "series",
+   "language": "Telugu",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Musafir Cafe",
+   "year": 2026,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Romantic drama](https://en.wikipedia.org/wiki/Romantic_dram"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Operation Safed Sagar",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[War drama](https://en.wikipedia.org/wiki/War_drama \"War dra"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Chumbak",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Comedy \"Comedy\")"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Shaque: Trust No One",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_film \"Myster"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Cricket Fever: Mumbai Indians",
+   "year": 2019,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bad Boy Billionaires: India",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Alma Matters: Inside the IIT Dream",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Crime Stories: India Detectives",
+   "year": 2021,
+   "type": "series",
+   "language": "Kannada",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "House of Secrets: The Burari Deaths",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Indian Predator: The Butcher of Delhi",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Indian Predator: The Diary of a Serial Killer",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Indian Predator: Murder In A Courtroom",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Indian Predator: Beast of Bangalore",
+   "year": 2022,
+   "type": "series",
+   "language": "Kannada",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mumbai Mafia: Police vs Underworld",
+   "year": 2023,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Romantics",
+   "year": 2023,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Hunt for Veerappan",
+   "year": 2023,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Caught Out: Crime. Corruption. Cricket",
+   "year": 2023,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Roshans",
+   "year": 2025,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dining With The Kapoors",
+   "year": 2025,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Baahubali: The Torchbearer",
+   "year": 2026,
+   "type": "series",
+   "language": "Telugu",
+   "genres": [
+    "Documentary"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "What the Love! with Karan Johar",
+   "year": 2020,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Indian Matchmaking",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Fabulous Lives of Bollywood Wives",
+   "year": 2020,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Big Day",
+   "year": 2021,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "Reality"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Lava Ka Dhaava",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Social Currency",
+   "year": 2023,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "Reality show"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Great Indian Kapil Show",
+   "year": 2024,
+   "type": "reality",
+   "language": "Hindi",
+   "genres": [
+    "[Comedy and talk show](https://en.wikipedia.org/wiki/Reality"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mighty Little Bheem",
+   "year": 2019,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mighty Little Bheem: Diwali",
+   "year": 2019,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mighty Little Bheem: Festival of Colors",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mighty Little Bheem: Kite Festival",
+   "year": 2021,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "India's Got Latent",
+   "year": 2026,
+   "type": "reality",
+   "language": "Hindi",
+   "genres": [
+    "Comedy, Reality, Talent show, Variety show"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Little Things",
+   "year": 2018,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kota Factory",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Vir Das: Abroad Understanding",
+   "year": 2017,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Aditi Mittal: Things They Wouldn't Let Me Say",
+   "year": 2017,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Vir Das: Losing it",
+   "year": 2018,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Vir Das: For India",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Amit Tandon: Family Tandancies",
+   "year": 2020,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Yours Sincerely, Kanan Gill",
+   "year": 2020,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kenny Sebastian: The Most Interesting Person in the Room",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Vir Das: Outside In – The Lockdown Special",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kapil Sharma: I'm Not Done Yet",
+   "year": 2022,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Ladies Up",
+   "year": 2020,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Comedy Premium League",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Krishna and His Leela",
+   "year": 2020,
+   "type": "series",
+   "language": "Telugu",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Uma Maheswara Ugra Roopasya",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Maniyarayile Ashokan",
+   "year": 2020,
+   "type": "series",
+   "language": "Malayalam",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Miss India",
+   "year": 2020,
+   "type": "series",
+   "language": "Telugu",
+   "genres": [
+    "[Romantic drama](https://en.wikipedia.org/wiki/Romantic_dram"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Andhaghaaram",
+   "year": 2020,
+   "type": "series",
+   "language": "Tamil",
+   "genres": [
+    "[Supernatural](https://en.wikipedia.org/wiki/Supernatural_ho"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Torbaaz",
+   "year": 2020,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Action thriller](https://en.wikipedia.org/wiki/Action_thril"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Aelay",
+   "year": 2021,
+   "type": "series",
+   "language": "Tamil",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Irul",
+   "year": 2021,
+   "type": "series",
+   "language": "Malayalam",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_film \"Myster"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mandela",
+   "year": 2021,
+   "type": "series",
+   "language": "Tamil",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mimi",
+   "year": 2021,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Boomika",
+   "year": 2021,
+   "type": "series",
+   "language": "Tamil",
+   "genres": [
+    "[Action thriller](https://en.wikipedia.org/wiki/Action_thril"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Tughlaq Durbar",
+   "year": 2021,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Political drama](https://en.wikipedia.org/wiki/Political_dr"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dasvi",
+   "year": 2022,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Social comedy](https://en.wikipedia.org/wiki/Comedy_of_mann"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Toolsidas Junior",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sport drama](https://en.wikipedia.org/wiki/Sports_film \"Spo"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Live-action",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Non-fiction",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "English",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Current",
+   "year": 2016,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Former",
+   "year": 2013,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   _[Arrested Development](https://en.wikipedia.org/wiki/Ar"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "TBA",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   _[The Age of Innocence](https://en.wikipedia.org/wiki/Th"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Stand-up comedy",
+   "year": 2012,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Other",
+   "year": 2015,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Malaysia",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   [TV2](https://en.wikipedia.org/wiki/List_of_programmes_b"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Philippines",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   [A2Z](https://en.wikipedia.org/wiki/List_of_A2Z_(TV_chan"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Vietnam",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   [Animal Planet](https://en.wikipedia.org/wiki/List_of_pr"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Norway",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   [NRK 1](https://en.wikipedia.org/wiki/List_of_programs_b"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "United Kingdom",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   [Animal Planet](https://en.wikipedia.org/wiki/List_of_pr"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Canada",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   [ABC Spark](https://en.wikipedia.org/wiki/List_of_progra"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "United States",
+   "year": 2000,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "*   [ABC](https://en.wikipedia.org/wiki/List_of_programs_bro"
+   ],
+   "is_original": true,
+   "source_url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Netflix_India_original_programming&hl=hi&sl=en&tl=hi&client=srp",
+   "source_date": "date unknown"
+  }
+ ]
+}

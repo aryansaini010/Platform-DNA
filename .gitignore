@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+vite-5173.log
+# Local-only runtime artifacts (regenerable, high churn)
+.cache/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,329 @@
+"""Validation before delivery (plan §4 Step 8). Regenerate failing parts only."""
+from __future__ import annotations
+
+import re
+
+from .facts import numbers_in
+from .scores import overall
+from .writer import SECTIONS
+
+FIGURE_RE = re.compile(r"(₹[\d,\.]+(?:\s*(?:crore|lakh| crore|lakh))?|\$[\d,\.]+\s*(?:bn|m|billion|million|trillion)?|\b(?:rs\.?|inr|usd)\s?[\d,\.]+\s*(?:crore|lakh|billion|million|bn|mn)?|\b\d[\d,\.]*\s*(?:crore|lakh)\b|\d[\d,\.]*\s*%|\b(?:19|20)\d{2}\b)", re.I)
+
+
+# Repair pass for LLM-invented N-of-M ≈N% shares (e.g. "Drama (5 of 6
+# standout titles ≈ 83%)"). The fraction is honest for small samples and
+# needs no grounding (FIGURE_RE only matches %/money/years); the ad-hoc %
+# conversion is what the strict gate must reject, since genre/sample shares
+# are never in _stat_shares. Demoting to the plain fraction preserves the
+# information and keeps validate() as the final gate (it re-checks all).
+_SHARE_DEMOTE_RE = re.compile(
+    r"(\d+\s+of\s+\d+\b[^%()\n]*?)\s*[≈~]\s*(\d+(?:\.\d+)?)\s*%")
+
+
+def _stat_share_set(titles: list[dict]) -> set[float]:
+    from collections import Counter as _Counter
+    out: set[float] = set()
+    if titles:
+        _n = len(titles)
+        _type_c = _Counter((t.get("type", "Unknown") or "Unknown") for t in titles)
+        _lang_c = _Counter((t.get("language", "Unknown") or "Unknown") for t in titles)
+        _orig = sum(1 for t in titles if t.get("is_original"))
+        for c in list(_type_c.values()) + list(_lang_c.values()) + [_orig, _n - _orig]:
+            out.add(round(c / _n * 100, 1))
+    return out
+
+
+def repair_share_figures(pack: dict, facts: list[dict], titles: list[dict]) -> list[str]:
+    """Demote unvalidatable 'N of M ... ≈N%' shares to plain 'N of M'.
+
+    Mutates pack sections + top-of-report strings in place. Returns notes.
+    Shares that already validate (verbatim % in store or exact stat share
+    with basis cue) are left untouched.
+    """
+    notes: list[str] = []
+    pool = " ".join((f.get("claim", "") or "") + " " + (f.get("value", "") or "") for f in facts)
+    stat_shares = _stat_share_set(titles)
+
+    def _keep(n: float, text: str) -> bool:
+        forms = {str(int(n))} if n == int(n) else {str(round(n, 2)), str(n)}
+        if any(re.search(rf"{re.escape(f)}\s*%", pool) for f in forms):
+            return True
+        if not re.search(r"of\s+\d+|/\s*\d+|share|titles|originals", text, re.I):
+            return False
+        return any(abs(round(n, 1) - s) <= 0.6 for s in stat_shares)
+
+    def _fix_string(text: str, where: str) -> str:
+        def _one(m: "re.Match") -> str:
+            try:
+                n = float(m.group(2))
+            except Exception:
+                return m.group(0)
+            if _keep(n, text):
+                return m.group(0)
+            notes.append(f"demoted unvalidatable share '{m.group(0).strip()}' [{where}]")
+            return m.group(1).rstrip()
+        return _SHARE_DEMOTE_RE.sub(_one, text)
+
+    for sec, fields in (pack.get("sections", {}) or {}).items():
+        if not isinstance(fields, dict):
+            continue
+        for fk, fv in list(fields.items()):
+            if fk in ("evidence", "score", "tiers_label"):
+                continue
+            if fk == "standout_titles" and isinstance(fv, list):
+                for st in fv:
+                    if isinstance(st, dict) and isinstance(st.get("why"), str) and st["why"].strip():
+                        st["why"] = _fix_string(st["why"], f"{sec}.standout_why")
+                continue
+            if isinstance(fv, str) and fv.strip():
+                fields[fk] = _fix_string(fv, f"{sec}.{fk}")
+    for fk in ("identity_line", "summary", "positioning"):
+        if isinstance(pack.get(fk), str) and pack[fk].strip():
+            pack[fk] = _fix_string(pack[fk], fk)
+
+    def _walk(node, where: str):
+        if isinstance(node, list):
+            for i, v in enumerate(node):
+                if isinstance(v, str) and v.strip():
+                    node[i] = _fix_string(v, where)
+                else:
+                    _walk(v, where)
+        elif isinstance(node, dict):
+            for k, v in node.items():
+                if isinstance(v, str) and v.strip():
+                    node[k] = _fix_string(v, where)
+                else:
+                    _walk(v, where)
+
+    if isinstance(pack.get("wishlist"), list):
+        _walk(pack["wishlist"], "wishlist")
+    if isinstance(pack.get("pitch"), dict):
+        _walk(pack["pitch"], "pitch")
+    return notes
+
+
+def validate(report: dict, facts: list[dict], titles: list[dict]) -> list[str]:
+    errors: list[str] = []
+    sec = report.get("sections", {})
+
+    # Structure: 6 sections, all fields present
+    if set(sec.keys()) != set(SECTIONS):
+        errors.append(f"sections must be exactly {SECTIONS}, got {sorted(sec.keys())}")
+    for key in SECTIONS:
+        s = sec.get(key, {})
+        if "score" not in s or "evidence" not in s:
+            errors.append(f"section {key}: missing score/evidence")
+        if key == "content" and len(s.get("standout_titles", [])) != 6:
+            errors.append(f"content.standout_titles must be 6, got {len(s.get('standout_titles', []))}")
+
+    # Counts: 8 wishlist, 8 yes, 8 no
+    if len(report.get("wishlist", [])) != 8:
+        errors.append(f"wishlist must be 8, got {len(report.get('wishlist', []))}")
+    pitch = report.get("pitch", {})
+    if len(pitch.get("yes", [])) != 8:
+        errors.append(f"pitch.yes must be 8, got {len(pitch.get('yes', []))}")
+    if len(pitch.get("no", [])) != 8:
+        errors.append(f"pitch.no must be 8, got {len(pitch.get('no', []))}")
+
+    # Numbers: 0-100 + overall == mean (half-up to match human math;
+    # Python bankers round(68.5)=68 would flag a correct 69).
+    scores = {}
+    for key in SECTIONS:
+        try:
+            v = int(float(sec[key]["score"]))
+        except Exception:
+            errors.append(f"section {key}: bad score")
+            continue
+        if not 0 <= v <= 100:
+            errors.append(f"section {key}: score {v} out of range")
+        scores[key] = v
+    if scores and len(scores) == len(SECTIONS):
+        expected = overall(scores)
+        try:
+            got = int(float(report.get("overall", {}).get("score")))
+        except Exception:
+            got = None
+        if got != expected:
+            errors.append(f"overall {report.get('overall', {}).get('score')} != mean {expected}")
+
+    # Titles: every standout title in titles table or facts (values count too)
+    names = {str(t.get("name", "")).lower() for t in titles}
+    fact_text = " ".join((f.get("claim", "") or "") + " " + (f.get("value", "") or "") for f in facts).lower()
+    for st in sec.get("content", {}).get("standout_titles", []):
+        t = str(st.get("title", ""))
+        # allow grouped titles split on '/'
+        parts = [p.strip().lower() for p in t.split("/") if p.strip()]
+        for p in parts:
+            if len(p) < 4:
+                errors.append(f"standout title too short (<4 chars): {t}")
+                continue
+            if p not in fact_text and not any(
+                    p == n or re.search(rf"\b{re.escape(p)}\b", n) for n in names):
+                errors.append(f"standout title not in dataset: {t}")
+
+    # Grounding: every ₹/$/%/year figure must trace to the store.
+    # Evidence (verbatim claims) uses the loose pool check. Composed prose
+    # additionally requires % figures to appear as % in the store OR match an
+    # exactly computable share from the mined title stats (90% = 9 of 10
+    # series titles), so a bare number floating in a claim ("100+ live
+    # channels") can never license an invented share ("100% originals").
+    pool = " ".join((f.get("claim", "") or "") + " " + (f.get("value", "") or "") for f in facts)
+    pool += " " + " ".join(
+        y for f in facts for y in re.findall(r"(?:19|20)\d{2}", f.get("source_date", "") or ""))
+    # Title years are sourced too (mined title table), so composed era lines
+    # like "span 2019 to 2026" trace back here.
+    pool += " " + " ".join(str(t.get("year", "")) for t in titles)
+    pool += " " + " ".join(str(t.get("name", "")) for t in titles)
+    pool_nums = set(round(x, 2) for x in numbers_in(pool))
+    # Digit-string fallback: per-token (>=6 digits) so figures can't match
+    # across concatenated boundaries ("149299" from "Rs 149 ... 299 votes").
+    pool_digit_tokens = {re.sub(r"\D", "", tok) for tok in re.split(r"\s+", pool)}
+    pool_digit_tokens = {d for d in pool_digit_tokens if len(d) >= 6}
+    # Computable title-stats shares (tolerance ±0.6 for rounding).
+    from collections import Counter as _Counter
+    _stat_shares: set[float] = set()
+    if titles:
+        _n = len(titles)
+        _type_c = _Counter((t.get("type", "Unknown") or "Unknown") for t in titles)
+        _lang_c = _Counter((t.get("language", "Unknown") or "Unknown") for t in titles)
+        _orig = sum(1 for t in titles if t.get("is_original"))
+        for c in list(_type_c.values()) + list(_lang_c.values()) + [_orig, _n - _orig]:
+            _stat_shares.add(round(c / _n * 100, 1))
+
+    def _share_ok(n: float, text: str) -> bool:
+        # Require a basis cue ("of N titles", "N of M", "share") so a bare
+        # number that happens to equal a stat share cannot license a %.
+        if not re.search(r"of\s+\d+|/\s*\d+|share|titles|originals", text, re.I):
+            return False
+        return any(abs(n - s) <= 0.6 for s in _stat_shares)
+
+    def _sentence(text: str, pos: int) -> str:
+        frags = re.split(r"(?<=[.!?])\s+", text)
+        run = 0
+        for frag in frags:
+            run += len(frag) + 1
+            if run >= pos:
+                return frag[:170]
+        return text[max(0, pos - 60):pos + 110]
+
+    def _grounded(m: "re.Match", text: str, strict: bool) -> str | None:
+        raw = m.group(0)
+        if strict and "%" in raw:
+            # Composed prose may not invent shares: N% must already appear
+            # as N% somewhere in the fact store, or exactly match a share
+            # computable from the mined title stats (90% = 9 of 10 titles).
+            for n in numbers_in(raw):
+                forms = {str(int(n))} if n == int(n) else {str(round(n, 2)), str(n)}
+                if any(re.search(rf"{re.escape(f)}\s*%", pool) for f in forms):
+                    continue
+                if _share_ok(round(n, 1), text):
+                    continue
+                return (f"ungrounded figure '{raw}' — sentence: "
+                        f"…{_sentence(text, m.start())}…")
+            return None
+        for n in numbers_in(raw):
+            # Bare years never validate via the loose number pool (an
+            # unrelated "2027 votes" claim must not license an invented
+            # "2027" elsewhere) — they take the word-boundary year branch.
+            # Money/scale figures that merely fall in the year range
+            # ("Rs. 1,999") validate normally via the pool.
+            is_bare_year = (1900 < n < 2100 and n == int(n)
+                            and not re.search(r"[₹$]|rs\.?|inr|usd|crore|lakh|%", raw, re.I))
+            if not is_bare_year and round(n, 2) in pool_nums:
+                continue
+            if 1900 < n < 2100 and re.search(rf"\b{int(n)}\b", pool):
+                continue
+            digits = re.sub(r"\D", "", raw)
+            # Long-figure fallback only (>=6 digits: full amounts, not years).
+            if len(digits) >= 6 and digits in pool_digit_tokens:
+                continue
+            return (f"ungrounded figure '{raw}' — sentence: "
+                    f"…{_sentence(text, m.start())}…")
+        return None
+
+    collected: list[str] = []
+    for key in SECTIONS:
+        s = sec.get(key, {})
+        ev = s.get("evidence", "")
+        for m in FIGURE_RE.finditer(ev):
+            # Evidence is verbatim fact claims: loose pool grounding.
+            err = _grounded(m, ev, False)
+            if err:
+                collected.append(err + f" [{key}.evidence]")
+        # Composed prose (strategy lines, genres, tiers, whys…): strict
+        # values-only grounding — this is where invented stats leaked
+        # ("100% originals", "Telugu≈15%") under the old pool check.
+        for fk, fv in s.items():
+            if fk in ("evidence", "score", "tiers_label", "standout_titles"):
+                continue
+            if not isinstance(fv, str) or not fv.strip():
+                continue
+            for m in FIGURE_RE.finditer(fv):
+                err = _grounded(m, fv, True)
+                if err:
+                    collected.append(err + f" [{key}.{fk}]")
+        if key == "content":
+            for st in s.get("standout_titles", []):
+                why = st.get("why", "") or ""
+                for m in FIGURE_RE.finditer(why):
+                    err = _grounded(m, why, True)
+                    if err:
+                        collected.append(err + f" [{key}.standout_why]")
+    for field in [report.get("overall", {}).get("summary", ""), report.get("positioning", ""),
+                  report.get("identity_line", "")]:
+        for m in FIGURE_RE.finditer(field or ""):
+            err = _grounded(m, field or "", True)
+            if err:
+                collected.append(err + " [top-of-report]")
+    errors.extend(collected)
+
+    # Contamination: identity must name THIS platform; competitor mentions
+    # elsewhere (share tables, comparisons) are legitimate. The rival list
+    # covers the catalogue's major services (substring "hotstar" also catches
+    # "jiohotstar", listed explicitly for clarity).
+    plat = report.get("platform", "").lower()
+    plat_first = plat.split()[0] if plat else ""
+    identity = report.get("identity_line", "").lower()
+    identity_raw = report.get("identity_line", "") or ""
+    header = report.get("header_sentence", "").lower()
+    for other in ["jiohotstar", "prime video", "zee5", "sonyliv", "hotstar",
+                  "netflix", "amazon", "mx player", "mxplayer", "hoichoi",
+                  "sunnxt", "voot", "shemaroo",
+                  "discovery", "jiocinema", "altbalaji"]:
+        if other in identity and other not in plat:
+            errors.append(f"contamination: '{other}' in identity line of {plat} report")
+    for other in ["aha", "eros"]:
+        if re.search(rf"\b{re.escape(other)}\b", identity) and other not in plat:
+            errors.append(f"contamination: '{other}' in identity line of {plat} report")
+    # Identity must be platform positioning, not a single title lead:
+    # flag when the em-dash body matches a known title verbatim.
+    try:
+        _id_body = identity_raw.split("—", 1)[1] if "—" in identity_raw else identity_raw
+        _title_names = {str(t.get("name", "")).strip().lower() for t in titles if str(t.get("name", "")).strip()}
+        for _tn in _title_names:
+            if len(_tn) >= 4 and _id_body.strip().lower().startswith(_tn):
+                errors.append(f"identity line leads with a single title '{_tn}' — use scale/mission framing instead")
+                break
+    except Exception:
+        pass
+    if plat_first and plat_first not in header and "named titles" not in header:
+        errors.append("header sentence missing platform context")
+    if "acorn tv" in (report.get("positioning", "") + str(sec)).lower():
+        errors.append("contamination: 'Acorn TV' leaked from another brief")
+    blob = (report.get("positioning", "") + report.get("summary", "") + str(sec)).lower()
+    if "jiohotstar" not in plat and "hotstar" not in plat:
+        for _field, _name in ((report.get("positioning", ""), "positioning"),
+                              (report.get("summary", ""), "summary")):
+            if "jiohotstar" in (_field or "").lower():
+                errors.append(f"contamination: 'JioHotstar' leaked into {_name} of {plat} report")
+    _blob_raw = (report.get("positioning", "") or "") + (report.get("summary", "") or "") + str(sec)
+    # Template placeholders look like [[OTT_PLATFORM_NAME]] / {{var}} (3+
+    # uppercase/underscore run inside brackets). Lowercase residue such as
+    # Wikipedia's [[when?]] inline tag is content, not a placeholder.
+    if re.search(r"\[\[[^]]*[A-Z_]{3,}[^]]*\]\]|\{\{", _blob_raw):
+        errors.append("unfilled template placeholder remains")
+    if re.search(r"\bTBD\b|\bTODO\b|fill from evidence", blob):
+        errors.append("unfilled TBD/TODO placeholder remains")
+    if "not disclosed" in blob.lower() or "estimate" in blob.lower():
+        pass  # flags present — good; absence alone is not an error
+    return errors

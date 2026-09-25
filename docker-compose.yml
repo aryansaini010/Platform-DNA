@@ -1,0 +1,31 @@
+# Shared network: the app (on host) reaches SearXNG via
+# http://localhost:${SEARXNG_PORT:-8081} (default host 8081; container 8080).
+# Set SEARXNG_URL to the same host URL (see .env.example). Container-to-
+# container callers use http://searxng:8080 instead.
+networks:
+  dna-net:
+    name: dna-net
+
+services:
+  # Optional second instance. Prefer sharing one SearXNG across projects
+  # (it is stateless) — only use this if you need isolated settings.
+  # No `container_name` on purpose: Compose prefixes names per project so
+  # this never collides with another project's container.
+  searxng:
+    image: searxng/searxng:latest
+    restart: unless-stopped
+    ports:
+      - "${SEARXNG_PORT:-8081}:8080"
+    volumes:
+      - ./docker/searxng:/etc/searxng:rw
+    environment:
+      # Public host URL for redirects/search-result links (must match the
+      # mapped host port, not the in-container 8080).
+      - BASE_URL=http://localhost:${SEARXNG_PORT:-8081}/
+    networks:
+      - dna-net
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

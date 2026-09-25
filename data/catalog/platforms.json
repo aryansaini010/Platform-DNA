@@ -1,0 +1,1738 @@
+[
+ {
+  "name": "JioHotstar",
+  "slug": "jiohotstar",
+  "group": "India",
+  "aliases": [
+   "JioHotstar",
+   "Jio Hotstar"
+  ],
+  "regions": [
+   "IN",
+   "GB",
+   "CA",
+   "SG"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Netflix India",
+  "slug": "netflix_india",
+  "group": "India",
+  "aliases": [
+   "Netflix India"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video India",
+  "slug": "prime_video_india",
+  "group": "India",
+  "aliases": [
+   "Prime Video India",
+   "Amazon Prime Video India"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "ZEE5",
+  "slug": "zee5",
+  "group": "India",
+  "aliases": [
+   "ZEE5"
+  ],
+  "regions": [
+   "IN",
+   "US",
+   "GB",
+   "AE",
+   "SG",
+   "CA",
+   "AU"
+  ],
+  "regions_count": 7
+ },
+ {
+  "name": "SonyLIV",
+  "slug": "sonyliv",
+  "group": "India",
+  "aliases": [
+   "SonyLIV",
+   "Sony LIV"
+  ],
+  "regions": [
+   "IN",
+   "US",
+   "GB",
+   "AE",
+   "SG"
+  ],
+  "regions_count": 5
+ },
+ {
+  "name": "MX Player",
+  "slug": "mx_player",
+  "group": "India",
+  "aliases": [
+   "Amazon MX Player",
+   "MX Player"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Hoichoi",
+  "slug": "hoichoi",
+  "group": "India",
+  "aliases": [
+   "Hoichoi"
+  ],
+  "regions": [
+   "IN",
+   "US",
+   "GB",
+   "AE"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "aha Video",
+  "slug": "aha_video",
+  "group": "India",
+  "aliases": [
+   "aha Video",
+   "aha"
+  ],
+  "regions": [
+   "IN",
+   "US"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Sun NXT",
+  "slug": "sun_nxt",
+  "group": "India",
+  "aliases": [
+   "Sun NXT",
+   "SunNXT"
+  ],
+  "regions": [
+   "IN",
+   "US",
+   "GB",
+   "SG"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "ALTBalaji",
+  "slug": "altbalaji",
+  "group": "India",
+  "aliases": [
+   "ALTBalaji",
+   "ALT Balaji"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Eros Now",
+  "slug": "eros_now",
+  "group": "India",
+  "aliases": [
+   "Eros Now"
+  ],
+  "regions": [
+   "IN",
+   "US",
+   "GB"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Voot",
+  "slug": "voot",
+  "group": "India",
+  "aliases": [
+   "Voot"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "JioCinema",
+  "slug": "jiocinema",
+  "group": "India",
+  "aliases": [
+   "JioCinema",
+   "Jio Cinema"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ Hotstar",
+  "slug": "disney_hotstar",
+  "group": "India",
+  "aliases": [
+   "Hotstar"
+  ],
+  "regions": [
+   "IN",
+   "GB",
+   "CA",
+   "SG"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Chaupal",
+  "slug": "chaupal",
+  "group": "India",
+  "aliases": [
+   "Chaupal"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "STAGE",
+  "slug": "stage",
+  "group": "India",
+  "aliases": [
+   "STAGE"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Ullu",
+  "slug": "ullu",
+  "group": "India",
+  "aliases": [
+   "Ullu"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "ShemarooMe",
+  "slug": "shemaroome",
+  "group": "India",
+  "aliases": [
+   "Shemaroo Entertainment",
+   "Shemaroo",
+   "ShemarooMe"
+  ],
+  "regions": [
+   "IN",
+   "US",
+   "GB"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Hungama Play",
+  "slug": "hungama_play",
+  "group": "India",
+  "aliases": [
+   "Hungama Play"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Discovery+ India",
+  "slug": "discovery_india",
+  "group": "India",
+  "aliases": [
+   "Discovery+ India",
+   "discovery+"
+  ],
+  "regions": [
+   "IN"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix",
+  "slug": "netflix",
+  "group": "United States",
+  "aliases": [
+   "Netflix"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "AU",
+   "DE",
+   "FR",
+   "IN",
+   "JP",
+   "BR",
+   "MX"
+  ],
+  "regions_count": 10
+ },
+ {
+  "name": "Hulu",
+  "slug": "hulu",
+  "group": "United States",
+  "aliases": [
+   "Hulu"
+  ],
+  "regions": [
+   "US",
+   "JP"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Disney+",
+  "slug": "disney",
+  "group": "United States",
+  "aliases": [
+   "Disney+"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "AU",
+   "DE",
+   "FR",
+   "IN"
+  ],
+  "regions_count": 7
+ },
+ {
+  "name": "Max",
+  "slug": "max",
+  "group": "United States",
+  "aliases": [
+   "Max",
+   "HBO Max"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "BR",
+   "MX"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Prime Video",
+  "slug": "prime_video",
+  "group": "United States",
+  "aliases": [
+   "Prime Video",
+   "Amazon Prime Video"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "IN",
+   "DE",
+   "JP",
+   "BR"
+  ],
+  "regions_count": 6
+ },
+ {
+  "name": "Apple TV+",
+  "slug": "apple_tv",
+  "group": "United States",
+  "aliases": [
+   "Apple TV+"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "AU",
+   "IN",
+   "DE",
+   "FR",
+   "JP"
+  ],
+  "regions_count": 8
+ },
+ {
+  "name": "Peacock",
+  "slug": "peacock",
+  "group": "United States",
+  "aliases": [
+   "Peacock"
+  ],
+  "regions": [
+   "US",
+   "GB"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Paramount+",
+  "slug": "paramount",
+  "group": "United States",
+  "aliases": [
+   "Paramount+"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "AU",
+   "DE",
+   "BR",
+   "MX"
+  ],
+  "regions_count": 7
+ },
+ {
+  "name": "Tubi",
+  "slug": "tubi",
+  "group": "United States",
+  "aliases": [
+   "Tubi"
+  ],
+  "regions": [
+   "US",
+   "CA",
+   "AU",
+   "MX"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "The Roku Channel",
+  "slug": "the_roku_channel",
+  "group": "United States",
+  "aliases": [
+   "The Roku Channel",
+   "Roku"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "MX"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Acorn TV (Via Amazon Prime)",
+  "slug": "acorn_tv_via_amazon_prime",
+  "group": "United States",
+  "aliases": [
+   "Acorn TV"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "AU"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "AMC+",
+  "slug": "amc",
+  "group": "United States",
+  "aliases": [
+   "AMC+"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "AU"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Shudder",
+  "slug": "shudder",
+  "group": "United States",
+  "aliases": [
+   "Shudder"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "AU"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Crunchyroll",
+  "slug": "crunchyroll",
+  "group": "United States",
+  "aliases": [
+   "Crunchyroll"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "IN",
+   "BR",
+   "MX",
+   "FR",
+   "DE"
+  ],
+  "regions_count": 8
+ },
+ {
+  "name": "YouTube Premium",
+  "slug": "youtube_premium",
+  "group": "Global",
+  "aliases": [
+   "YouTube Premium"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "IN",
+   "DE",
+   "BR",
+   "JP"
+  ],
+  "regions_count": 6
+ },
+ {
+  "name": "YouTube TV",
+  "slug": "youtube_tv",
+  "group": "United States",
+  "aliases": [
+   "YouTube TV"
+  ],
+  "regions": [
+   "US"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Fubo",
+  "slug": "fubo",
+  "group": "United States",
+  "aliases": [
+   "Fubo"
+  ],
+  "regions": [
+   "US",
+   "CA"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Sling TV",
+  "slug": "sling_tv",
+  "group": "United States",
+  "aliases": [
+   "Sling TV"
+  ],
+  "regions": [
+   "US"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "BBC iPlayer",
+  "slug": "bbc_iplayer",
+  "group": "United Kingdom",
+  "aliases": [
+   "BBC iPlayer"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix UK",
+  "slug": "netflix_uk",
+  "group": "United Kingdom",
+  "aliases": [
+   "Netflix UK"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video UK",
+  "slug": "prime_video_uk",
+  "group": "United Kingdom",
+  "aliases": [
+   "Prime Video UK"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ UK",
+  "slug": "disney_uk",
+  "group": "United Kingdom",
+  "aliases": [
+   "Disney+ UK"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Channel 4",
+  "slug": "channel_4",
+  "group": "United Kingdom",
+  "aliases": [
+   "Channel 4",
+   "All 4"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "ITVX",
+  "slug": "itvx",
+  "group": "United Kingdom",
+  "aliases": [
+   "ITVX"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Sky Go",
+  "slug": "sky_go",
+  "group": "United Kingdom",
+  "aliases": [
+   "Sky Go",
+   "NOW"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Discovery+ UK",
+  "slug": "discovery_uk",
+  "group": "United Kingdom",
+  "aliases": [
+   "Discovery+ UK"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "BritBox",
+  "slug": "britbox",
+  "group": "United Kingdom",
+  "aliases": [
+   "BritBox"
+  ],
+  "regions": [
+   "GB",
+   "US",
+   "CA",
+   "AU"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Netflix Canada",
+  "slug": "netflix_canada",
+  "group": "Canada",
+  "aliases": [
+   "Netflix Canada"
+  ],
+  "regions": [
+   "CA"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video Canada",
+  "slug": "prime_video_canada",
+  "group": "Canada",
+  "aliases": [
+   "Prime Video Canada"
+  ],
+  "regions": [
+   "CA"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ Canada",
+  "slug": "disney_canada",
+  "group": "Canada",
+  "aliases": [
+   "Disney+ Canada"
+  ],
+  "regions": [
+   "CA"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Crave",
+  "slug": "crave",
+  "group": "Canada",
+  "aliases": [
+   "Crave"
+  ],
+  "regions": [
+   "CA"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "CBC Gem",
+  "slug": "cbc_gem",
+  "group": "Canada",
+  "aliases": [
+   "CBC Gem"
+  ],
+  "regions": [
+   "CA"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix Australia",
+  "slug": "netflix_australia",
+  "group": "Australia",
+  "aliases": [
+   "Netflix Australia"
+  ],
+  "regions": [
+   "AU"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Stan",
+  "slug": "stan",
+  "group": "Australia",
+  "aliases": [
+   "Stan"
+  ],
+  "regions": [
+   "AU"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "BINGE",
+  "slug": "binge",
+  "group": "Australia",
+  "aliases": [
+   "BINGE"
+  ],
+  "regions": [
+   "AU"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Foxtel Now",
+  "slug": "foxtel_now",
+  "group": "Australia",
+  "aliases": [
+   "Foxtel Now"
+  ],
+  "regions": [
+   "AU"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "ABC iview",
+  "slug": "abc_iview",
+  "group": "Australia",
+  "aliases": [
+   "ABC iview"
+  ],
+  "regions": [
+   "AU"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "SBS On Demand",
+  "slug": "sbs_on_demand",
+  "group": "Australia",
+  "aliases": [
+   "SBS On Demand"
+  ],
+  "regions": [
+   "AU"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix Germany",
+  "slug": "netflix_germany",
+  "group": "Germany",
+  "aliases": [
+   "Netflix Germany"
+  ],
+  "regions": [
+   "DE"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video Germany",
+  "slug": "prime_video_germany",
+  "group": "Germany",
+  "aliases": [
+   "Prime Video Germany"
+  ],
+  "regions": [
+   "DE"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ Germany",
+  "slug": "disney_germany",
+  "group": "Germany",
+  "aliases": [
+   "Disney+ Germany"
+  ],
+  "regions": [
+   "DE"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "RTL+",
+  "slug": "rtl",
+  "group": "Germany",
+  "aliases": [
+   "RTL+"
+  ],
+  "regions": [
+   "DE"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Joyn",
+  "slug": "joyn",
+  "group": "Germany",
+  "aliases": [
+   "Joyn"
+  ],
+  "regions": [
+   "DE",
+   "AT",
+   "CH"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Sky Deutschland",
+  "slug": "sky_deutschland",
+  "group": "Germany",
+  "aliases": [
+   "Sky Deutschland",
+   "WOW"
+  ],
+  "regions": [
+   "DE",
+   "AT"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "ZDF",
+  "slug": "zdf",
+  "group": "Germany",
+  "aliases": [
+   "ZDF"
+  ],
+  "regions": [
+   "DE"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix France",
+  "slug": "netflix_france",
+  "group": "France",
+  "aliases": [
+   "Netflix France"
+  ],
+  "regions": [
+   "FR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video France",
+  "slug": "prime_video_france",
+  "group": "France",
+  "aliases": [
+   "Prime Video France"
+  ],
+  "regions": [
+   "FR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ France",
+  "slug": "disney_france",
+  "group": "France",
+  "aliases": [
+   "Disney+ France"
+  ],
+  "regions": [
+   "FR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Canal+",
+  "slug": "canal",
+  "group": "France",
+  "aliases": [
+   "Canal+"
+  ],
+  "regions": [
+   "FR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "OCS",
+  "slug": "ocs",
+  "group": "France",
+  "aliases": [
+   "OCS"
+  ],
+  "regions": [
+   "FR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "France.tv",
+  "slug": "france_tv",
+  "group": "France",
+  "aliases": [
+   "France.tv"
+  ],
+  "regions": [
+   "FR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix Japan",
+  "slug": "netflix_japan",
+  "group": "Japan",
+  "aliases": [
+   "Netflix Japan"
+  ],
+  "regions": [
+   "JP"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video Japan",
+  "slug": "prime_video_japan",
+  "group": "Japan",
+  "aliases": [
+   "Prime Video Japan"
+  ],
+  "regions": [
+   "JP"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ Japan",
+  "slug": "disney_japan",
+  "group": "Japan",
+  "aliases": [
+   "Disney+ Japan"
+  ],
+  "regions": [
+   "JP"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "U-NEXT",
+  "slug": "u_next",
+  "group": "Japan",
+  "aliases": [
+   "U-NEXT"
+  ],
+  "regions": [
+   "JP"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "dTV",
+  "slug": "dtv",
+  "group": "Japan",
+  "aliases": [
+   "dTV",
+   "Lemino"
+  ],
+  "regions": [
+   "JP"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Hulu Japan",
+  "slug": "hulu_japan",
+  "group": "Japan",
+  "aliases": [
+   "Hulu Japan"
+  ],
+  "regions": [
+   "JP"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix Korea",
+  "slug": "netflix_korea",
+  "group": "South Korea",
+  "aliases": [
+   "Netflix Korea"
+  ],
+  "regions": [
+   "KR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "TVING",
+  "slug": "tving",
+  "group": "South Korea",
+  "aliases": [
+   "TVING"
+  ],
+  "regions": [
+   "KR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Wavve",
+  "slug": "wavve",
+  "group": "South Korea",
+  "aliases": [
+   "Wavve",
+   "WAVVE"
+  ],
+  "regions": [
+   "KR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Coupang Play",
+  "slug": "coupang_play",
+  "group": "South Korea",
+  "aliases": [
+   "Coupang Play"
+  ],
+  "regions": [
+   "KR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ Korea",
+  "slug": "disney_korea",
+  "group": "South Korea",
+  "aliases": [
+   "Disney+ Korea"
+  ],
+  "regions": [
+   "KR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Watcha",
+  "slug": "watcha",
+  "group": "South Korea",
+  "aliases": [
+   "Watcha"
+  ],
+  "regions": [
+   "KR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix Brazil",
+  "slug": "netflix_brazil",
+  "group": "Brazil",
+  "aliases": [
+   "Netflix Brazil"
+  ],
+  "regions": [
+   "BR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video Brazil",
+  "slug": "prime_video_brazil",
+  "group": "Brazil",
+  "aliases": [
+   "Prime Video Brazil"
+  ],
+  "regions": [
+   "BR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ Brazil",
+  "slug": "disney_brazil",
+  "group": "Brazil",
+  "aliases": [
+   "Disney+ Brazil"
+  ],
+  "regions": [
+   "BR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Globoplay",
+  "slug": "globoplay",
+  "group": "Brazil",
+  "aliases": [
+   "Globoplay"
+  ],
+  "regions": [
+   "BR",
+   "PT",
+   "US"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Max Brazil",
+  "slug": "max_brazil",
+  "group": "Brazil",
+  "aliases": [
+   "Max Brazil"
+  ],
+  "regions": [
+   "BR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Claro TV+",
+  "slug": "claro_tv",
+  "group": "Brazil",
+  "aliases": [
+   "Claro TV+"
+  ],
+  "regions": [
+   "BR"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Netflix Mexico",
+  "slug": "netflix_mexico",
+  "group": "Mexico",
+  "aliases": [
+   "Netflix Mexico"
+  ],
+  "regions": [
+   "MX"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Prime Video Mexico",
+  "slug": "prime_video_mexico",
+  "group": "Mexico",
+  "aliases": [
+   "Prime Video Mexico"
+  ],
+  "regions": [
+   "MX"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Disney+ Mexico",
+  "slug": "disney_mexico",
+  "group": "Mexico",
+  "aliases": [
+   "Disney+ Mexico"
+  ],
+  "regions": [
+   "MX"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Max Mexico",
+  "slug": "max_mexico",
+  "group": "Mexico",
+  "aliases": [
+   "Max Mexico"
+  ],
+  "regions": [
+   "MX"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Claro Video",
+  "slug": "claro_video",
+  "group": "Mexico",
+  "aliases": [
+   "Claro Video"
+  ],
+  "regions": [
+   "MX"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Blim",
+  "slug": "blim",
+  "group": "Mexico",
+  "aliases": [
+   "Blim",
+   "Blim TV"
+  ],
+  "regions": [
+   "MX"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "VIX",
+  "slug": "vix",
+  "group": "Mexico",
+  "aliases": [
+   "VIX",
+   "Vix+"
+  ],
+  "regions": [
+   "MX",
+   "US",
+   "BR"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Netflix MENA",
+  "slug": "netflix_mena",
+  "group": "Middle East (MENA)",
+  "aliases": [
+   "Netflix MENA"
+  ],
+  "regions": [
+   "AE",
+   "SA",
+   "EG"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Shahid VIP",
+  "slug": "shahid_vip",
+  "group": "Middle East (MENA)",
+  "aliases": [
+   "Shahid VIP",
+   "Shahid"
+  ],
+  "regions": [
+   "AE",
+   "SA",
+   "EG"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "StarzPlay",
+  "slug": "starzplay",
+  "group": "Middle East (MENA)",
+  "aliases": [
+   "StarzPlay"
+  ],
+  "regions": [
+   "AE",
+   "SA"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Disney+ MENA",
+  "slug": "disney_mena",
+  "group": "Middle East (MENA)",
+  "aliases": [
+   "Disney+ MENA"
+  ],
+  "regions": [
+   "AE",
+   "SA"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Prime Video MENA",
+  "slug": "prime_video_mena",
+  "group": "Middle East (MENA)",
+  "aliases": [
+   "Prime Video MENA"
+  ],
+  "regions": [
+   "AE",
+   "SA",
+   "EG"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "OSN+",
+  "slug": "osn",
+  "group": "Middle East (MENA)",
+  "aliases": [
+   "OSN+"
+  ],
+  "regions": [
+   "AE",
+   "SA",
+   "EG"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Netflix SEA",
+  "slug": "netflix_sea",
+  "group": "Southeast Asia",
+  "aliases": [
+   "Netflix SEA"
+  ],
+  "regions": [
+   "SG",
+   "MY",
+   "PH",
+   "TH",
+   "ID"
+  ],
+  "regions_count": 5
+ },
+ {
+  "name": "Viu",
+  "slug": "viu",
+  "group": "Southeast Asia",
+  "aliases": [
+   "Viu"
+  ],
+  "regions": [
+   "SG",
+   "MY",
+   "PH",
+   "HK",
+   "TH",
+   "ID",
+   "AE"
+  ],
+  "regions_count": 7
+ },
+ {
+  "name": "iQIYI",
+  "slug": "iqiyi",
+  "group": "Southeast Asia",
+  "aliases": [
+   "iQIYI"
+  ],
+  "regions": [
+   "SG",
+   "MY",
+   "TH",
+   "PH",
+   "ID"
+  ],
+  "regions_count": 5
+ },
+ {
+  "name": "WeTV",
+  "slug": "wetv",
+  "group": "Southeast Asia",
+  "aliases": [
+   "WeTV"
+  ],
+  "regions": [
+   "TH",
+   "ID",
+   "PH",
+   "MY",
+   "SG"
+  ],
+  "regions_count": 5
+ },
+ {
+  "name": "Disney+ Hotstar SEA",
+  "slug": "disney_hotstar_sea",
+  "group": "Southeast Asia",
+  "aliases": [
+   "Disney+ Hotstar SEA"
+  ],
+  "regions": [
+   "ID",
+   "MY",
+   "TH"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "Vidio",
+  "slug": "vidio",
+  "group": "Southeast Asia",
+  "aliases": [
+   "Vidio"
+  ],
+  "regions": [
+   "ID"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "TVNZ+",
+  "slug": "tvnz",
+  "group": "Oceania",
+  "aliases": [
+   "TVNZ+"
+  ],
+  "regions": [
+   "NZ"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "U-Next Pacific",
+  "slug": "u_next_pacific",
+  "group": "Southeast Asia",
+  "aliases": [
+   "U-Next Pacific"
+  ],
+  "regions": [
+   "SG"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "UKTV Play",
+  "slug": "uktv_play",
+  "group": "United Kingdom",
+  "aliases": [
+   "UKTV Play"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Viaplay",
+  "slug": "viaplay",
+  "group": "Europe",
+  "aliases": [
+   "Viaplay"
+  ],
+  "regions": [
+   "SE",
+   "NO",
+   "DK",
+   "FI",
+   "NL",
+   "PL",
+   "GB"
+  ],
+  "regions_count": 7
+ },
+ {
+  "name": "Vice TV",
+  "slug": "vice_tv",
+  "group": "United States",
+  "aliases": [
+   "Vice TV"
+  ],
+  "regions": [
+   "US",
+   "GB"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Videoland",
+  "slug": "videoland",
+  "group": "Europe",
+  "aliases": [
+   "Videoland"
+  ],
+  "regions": [
+   "NL"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Vimeo",
+  "slug": "vimeo",
+  "group": "Global",
+  "aliases": [
+   "Vimeo"
+  ],
+  "regions": [
+   "US",
+   "GB"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Virgin TV GO",
+  "slug": "virgin_tv_go",
+  "group": "United Kingdom",
+  "aliases": [
+   "Virgin TV GO"
+  ],
+  "regions": [
+   "GB"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Watch HGTV",
+  "slug": "watch_hgtv",
+  "group": "United States",
+  "aliases": [
+   "Watch HGTV"
+  ],
+  "regions": [
+   "US"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Watch TCM",
+  "slug": "watch_tcm",
+  "group": "United States",
+  "aliases": [
+   "Watch TCM"
+  ],
+  "regions": [
+   "US"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Wavve Global",
+  "slug": "wavve_global",
+  "group": "South Korea",
+  "aliases": [
+   "Wavve Global"
+  ],
+  "regions": [
+   "KR",
+   "US"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "WOW Presents Plus",
+  "slug": "wow_presents_plus",
+  "group": "United States",
+  "aliases": [
+   "WOW Presents Plus"
+  ],
+  "regions": [
+   "US",
+   "GB"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "WWE Network",
+  "slug": "wwe_network",
+  "group": "United States",
+  "aliases": [
+   "WWE Network"
+  ],
+  "regions": [
+   "US",
+   "IN"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "Xumo Play",
+  "slug": "xumo_play",
+  "group": "United States",
+  "aliases": [
+   "Xumo Play"
+  ],
+  "regions": [
+   "US",
+   "CA"
+  ],
+  "regions_count": 2
+ },
+ {
+  "name": "YouTube",
+  "slug": "youtube",
+  "group": "Global",
+  "aliases": [
+   "YouTube"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "IN"
+  ],
+  "regions_count": 3
+ },
+ {
+  "name": "ZDFmediathek",
+  "slug": "zdfmediathek",
+  "group": "Germany",
+  "aliases": [
+   "ZDFmediathek",
+   "ZDF Mediathek"
+  ],
+  "regions": [
+   "DE"
+  ],
+  "regions_count": 1
+ },
+ {
+  "name": "Zee5 Global",
+  "slug": "zee5_global",
+  "group": "Global",
+  "aliases": [
+   "Zee5 Global"
+  ],
+  "regions": [
+   "IN",
+   "US",
+   "GB",
+   "AE"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Netflix Global",
+  "slug": "netflix_global",
+  "group": "Global",
+  "aliases": [
+   "Netflix Global"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "IN",
+   "BR",
+   "DE",
+   "JP"
+  ],
+  "regions_count": 6
+ },
+ {
+  "name": "Prime Video Global",
+  "slug": "prime_video_global",
+  "group": "Global",
+  "aliases": [
+   "Prime Video Global"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "IN",
+   "DE",
+   "JP",
+   "BR"
+  ],
+  "regions_count": 6
+ },
+ {
+  "name": "Disney+ Global",
+  "slug": "disney_global",
+  "group": "Global",
+  "aliases": [
+   "Disney+ Global"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "CA",
+   "IN"
+  ],
+  "regions_count": 4
+ },
+ {
+  "name": "Apple TV+ Global",
+  "slug": "apple_tv_global",
+  "group": "Global",
+  "aliases": [
+   "Apple TV+ Global"
+  ],
+  "regions": [
+   "US",
+   "GB",
+   "IN"
+  ],
+  "regions_count": 3
+ }
+]

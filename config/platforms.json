@@ -1,0 +1,32 @@
+{
+  "Netflix India": {
+    "slug": "netflix_india",
+    "aliases": ["Netflix India"],
+    "watch_region": "IN",
+    "notes": "SVOD-first global streamer, India is a growth market, no telecom bundle at JioHotstar scale"
+  },
+  "JioHotstar": {
+    "slug": "jiohotstar",
+    "aliases": ["JioHotstar", "Jio Hotstar", "Disney+ Hotstar"],
+    "watch_region": "IN",
+    "notes": "Reference example platform. Do not reuse its facts for other platforms."
+  },
+  "Prime Video India": {
+    "slug": "prime_video_india",
+    "aliases": ["Prime Video India", "Amazon Prime Video India"],
+    "watch_region": "IN",
+    "notes": ""
+  },
+  "ZEE5": {
+    "slug": "zee5",
+    "aliases": ["ZEE5"],
+    "watch_region": "IN",
+    "notes": ""
+  },
+  "SonyLIV": {
+    "slug": "sonyliv",
+    "aliases": ["SonyLIV", "Sony LIV"],
+    "watch_region": "IN",
+    "notes": ""
+  }
+}
