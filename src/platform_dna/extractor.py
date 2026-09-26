@@ -1,17 +1,16 @@
 """Fact extraction (plan Step B): Firecrawl markdown -> slot-tagged facts.
 
-Rule-based ("cheap LLM" substitute): keeps sentences carrying dated, sourced
+Rule-based: keeps sentences carrying dated, sourced
 figures — money, percents, subscriber/user counts, title announcements — and
 classifies them into the report's SLOT checklist. Output dicts plug straight
 into Fact / the fact-pack schema, so every figure the writer uses traces to
 a stored source (validator grounding holds).
 
-If ANTHROPIC_API_KEY is set, `llm_refine()` can polish claims; it is never
-required and never invents figures.
+`llm_refine()` is a disabled legacy hook (always a no-op); it never invents
+figures.
 """
 from __future__ import annotations
 
-import os
 import re
 from urllib.parse import urlparse
 
@@ -446,7 +445,5 @@ def slot_counts(facts: list[dict]) -> dict[str, int]:
 
 
 def llm_refine(facts: list[dict]) -> list[dict]:
-    """Optional wording polish. No-op without ANTHROPIC_API_KEY; never adds figures."""
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        return facts
+    """Disabled legacy hook. Always a no-op; never adds figures."""
     return facts

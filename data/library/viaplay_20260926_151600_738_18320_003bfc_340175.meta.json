@@ -1,0 +1,12 @@
+{
+ "status": "draft",
+ "errors": [
+  "ungrounded figure '53.1%' — sentence: …[4]\n• Sublicensing &amp; other 226 479 -52.8% -53.1% 1,430.… [content.evidence]",
+  "ungrounded figure '15.8%' — sentence: …[conflicting accounts — both reported, not resolved] [4]\n• Operating margin before ACI and IAC (%) -2.8% -15.8% -9.9%.… [revenue.evidence]",
+  "ungrounded figure '9.9%' — sentence: …[conflicting accounts — both reported, not resolved] [4]\n• Operating margin before ACI and IAC (%) -2.8% -15.8% -9.9%.… [revenue.evidence]",
+  "ungrounded figure '6.1%' — sentence: …[conflicting accounts — both reported, not resolved] [4]\n• Operating margin before ACI and IAC (%) -5.3% -6.1% -1.0%.… [revenue.evidence]"
+ ],
+ "reverted": [],
+ "platform": "Viaplay",
+ "region": "Sweden"
+}

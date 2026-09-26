@@ -4,14 +4,13 @@ Order: content → audience → emotional → distribution → revenue → edito
 overall summary + risk tag → positioning → wishlist → pitch → identity.
 Top-of-report is written last (depends on finished sections).
 
-Deterministic mode (default): assembles the report JSON from the verified
+Deterministic mode assembles the report JSON from the verified
 fact-pack. Evidence paragraphs are built from dated fact claims so every
-figure traces to the store. If ANTHROPIC_API_KEY is set, `polish()` can be
-used for wording only — it must never invent figures (validator enforces).
+figure traces to the store. `polish()` is a disabled legacy hook (always a
+no-op) — wording upgrades happen in llm.py via Ollama only.
 """
 from __future__ import annotations
 
-import os
 import re
 from urllib.parse import urlparse
 
@@ -213,9 +212,5 @@ def build_report(pack: dict) -> dict:
 
 
 def polish(text: str) -> str:
-    """Optional LLM wording polish. Disabled without a key; never adds figures."""
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        return text
-    # Placeholder: integrate Anthropic API with prompt-cached example + the
-    # "example rule" (structure/tone only, never reuse facts/phrasing).
+    """Disabled legacy hook. Always a no-op; never adds figures."""
     return text

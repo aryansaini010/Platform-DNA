@@ -1,0 +1,5173 @@
+{
+ "platform": "Viaplay",
+ "region": "Sweden",
+ "slug": "viaplay",
+ "catalogue_note": "58 extracted facts and 370 named titles from trade, investor and platform sources",
+ "identity_line": "Viaplay delivers a curated mix of high‑budget Hollywood franchises and Nordic originals to a pan‑European audience.",
+ "risk_tag": "CONTENT EVIDENCE — THIN EMOTIONAL COVERAGE RISK",
+ "summary": "Viaplay’s catalogue is anchored by a vast library of global franchises—CSI, NCIS, Star Trek, SpongeBob SquarePants, Transformers—and a growing slate of Nordic originals such as Love Me. Its revenue trajectory (US$1.74 B in 2024, US$2.12 B TTM 2026) reflects a solid monetisation model, but the platform’s limited presence in India and heavy reliance on licensed content expose it to competitive pressure from local OTTs. Without a clear localisation strategy, Viaplay risks losing relevance in a market that increasingly prioritises regional storytelling.",
+ "positioning": "In the Indian OTT stack, Viaplay would occupy a niche premium tier for viewers who prioritise international, high‑production‑value content over local narratives. It positions itself as a deliberate alternative to Netflix and Amazon Prime by offering exclusive access to Hollywood franchises and Nordic originals, but its narrow focus on non‑Indian titles limits its appeal to the broader, price‑sensitive Indian audience.",
+ "sections": {
+  "content": {
+   "score": 63,
+   "evidence": "• The division also has the largest distributed library of series and film titles, including global franchises such as \"CSI: Crime Scene Investigation,\" \"NCIS,\" \"Star Trek,\" \"SpongeBob SquarePants,\" \"Transformers,\" \"Mission: Impossible,\" and more. [5]\n• 1 Items affecting comparability in Q4 2025 comprised write-downs of scripted content, currency effects related to previous content provisions, and transaction costs related to the acquisition of the remaining 50% of Allente Group. [2]\n• It follows on the transformational acquisition of the remaining 50% of Allente Group, and subsequent refinancing, at the end of last year. [6]\n• As expected, Sublicensing and Other decreased 53% organically. [4]\n• Sublicensing &amp; other 226 479 -52.8% -53.1% 1,430. [4]\n• Under the terms of the deal, the titles available on Viaplay in the Nordic and Baltic regions include shows such as `CSI: Vegas', the highly anticipated latest instalment in the record-breaking `CSI' franchise; medical drama `Good Sam', starring Sophia Bush and Jason Isaacs; animated comedy... [5] CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. CONFLICT slot=named_originals: '' (date unknown) vs '' (date unknown) - report both, do not resolve. Score pulled up by depth in originals investment, hub deals, named originals; pulled down by no sourced evidence in content hours, language count, franchises.",
+   "strategy_line": "Build around sport originals plus licensed pipeline such as 50%.",
+   "primary_genres": "Sport (Finding Her Edge, Crew Girl, Running Point); Drama (Virgin River, My Life with the Walter Boys, Beauty in Black); Comedy (Emily in Paris, Wednesday, Beef)",
+   "secondary_genres": "Romance (Love Through a Prism, Tuiskoms, This Summer Will Be Different)",
+   "originals_strategy": "Through a story of friendship, grief and romance spanning three generations of Stockholmers, 'Love Me' season one embraces one of humanity's… Filippa Wallestam, Viaplay Group Chief Content Officer: \"Paramount is one of Hollywood's most renowned storytellers, and Viaplay viewers in 10 countries can now enjoy many of the biggest and best shows from their incr...",
+   "franchise_presence": "Strong renewal cadence — Season 1 Peter Stormare ('American Gods', 'The Blacklist', 'Fargo') and leading Swedish stand-up comedian Johan Glans star as the best failed private detectives LA has…",
+   "content_mix": "Not disclosed as a clean percentage split by the company; catalogue-wide shares below are estimates from sampling, not disclosed figures.",
+   "language_mix": "Mined titles cluster in English, Hindi, Tamil, Telugu.",
+   "era_focus": "Contemporary — mined titles span 2016 to 2027 across 304 dated titles.",
+   "quality_tier": "No disclosed budget tier in collected sources.",
+   "catalogue_gaps": "Thinly evidenced in collected sources: language count, content hours — flagged as under-documented rather than necessarily absent.",
+   "standout_titles": [
+    {
+     "title": "Virgin River / The Witcher",
+     "why": "2019 [Romantic drama](https://en.wikipedia.org/wiki/Romantic_dram series original from the mined Viaplay list. Paired Unknown series anchors sharing the same lane; 2019 [Fantasy](https://en.wikipedia.org/wiki/Fantasy \"Fantasy\")<b series original from the mined Viaplay list."
+    },
+    {
+     "title": "Ginny & Georgia",
+     "why": "2021 [Coming-of-age](https://en.wikipedia.org/wiki/Coming-of-age_ series original from the mined Viaplay list."
+    },
+    {
+     "title": "The Lincoln Lawyer",
+     "why": "2022 [Legal thriller](https://en.wikipedia.org/wiki/Legal_thrille series original from the mined Viaplay list."
+    },
+    {
+     "title": "The Night Agent",
+     "why": "2023 [Political thriller](https://en.wikipedia.org/wiki/Political series original from the mined Viaplay list."
+    },
+    {
+     "title": "The Diplomat",
+     "why": "2023 [Political thriller](https://en.wikipedia.org/wiki/Political series original from the mined Viaplay list."
+    },
+    {
+     "title": "Fatal Seduction",
+     "why": "2023 [Thriller](https://en.wikipedia.org/wiki/Thriller_(genre)#Te series original from the mined Viaplay list."
+    }
+   ]
+  },
+  "audience": {
+   "score": 50,
+   "evidence": "• proposition for subscribers, suppliers, and. [4]\n• The year-on-year development reflected seasonal churn in the Netherlands, where subscribers. [4] Score pulled up by depth in subscribers; pulled down by no sourced evidence in mau, segment skews, diaspora.",
+   "strategy_line": "Target Swedish households with a premium, all-original catalogue of 370 titles (all originals).",
+   "primary_segment": "Swedish subscribers (date unknown, tier 3) seeking high-quality originals.",
+   "secondary_segments": "No secondary segments evidenced.",
+   "geographic_focus": "Sweden; no diaspora push evidenced.",
+   "cultural_identity": "Catalogue includes 99 English, 5 Hindi, 1 Tamil, 1 Telugu titles; 264 titles in unknown language.",
+   "lifestyle_profile": "Premium subscription model implied by all-originals catalogue.",
+   "viewing_occasion": "No specific viewing occasion evidence.",
+   "sophistication": "High; all-originals catalogue suggests a focus on quality.",
+   "underserved_segments": "No underserved segments identified."
+  },
+  "emotional": {
+   "score": 38,
+   "evidence": "No disclosed figure found in sourced material — treated as not disclosed. Score pulled up by depth in general coverage; pulled down by no sourced evidence in genre mix, regulatory ctx.",
+   "strategy_line": "Emotionally driven original content across the Viaplay slate.",
+   "primary_emotion": "Drama and suspense dominate the limited evidence, with titles like 'Love Me' and 'Orca'.",
+   "emotional_spectrum": "Drama: suspense, thriller; comedy: laughter; romance: warmth; crime: tension",
+   "tone_profile": "Tone follows the drama/thriller core of the evidenced slate.",
+   "content_warnings": "No regulatory action surfaced in collected sources.",
+   "consistency": "Wide by design; tone follows content vertical.",
+   "feel_good": "Warmth concentrates where comedy, romance and variety are evidenced; the scripted core runs darker.",
+   "cultural_resonance": "Resonance tracks the biggest evidenced titles and events, not the long tail.",
+   "signature_feeling": "The feeling of the drama/thriller slate at its best — earned title by title."
+  },
+  "distribution": {
+   "score": 45,
+   "evidence": "• Hotel' in both Denmark and Norway premiered new seasons and. [4] Score pulled up by depth in windows; pulled down by no sourced evidence in downloads, telecom bundles, devices, linear share, ctv share, dubbing.",
+   "strategy_line": "370 titles, all originals: 326 series, 6 films, 38 reality.",
+   "access_model": "Not disclosed.",
+   "device_profile": "Not disclosed.",
+   "viewing_behaviour": "Not disclosed.",
+   "geographic_reach": "Not disclosed.",
+   "language_access": "Unknown 264, English 99, Hindi 5, Tamil 1, Telugu 1.",
+   "content_window": "Not disclosed.",
+   "release_strategy": "Not disclosed.",
+   "tech_experience": "Not disclosed."
+  },
+  "revenue": {
+   "score": 62,
+   "evidence": "• In 2024 the company made a revenue of $1.74 Billion USD a decrease over the revenue in the year 2023 that were of $1.76 Billion USD. [3]\n• Revenue in 2026 (TTM): $2.12 Billion USD. [3]\n• Sublicensing and other sales were sharply down again and reflected the normalisation after the exceptionally high scripted content sales and sports rights sublicensing in Q4 2024. This was the primary reason for the 2% organic decline in the sales of our core operations. [2]\n• Group advertising sales grew organically by 1% year-on-year, as continued growth in radio and digital advertising. [4]\n• comprised the Group's 50% share of the net income of Allente. [conflicting accounts — both reported, not resolved] [4]\n• Advertising revenues accounted for 20% of segment net sales. [conflicting accounts — both reported, not resolved] [4]\n• Operating margin before ACI and IAC (%) -2.8% -15.8% -9.9%. [conflicting accounts — both reported, not resolved] [4]\n• Operating margin before ACI and IAC (%) -5.3% -6.1% -1.0%. [conflicting accounts — both reported, not resolved] [4]\n• typically return for the start of the new Formula 1 season late in the quarter, limiting full-quarter revenue impact and. [4] CONFLICT slot=revenue_annual: '50%' (date unknown) vs '5.3%' (date unknown) - report both, do not resolve. CONFLICT slot=revenue_annual: '50%' (date unknown) vs '20%' (date unknown) - report both, do not resolve. CONFLICT slot=revenue_annual: '50%' (date unknown) vs '2.8%' (date unknown) - report both, do not resolve. CONFLICT slot=revenue_annual: '5.3%' (date unknown) vs '20%' (date unknown) - report both, do not resolve. CONFLICT slot=revenue_annual: '5.3%' (date unknown) vs '2.8%' (date unknown) - report both, do not resolve. CONFLICT slot=revenue_annual: '20%' (date unknown) vs '2.8%' (date unknown) - report both, do not resolve. Score pulled up by depth in revenue annual, ad products, sports rights; pulled down by no sourced evidence in revenue quarterly, ebitda, pricing.",
+   "strategy_line": "Hybrid SVOD model targeting $2.12B revenue in 2026.",
+   "revenue_model": "SVOD with a 20% ad‑supported component.",
+   "tiers": "Single tier; no premium differentiation disclosed.",
+   "ad_dependency": "Ad revenue 20% of net sales, 1% YoY growth.",
+   "licensing_strategy": "100% originals; licensed content 0.",
+   "originals_investment": "All content is original; investment focus on in‑house production.",
+   "acquisition_appetite": "No acquisition appetite; 0 licensed titles.",
+   "audience_monetisation": "Revenue modestly grew from $1.74B in 2024 to $2.12B in 2026; sports rights contributed 2% decline.",
+   "tiers_label": "Subscription Tiers"
+  },
+  "editorial": {
+   "score": 48,
+   "evidence": "• The Group has related party relationships with its owners, subsidiaries, associated companies and joint ventures. [4]\n• (excluding joint ventures) are companies in which the Group holds voting rights of at least 20% and no more than 50%. [4] Score pulled up by depth in ownership; pulled down by no sourced evidence in mission, leadership, campaigns, ceo structure.",
+   "strategy_line": "All 370 titles are originals.",
+   "editorial_voice": "100% original content slate.",
+   "curation_philosophy": "No publicly disclosed curation philosophy.",
+   "cultural_stance": "No publicly disclosed cultural stance.",
+   "risk_appetite": "No publicly disclosed risk appetite.",
+   "distinctiveness": "No publicly disclosed distinctiveness.",
+   "auteur_vs_formula": "No publicly disclosed auteur vs formula.",
+   "tonal_signature": "No publicly disclosed tonal signature.",
+   "consistency": "No publicly disclosed consistency.",
+   "signature_move": "No publicly disclosed signature move."
+  }
+ },
+ "wishlist": [
+  "**Disclosed catalogue-hours figures** — no hard content-hours disclosure surfaced",
+  "**Regional-language slates** — beyond the currently evidenced languages",
+  "**Authoritative monthly-active-user disclosure** — by quarter",
+  "**A verified install/download footprint**",
+  "**Telecom or retail** — bundling arrangements",
+  "**Connected-TV and device-footprint disclosure**",
+  "**Dubbing and multi-language** — release practice",
+  "**Entry pricing and** — tier structure in dated, sourced form"
+ ],
+ "pitch": {
+  "angle": "Lead with content — the best-evidenced dimension: Through a story of friendship, grief and romance spanning three generations of Stockholmers, 'Love Me' season one embraces one of humanity's…",
+  "ideal_profile": "A sport/drama project in English/Hindi/Tamil with a recognizable hook, built dub-ready for day-and-date release and shaped for renewal beyond season one.",
+  "yes": [
+   "Renewable franchise-shaped originals in Viaplay's evidenced genres",
+   "Studio-compatible licensing alongside Viaplay's evidenced hub deals",
+   "Live-sport or event tie-ins compatible with Viaplay's evidenced sports footprint",
+   "Formats with built-in advertiser and commerce integration potential",
+   "Projects fitting Viaplay's evidenced investment lanes",
+   "Originals fitting Viaplay's evidenced genre strengths",
+   "Renewable, multi-season-shaped formats for Viaplay",
+   "Multi-language dub-ready productions from day one"
+  ],
+  "no": [
+   "Projects needing bundled distribution to find an audience",
+   "Mobile-first volume plays — no evidenced install footprint for Viaplay",
+   "Single-language content with no dubbing plan",
+   "Purely festival/arthouse positioning with no audience hook",
+   "One-off formats with no renewal potential",
+   "Non-exclusive or windowed rights carve-outs",
+   "High-cost drama with no anchor and no tentpole fit",
+   "Niche content outside Viaplay's language mix"
+  ],
+  "negotiation": "The Group has related party relationships with its owners, subsidiaries, associated companies and joint ventures. The transaction is subject to the approval of the relevant regulatory authorities and Viaplay's lenders, as well as customary consents and procedures, and is expected to close in the coming months. (excluding joint ventures) are companies in which the Group holds voting rights of at least 20% and no more than 50%."
+ },
+ "facts": [
+  {
+   "slot": "named_originals",
+   "claim": "Through a story of friendship, grief and romance spanning three generations of Stockholmers, 'Love Me' season one embraces one of humanity's…",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://commercial.viaplaygroup.com/viaplay-originals",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Each of the 24 episodes in the kids' series 'The Great Escape' features a new challenge related to subjects like chemistry and mathematics.",
+   "value": "24 episodes",
+   "unit": "episodes",
+   "source_url": "https://commercial.viaplaygroup.com/viaplay-originals",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Danish Film Awards (The Robert Award) 2019",
+   "value": "",
+   "unit": "",
+   "source_url": "https://commercial.viaplaygroup.com/viaplay-originals",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Danish Film Awards (The Robert Award) 2020",
+   "value": "",
+   "unit": "",
+   "source_url": "https://commercial.viaplaygroup.com/viaplay-originals",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Season 1 Peter Stormare ('American Gods', 'The Blacklist', 'Fargo') and leading Swedish stand-up comedian Johan Glans star as the best failed private detectives LA has…",
+   "value": "",
+   "unit": "",
+   "source_url": "https://commercial.viaplaygroup.com/viaplay-originals",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Håkan Lindhé, Nordisk Film & TV Fond Prize",
+   "value": "",
+   "unit": "",
+   "source_url": "https://commercial.viaplaygroup.com/viaplay-originals",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "The movie Orca depicts various middle class people in different phases of life and their situation during the covid-19 pandemic.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://commercial.viaplaygroup.com/viaplay-originals",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Together, we are building a more focused, more relevant and more resilient Group, which will create long-term value for our owners, customers, teams and partners.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-q4-and-full-year-2025-report-2427665",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "share_trends",
+   "claim": "Consolidation of 100% of Allente Group from 14 November 2025, following completion of acquisition of remaining 50% share of Allente Group, added SEK 578m of net sales and SEK 31m of operating income to Q4 results.",
+   "value": "100%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-q4-and-full-year-2025-report-2427665",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "1 Items affecting comparability in Q4 2025 comprised write-downs of scripted content, currency effects related to previous content provisions, and transaction costs related to the acquisition of the remaining 50% of Allente Group.",
+   "value": "50%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-q4-and-full-year-2025-report-2427665",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Our Viaplay subscription sales were up 2%, with higher ARPU levels for both our D2C and B2B products.",
+   "value": "2%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-q4-and-full-year-2025-report-2427665",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "sports_rights",
+   "claim": "Sublicensing and other sales were sharply down again and reflected the normalisation after the exceptionally high scripted content sales and sports rights sublicensing in Q4 2024. This was the primary reason for the 2% organic decline in the sales of our core operations.",
+   "value": "2%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-q4-and-full-year-2025-report-2427665",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "The 4% reduction in operating expenditure for our core operations, when excluding the consolidation of Allente Group for half of the quarter, reflected the measures that we have taken to adjust the overall cost base and improve efficiency levels, as well as positive FX effects.",
+   "value": "4%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-q4-and-full-year-2025-report-2427665",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Content accounts for approximately 80% of our total costs, and these costs have continued to rise due to legacy agreements that are yet to expire.",
+   "value": "80%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-q4-and-full-year-2025-report-2427665",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Companies: 11,341 total market cap: $153.814 T",
+   "value": "$153.814",
+   "unit": "USD",
+   "source_url": "https://companiesmarketcap.com/viaplay/revenue/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "Revenue in 2026 (TTM): $2.12 Billion USD",
+   "value": "$2.12 Billion",
+   "unit": "billion USD",
+   "source_url": "https://companiesmarketcap.com/viaplay/revenue/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "In 2024 the company made a revenue of $1.74 Billion USD a decrease over the revenue in the year 2023 that were of $1.76 Billion USD.",
+   "value": "$1.74 Billion",
+   "unit": "billion USD",
+   "source_url": "https://companiesmarketcap.com/viaplay/revenue/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Through extensive consumer research together with partners,",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "subscribers",
+   "claim": "proposition for subscribers, suppliers, and",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "ownership",
+   "claim": "The Group has related party relationships with its owners, subsidiaries, associated companies and joint ventures.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "&gt; -5% organic sales growth for Core operations (Nordics, Netherlands and Viaplay Select), with",
+   "value": "5%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Organic sales growth for Core operations -4.8% 5.6% 4.7%",
+   "value": "4.8%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Reported sales growth for Core operations -6.0% 4.2% 1.5%",
+   "value": "6.0%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Viaplay streaming subscription organic sales increased by 1%,",
+   "value": "1%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "The 2% organic sales growth in Linear channel subscriptions",
+   "value": "2%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "As expected, Sublicensing and Other decreased 53% organically",
+   "value": "53%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "comprised the Group's 50% share of the net income of Allente.",
+   "value": "50%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Viaplay streaming subscription 1,949 1,964 -0.8% 0.7% 7,930",
+   "value": "0.8%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Linear channel subscription 1,187 1,182 0.4% 1.8% 4,747",
+   "value": "0.4%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "Sublicensing &amp; other 226 479 -52.8% -53.1% 1,430",
+   "value": "52.8%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Operating expenses before ACI and IAC -4,416 -4,729 6.6% -17,779",
+   "value": "6.6%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Operating income before ACI and IAC -222 -270 17.8% -181",
+   "value": "17.8%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "Operating margin before ACI and IAC (%) -5.3% -6.1% -1.0%",
+   "value": "5.3%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "ad_products",
+   "claim": "Group advertising sales grew organically by 1% year-on-year, as continued growth in radio and digital advertising",
+   "value": "1%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "to a 50% year-on-year increase in digital inventory.",
+   "value": "50%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "Advertising revenues accounted for 20% of segment net sales.",
+   "value": "20%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "parties, decreased by 53% year-on-year on an organic basis and accounted for 5% of segment net sales.",
+   "value": "53%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Operating expenses before ACI and IAC -185 -345 46.4% -980",
+   "value": "46.4%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Operating income before ACI and IAC -5 -47 89.4% -88",
+   "value": "89.4%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "Operating margin before ACI and IAC (%) -2.8% -15.8% -9.9%",
+   "value": "2.8%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "share_trends",
+   "claim": "Viaplay Group's 50% share of Allente's net",
+   "value": "50%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "Management Limited and Group Canal+ SA became the largest shareholders of the Group, holding 29% each.",
+   "value": "29%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "ownership",
+   "claim": "(excluding joint ventures) are companies in which the Group holds voting rights of at least 20% and no more than 50%.",
+   "value": "20%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "the ongoing Formula 1 season and the Ice Hockey World Cup in",
+   "value": "1 season",
+   "unit": "seasons",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "revenue_annual",
+   "claim": "typically return for the start of the new Formula 1 season late in the quarter, limiting full-quarter revenue impact and",
+   "value": "1 season",
+   "unit": "seasons",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "general",
+   "claim": "with 10 votes each, 4,577,821,216 were class B shares with one vote each, and 889,500 were class C shares with one",
+   "value": "10 votes",
+   "unit": "votes",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "in accordance with the approval from the Extraordinary general meeting January 10, 2024. February 9, 2024 the Group completed a recapitalisation program, including a SEK 3.1 billion directed share issue",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "grew year-on-year, in both Film &amp; Series and Sports.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "season attracted wide interest and delivered high engagement.",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "windows",
+   "claim": "Hotel' in both Denmark and Norway premiered new seasons and",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "subscribers",
+   "claim": "The year-on-year development reflected seasonal churn in the Netherlands, where subscribers",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "both year-on-year and sequentially, driven by sports packages and film- and series-based HVOD, while the business",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.viaplaygroup.com/sites/viaplay-corp/files/pr/202504231212-1.pdf",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Filippa Wallestam, Viaplay Group Chief Content Officer: \"Paramount is one of Hollywood's most renowned storytellers, and Viaplay viewers in 10 countries can now enjoy many of the biggest and best shows from their incredible line-up with us.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-and-paramount-global-content-distribution-agree-content-licensing",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "originals_investment",
+   "claim": "The division also has the largest distributed library of series and film titles, including global franchises such as \"CSI: Crime Scene Investigation,\" \"NCIS,\" \"Star Trek,\" \"SpongeBob SquarePants,\" \"Transformers,\" \"Mission: Impossible,\" and more.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-and-paramount-global-content-distribution-agree-content-licensing",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "Under the terms of the deal, the titles available on Viaplay in the Nordic and Baltic regions include shows such as `CSI: Vegas', the highly anticipated latest instalment in the record-breaking `CSI' franchise; medical drama `Good Sam', starring Sophia Bush and Jason Isaacs; animated comedy...",
+   "value": "",
+   "unit": "",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-and-paramount-global-content-distribution-agree-content-licensing",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "low",
+   "metric": ""
+  },
+  {
+   "slot": "approval_chain",
+   "claim": "The transaction is subject to the approval of the relevant regulatory authorities and Viaplay's lenders, as well as customary consents and procedures, and is expected to close in the coming months.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-enters-agreement-sell-dutch-operations-2466316",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  },
+  {
+   "slot": "hub_deals",
+   "claim": "It follows on the transformational acquisition of the remaining 50% of Allente Group, and subsequent refinancing, at the end of last year.",
+   "value": "50%",
+   "unit": "percent",
+   "source_url": "https://www.viaplaygroup.com/en/newsroom/press-releases/viaplay-group-enters-agreement-sell-dutch-operations-2466316",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "medium",
+   "metric": ""
+  },
+  {
+   "slot": "named_originals",
+   "claim": "Filippa Wallestam, Viaplay group chief content officer, said: 'Paramount is one of Hollywood's most renowned storytellers, and Viaplay viewers in 10 countries can now enjoy many of the biggest and best shows from their incredible line-up with us.",
+   "value": "rs,",
+   "unit": "INR",
+   "source_url": "https://digitalcontent.prensariozone.com/viaplay-signed-paramount-global-content-distribution-deal/",
+   "source_date": "date unknown",
+   "tier": 3,
+   "confidence": "high",
+   "metric": ""
+  }
+ ],
+ "titles": [
+  {
+   "name": "Virgin River",
+   "year": 2019,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic drama](https://en.wikipedia.org/wiki/Romantic_dram"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Witcher",
+   "year": 2019,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Fantasy](https://en.wikipedia.org/wiki/Fantasy \"Fantasy\")<b"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Ginny & Georgia",
+   "year": 2021,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Coming-of-age](https://en.wikipedia.org/wiki/Coming-of-age_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Lincoln Lawyer",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal thriller](https://en.wikipedia.org/wiki/Legal_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Night Agent",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Political thriller](https://en.wikipedia.org/wiki/Political"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Diplomat",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Political thriller](https://en.wikipedia.org/wiki/Political"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Fatal Seduction",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Thriller](https://en.wikipedia.org/wiki/Thriller_(genre)#Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "My Life with the Walter Boys",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic drama](https://en.wikipedia.org/wiki/Romantic_dram"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Supacell",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Superhero](https://en.wikipedia.org/wiki/Superhero_fiction "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Beauty in Black",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Black Doves",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Thriller](https://en.wikipedia.org/wiki/Thriller_(genre)#Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Forever",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen drama](https://en.wikipedia.org/wiki/Teen_drama \"Teen "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bet",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Thriller](https://en.wikipedia.org/wiki/Thriller_film \"Thri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dept. Q",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Untamed",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "House of Guinness",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bad Influencer",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Agatha Christie's Seven Dials",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_fiction \"Mys"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Finding Her Edge",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports](https://en.wikipedia.org/wiki/Sports_film \"Sports f"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Something Very Bad Is Going to Happen",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Horror](https://en.wikipedia.org/wiki/Horror_film \"Horror f"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Unchosen",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Psychological thriller](https://en.wikipedia.org/wiki/Psych"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Man on Fire",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action thriller](https://en.wikipedia.org/wiki/Action_thril"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Legends",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Nemesis",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action](https://en.wikipedia.org/wiki/Action_film \"Action f"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "My Brilliant Career",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Period drama](https://en.wikipedia.org/wiki/Period_drama \"P"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Crew Girl",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports](https://en.wikipedia.org/wiki/Sports_drama \"Sports "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "East of Eden",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Below",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Supernatural drama](https://en.wikipedia.org/wiki/Supernatu"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Body",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Coming of age](https://en.wikipedia.org/wiki/Coming_of_age "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Altruists",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Biographical](https://en.wikipedia.org/wiki/Biographical_fi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Pride and Prejudice",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Period drama](https://en.wikipedia.org/wiki/Period_drama \"P"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Murder of JonBenét Ramsey",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Unaccustomed Earth",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Emily in Paris",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Wednesday",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy horror](https://en.wikipedia.org/wiki/Comedy_horror "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Beef",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "XO, Kitty",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic](https://en.wikipedia.org/wiki/Romantic_comedy \"Ro"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Gentlemen",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action comedy](https://en.wikipedia.org/wiki/Action_comedy_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Tires",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Workplace comedy](https://en.wikipedia.org/wiki/Television_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Nobody Wants This",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "A Man on the Inside",
+   "year": 2024,
+   "type": "film",
+   "language": "Unknown",
+   "genres": [
+    "[Crime](https://en.wikipedia.org/wiki/Crime_film \"Crime film"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Running Point",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports comedy](https://en.wikipedia.org/wiki/Sports_comedy "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Four Seasons",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bad Thoughts",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Dark comedy](https://en.wikipedia.org/wiki/Dark_comedy \"Dar"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Son of a Donkey",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Man vs. Baby",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Free Bert",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "How to Get to Heaven from Belfast",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Big Mistakes",
+   "year": 2026,
+   "type": "film",
+   "language": "Unknown",
+   "genres": [
+    "[Crime](https://en.wikipedia.org/wiki/Crime_film \"Crime film"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Hawk",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports comedy](https://en.wikipedia.org/wiki/Sports_comedy "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "A Different World",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Minimum Wage",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Workplace comedy](https://en.wikipedia.org/wiki/Workplace_c"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "One Piece",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action-adventure](https://en.wikipedia.org/wiki/Action-adve"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Avatar: The Last Airbender",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Fantasy](https://en.wikipedia.org/wiki/Fantasy_film \"Fantas"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Geek Girl",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen drama](https://en.wikipedia.org/wiki/Teen_drama \"Teen "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Little House on the Prairie",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Western](https://en.wikipedia.org/wiki/Western_(genre) \"Wes"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Blue Eye Samurai",
+   "year": 2023,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Period](https://en.wikipedia.org/wiki/Period_drama \"Period "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Devil May Cry",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Dark fantasy](https://en.wikipedia.org/wiki/Dark_fantasy \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Long Story Short",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Haunted Hotel",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Horror comedy](https://en.wikipedia.org/wiki/Horror_comedy "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kurukshetra: The Great War of Mahabharata",
+   "year": 2025,
+   "type": "film",
+   "language": "Hindi",
+   "genres": [
+    "[Epic](https://en.wikipedia.org/wiki/Epic_film \"Epic film\")<"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mating Season",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Alley Cats",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Dark comedy](https://en.wikipedia.org/wiki/Dark_comedy \"Dar"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dang!",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Record of Ragnarok",
+   "year": 2021,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action fantasy](https://en.wikipedia.org/wiki/Action_fantas"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Splinter Cell: Deathwatch",
+   "year": 2025,
+   "type": "film",
+   "language": "English",
+   "genres": [
+    "[Spy](https://en.wikipedia.org/wiki/Spy_film \"Spy film\")<br>"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Love Through a Prism",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical romance](https://en.wikipedia.org/wiki/Historica"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dandelion",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Supernatural](https://en.wikipedia.org/wiki/Supernatural_dr"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Trash Truck",
+   "year": 2020,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Gabby's Dollhouse",
+   "year": 2021,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Preschool](https://en.wikipedia.org/wiki/Preschool \"Prescho"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Creature Cases",
+   "year": 2022,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Preschool](https://en.wikipedia.org/wiki/Preschool \"Prescho"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Cocomelon Lane",
+   "year": 2023,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dr. Seuss's Red Fish, Blue Fish",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dr. Seuss's Horton!",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Bad Guys: The Series",
+   "year": 2025,
+   "type": "film",
+   "language": "English",
+   "genres": [
+    "[Heist](https://en.wikipedia.org/wiki/Heist_film \"Heist film"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Unicorn Academy",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Fantasy](https://en.wikipedia.org/wiki/Fantasy \"Fantasy\")<b"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Stranger Things: Tales from '85",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Science fiction](https://en.wikipedia.org/wiki/Science_fict"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Roosters",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Football Parents",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Amsterdam Empire",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Perfect Lie",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Lupin",
+   "year": 2021,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Blood Coast",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Furies",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action](https://en.wikipedia.org/wiki/Action_film \"Action f"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Cage",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports drama](https://en.wikipedia.org/wiki/Sports_drama \"S"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Néro the Assassin",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Cash Queens",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bandi",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Flunked",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Elite Force",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Empress",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Crooks",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Murder Mindfully",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Dark comedy](https://en.wikipedia.org/wiki/Dark_comedy \"Dar"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dudes",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Unfamiliar",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Crap Happens",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mismatched",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Yeh Kaali Kaali Ankhein",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic thriller](https://en.wikipedia.org/wiki/Romantic_t"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Guns & Gulaabs",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime](https://en.wikipedia.org/wiki/Crime_comedy \"Crime co"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Maamla Legal Hai",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal](https://en.wikipedia.org/wiki/Legal_drama \"Legal dra"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Heeramandi: The Diamond Bazaar",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Family drama](https://en.wikipedia.org/wiki/Family_drama \"F"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Black Warrant",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Royals",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Single Papa",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Comedy_film \"Comedy f"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Taskaree: The Smuggler's Web",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Hello Bachhon",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Glory",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports drama](https://en.wikipedia.org/wiki/Sports_drama \"S"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Musafir Cafe",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Operation Safed Sagar: The Highest Air Force Mission",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Military](https://en.wikipedia.org/wiki/Military_fiction \"M"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Chumbak",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Shaque: Trust No One",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_film \"Myster"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "My Family",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Real Men",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Riv4lries",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen drama](https://en.wikipedia.org/wiki/Teen_drama \"Teen "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Monster of Florence",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Motorvalley",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports drama](https://en.wikipedia.org/wiki/Sports_drama \"S"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Minerva Academy",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen drama](https://en.wikipedia.org/wiki/Teen_drama \"Teen "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "YuYu Hakusho",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Fantasy](https://en.wikipedia.org/wiki/Fantasy_drama \"Fanta"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Romantics Anonymous",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Last Samurai Standing",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Sins of Kujo",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Straight to Hell",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Biopic](https://en.wikipedia.org/wiki/Biopic \"Biopic\")<br>/"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Viral Hit",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action](https://en.wikipedia.org/wiki/Action_film \"Action f"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Human Vapor",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Science fiction](https://en.wikipedia.org/wiki/Science_fict"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "S&X",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Life drama](https://en.wikipedia.org/wiki/Drama_(film_and_t"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Plastic Beauty",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Medical drama](https://en.wikipedia.org/wiki/Medical_drama "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "All of Us Are Dead",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Zombie apocalypse](https://en.wikipedia.org/wiki/Zombie_apo"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bloodhounds",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action drama](https://en.wikipedia.org/wiki/Action_drama \"A"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Genie, Make a Wish",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic](https://en.wikipedia.org/wiki/Romantic_comedy \"Ro"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Price of Confession",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_fiction \"Mys"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Take Charge of My Heart",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic](https://en.wikipedia.org/wiki/Romantic_fantasy \"R"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Resurrected",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Revenge](https://en.wikipedia.org/wiki/Revenge_drama \"Reven"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Had I Not Seen the Sun",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Coming-of age](https://en.wikipedia.org/wiki/Coming-of-age_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Million-Follower Detective",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Agent from Above",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action fantasy](https://en.wikipedia.org/wiki/Action_fantas"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Fixers",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action](https://en.wikipedia.org/wiki/Action_comedy \"Action"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Go Ahead, Brother",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Mothers of Penguins",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Criminal Code",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Rulers of Fortune",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Radioactive Emergency",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Brazil 70: The Third Star",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical](https://en.wikipedia.org/wiki/Historical_drama "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Habeas Corpus",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal drama](https://en.wikipedia.org/wiki/Legal_drama \"Leg"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Alpha Males",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Manny",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Baby Bandito",
+   "year": 2024,
+   "type": "film",
+   "language": "Unknown",
+   "genres": [
+    "[Heist](https://en.wikipedia.org/wiki/Heist_film \"Heist film"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Gangs of Galicia",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Accident",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Breathless",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Medical drama](https://en.wikipedia.org/wiki/Medical_drama "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Medusa",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "In the Mud",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Old Dog, New Tricks",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "No One Saw Us Leave",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Just Alice",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Dark comedy](https://en.wikipedia.org/wiki/Dark_comedy \"Dar"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "How to Win the Lottery",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "City of Shadows",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Love from 9 to 5",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Time Flies",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Salvador",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action drama](https://en.wikipedia.org/wiki/Action_drama \"A"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Santita",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Between Father and Son",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Carizzma",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Oasis",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Thriller](https://en.wikipedia.org/wiki/Thriller_(genre) \"T"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Salcedo, Leather, and Boogaloo",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "My Daughter's Father",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Final Project",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen drama](https://en.wikipedia.org/wiki/Teen_drama \"Teen "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Lovesick",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Stolen Heartbeats",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Supernatural](https://en.wikipedia.org/wiki/Supernatural_dr"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Final Problem",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Murder mystery](https://en.wikipedia.org/wiki/Murder_myster"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Åre Murders",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The New Force",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Period drama](https://en.wikipedia.org/wiki/Period_drama \"P"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Blood Sacrifice",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Ethos",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Graveyard",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Another Self",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Thank You, Next",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Old Money",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "To Love, To Lose",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Not a Stranger",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Thriller](https://en.wikipedia.org/wiki/Thriller_(genre) \"T"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Money Trap",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action comedy](https://en.wikipedia.org/wiki/Action_comedy "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Blood Legacy",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Marked",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Umthetho",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Home for Christmas",
+   "year": 2019,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Chestnut Man",
+   "year": 2021,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kohrra",
+   "year": 2023,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "How to Ruin Love",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Tuiskoms",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romance](https://en.wikipedia.org/wiki/Romantic_film \"Roman"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Game: You Never Play Alone",
+   "year": 2025,
+   "type": "series",
+   "language": "Tamil",
+   "genres": [
+    "[Techno-thriller](https://en.wikipedia.org/wiki/Techno-thril"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Asset",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Jo Nesbø's Detective Hole",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Alkhallat+: The Series",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Made with Love",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic comedy](https://en.wikipedia.org/wiki/Romantic_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Night Shift for Cuties",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Slice of life](https://en.wikipedia.org/wiki/Slice_of_life "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Evil Lawyer",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal drama](https://en.wikipedia.org/wiki/Legal_drama \"Leg"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Super Subbu",
+   "year": 2026,
+   "type": "series",
+   "language": "Telugu",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Formula 1: Drive to Survive",
+   "year": 2019,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Full Swing",
+   "year": 2023,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Missing: Dead or Alive?",
+   "year": 2023,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Quarterback",
+   "year": 2023,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Homicide",
+   "year": 2024,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "America's Sweethearts: Dallas Cowboys Cheerleaders",
+   "year": 2024,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Worst Ex Ever",
+   "year": 2024,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Starting 5",
+   "year": 2024,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "WWE Unreal",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Nightmares of Nature",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Nature](https://en.wikipedia.org/wiki/Nature_documentary \"N"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "True Haunting",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mob War: Philadelphia vs. the Mafia",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Organized crime](https://en.wikipedia.org/wiki/Organized_cr"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Marines",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Sean Combs: The Reckoning",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Music/[True crime](https://en.wikipedia.org/wiki/True_crime "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Simon Cowell",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Glitter & Gold: Ice Dancing",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Reality Check: Inside America's Next Top Model",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Being Gordon Ramsay",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Dinosaurs",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dynasty: The Murdochs",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Trust Me: The False Prophet",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "This Is a Gardening Show",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Michael Jackson: The Verdict",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Celebrity](https://en.wikipedia.org/wiki/Celebrity \"Celebri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The American Experiment",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Worst Neighbor Ever",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Idaho Murders: College Nightmare",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mourinho",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "Sports"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Conversations with a Killer: The Charles Manson Tapes",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Death of the Pastor's Wife",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Gary Glitter",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Matthew Perry",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Selling Sunset",
+   "year": 2019,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Love Is Blind",
+   "year": 2020,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Ultimatum: Marry or Move On",
+   "year": 2022,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Love on the Spectrum",
+   "year": 2022,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Selling the OC",
+   "year": 2022,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dubai Bling",
+   "year": 2022,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Perfect Match",
+   "year": 2023,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "King of Collectibles: The Goldin Touch",
+   "year": 2023,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "At Home with the Furys",
+   "year": 2023,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Devil's Plan",
+   "year": 2023,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Reality](https://en.wikipedia.org/wiki/Reality_television \""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Stranded with My Mother-in-Law",
+   "year": 2023,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "Survival [competition](https://en.wikipedia.org/wiki/Reality"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Squid Game: The Challenge",
+   "year": 2023,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Unlocked: A Jail Experiment",
+   "year": 2024,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Agents of Mystery",
+   "year": 2024,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Reality](https://en.wikipedia.org/wiki/Reality_television \""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Owning Manhattan",
+   "year": 2024,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality](https://en.wikipedia.org/wiki/Reality_television \""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Love Is Blind: UK",
+   "year": 2024,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Culinary Class Wars",
+   "year": 2024,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Cooking](https://en.wikipedia.org/wiki/Cooking_show \"Cookin"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Million Dollar Secret",
+   "year": 2025,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality](https://en.wikipedia.org/wiki/Reality_show \"Realit"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kian's Bizarre B&B",
+   "year": 2025,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Inside",
+   "year": 2025,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality](https://en.wikipedia.org/wiki/Reality_show \"Realit"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Physical: Asia",
+   "year": 2025,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "What's in the Box",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Members Only: Palm Beach",
+   "year": 2025,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "My Korean Boyfriend",
+   "year": 2026,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Blue Therapy",
+   "year": 2026,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Age of Attraction",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Ready or Not: Texas",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Travel](https://en.wikipedia.org/wiki/Travel_show \"Travel s"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kevin Hart",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Stand-up comedy](https://en.wikipedia.org/wiki/Stand-up_com"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Desi Bling",
+   "year": 2026,
+   "type": "reality",
+   "language": "Hindi",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Jae-seok's B&B Rules!",
+   "year": 2026,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Calabasas Confidential",
+   "year": 2026,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Docu-reality](https://en.wikipedia.org/wiki/Docu-reality \"D"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Outlast: The Jungle",
+   "year": 2026,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "Survival [competition](https://en.wikipedia.org/wiki/Reality"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Let's Marry Harry",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Take a Hike!",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Travel](https://en.wikipedia.org/wiki/Travel_show \"Travel s"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mom Knows Best?",
+   "year": 2026,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Earle",
+   "year": 2026,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality](https://en.wikipedia.org/wiki/Reality_television \""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Physical 100: Italy",
+   "year": 2026,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Physical 100",
+   "year": 2026,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Wonka's The Golden Ticket",
+   "year": 2026,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "My Next Guest Needs No Introduction with David Letterman",
+   "year": 2018,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dinner Time Live with David Chang",
+   "year": 2024,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Cooking show](https://en.wikipedia.org/wiki/Cooking_show \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Great Indian Kapil Show",
+   "year": 2024,
+   "type": "reality",
+   "language": "Hindi",
+   "genres": [
+    "[Talk show](https://en.wikipedia.org/wiki/Talk_show \"Talk sh"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Everybody's Live with John Mulaney",
+   "year": 2025,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Talk show](https://en.wikipedia.org/wiki/Talk_show \"Talk sh"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Hot Ones",
+   "year": 2026,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Talk show](https://en.wikipedia.org/wiki/Talk_show \"Talk sh"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Cold as Balls",
+   "year": 2026,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Talk show](https://en.wikipedia.org/wiki/Talk_show \"Talk sh"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Black Mirror",
+   "year": 2016,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Crime Scene",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Murder mystery](https://en.wikipedia.org/wiki/Murder_myster"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Three Idiots",
+   "year": 2025,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Variety](https://en.wikipedia.org/wiki/Variety_show \"Variet"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Star Search",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Pop Culture Jeopardy!",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Lock Upp",
+   "year": 2026,
+   "type": "reality",
+   "language": "Hindi",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Is It Cake?",
+   "year": 2024,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "Baking [competition](https://en.wikipedia.org/wiki/Reality_c"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Famous Last Words",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Bad Exorcist",
+   "year": 2020,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Horror comedy](https://en.wikipedia.org/wiki/Horror_(genre)"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Hunting Wives",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Innate",
+   "year": 2025,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Psychological thriller](https://en.wikipedia.org/wiki/Psych"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Doc",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Medical](https://en.wikipedia.org/wiki/Medical_drama \"Medic"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Parisian Agency: Exclusive Properties",
+   "year": 2022,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Property management](https://en.wikipedia.org/wiki/Property"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "A Good Girl's Guide to Murder",
+   "year": 2024,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Coming-of-age](https://en.wikipedia.org/wiki/Coming-of-age_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "North of North",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Coming of age](https://en.wikipedia.org/wiki/Coming_of_age_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Temptation Island",
+   "year": 2025,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality](https://en.wikipedia.org/wiki/Reality_television \""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Sesame Street",
+   "year": 2025,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Scooby-Doo: Origins",
+   "year": 2027,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen](https://en.wikipedia.org/wiki/Teen_drama \"Teen drama\""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Age of Innocence",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Period drama](https://en.wikipedia.org/wiki/Period_drama \"P"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "All the Sinners Bleed",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Arrivals: A New Manifest Mystery",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Supernatural drama](https://en.wikipedia.org/wiki/Supernatu"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Assassin's Creed",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical](https://en.wikipedia.org/wiki/Historical_drama "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Black Hole",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Supernatural](https://en.wikipedia.org/wiki/Supernatural_fi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Boys from Brazil",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Conspiracy thriller](https://en.wikipedia.org/wiki/Conspira"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Corrections",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Enigma Variations",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic drama](https://en.wikipedia.org/wiki/Romantic_dram"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The God of the Woods",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_(genre) \"Mys"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Grown Ups",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Kennedy",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Lonesome Dove",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Western drama](https://en.wikipedia.org/wiki/Western_drama "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mercenary: An Extraction Series",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action thriller](https://en.wikipedia.org/wiki/Action_thril"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Myron Bolitar",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Queenstown",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Rabbit, Rabbit",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Retrievals",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "This Summer Will Be Different",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romance drama](https://en.wikipedia.org/wiki/Romance_drama "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Trinity",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Political thriller](https://en.wikipedia.org/wiki/Political"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Undertow",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Alan Chikin Chow",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Musical](https://en.wikipedia.org/wiki/Musical_film \"Musica"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "bull riding",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Untitled Charlie Brooker series",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime thriller](https://en.wikipedia.org/wiki/Crime_thrille"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Roald Dahl",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Untitled _The Secret of Secrets_ series",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_film \"Myster"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Untitled _A Spy in the Blood_ series",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Spy drama](https://en.wikipedia.org/wiki/Spy_fiction \"Spy f"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Weather Girl",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Magic: The Gathering",
+   "year": null,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Fantasy](https://en.wikipedia.org/wiki/Fantasy \"Fantasy\")"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Midnight Sun",
+   "year": null,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Supernatural horror](https://en.wikipedia.org/wiki/Supernat"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The One Piece",
+   "year": 2027,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Adventure](https://en.wikipedia.org/wiki/Adventure_fiction "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Beat & Motion",
+   "year": 2027,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Coming-of-age](https://en.wikipedia.org/wiki/Coming-of-age_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Jimoto Saiko!",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Dark comedy](https://en.wikipedia.org/wiki/Dark_comedy \"Dar"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Ghostbusters: Night Shift",
+   "year": 2027,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Horror comedy](https://en.wikipedia.org/wiki/Comedy_horror "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Mafalda",
+   "year": 2027,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Motel Transylvania",
+   "year": 2027,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Horror comedy](https://en.wikipedia.org/wiki/Comedy_horror "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Parasyte",
+   "year": 2027,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Science fiction](https://en.wikipedia.org/wiki/Science_fict"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Blue Road",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dead-End Job",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Mystery](https://en.wikipedia.org/wiki/Mystery_fiction \"Mys"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Tantara",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Period drama](https://en.wikipedia.org/wiki/Period_drama \"P"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Solo Leveling",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action](https://en.wikipedia.org/wiki/Action_drama \"Action "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "open marriage",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Sebastián Borensztein",
+   "year": 2027,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Historical drama](https://en.wikipedia.org/wiki/Historical_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "BuyBust: The Undesirables",
+   "year": 2026,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Action thriller](https://en.wikipedia.org/wiki/Action_thril"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Hadewych Minis",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic drama](https://en.wikipedia.org/wiki/Romantic_dram"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Nick Cannon",
+   "year": 2026,
+   "type": "series",
+   "language": "English",
+   "genres": [],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Jonestown",
+   "year": null,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime#Films_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Natalee Holloway",
+   "year": null,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[True crime](https://en.wikipedia.org/wiki/True_crime \"True "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Monopoly",
+   "year": 2027,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Clue",
+   "year": null,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Physical 100: USA",
+   "year": null,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "[Reality competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Alan Ritchson",
+   "year": null,
+   "type": "reality",
+   "language": "English",
+   "genres": [
+    "Survival [competition](https://en.wikipedia.org/wiki/Reality"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Peaky Blinders",
+   "year": null,
+   "type": "series",
+   "language": "English",
+   "genres": [
+    "[Historical](https://en.wikipedia.org/wiki/Historical_drama "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dhindora",
+   "year": 2026,
+   "type": "series",
+   "language": "Hindi",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "And Justice for All",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal drama](https://en.wikipedia.org/wiki/Legal_drama \"Leg"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Book of Two Ways",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Crossroads",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Dangerous Liaisons",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Erotic thriller](https://en.wikipedia.org/wiki/Erotic_thril"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Diablo",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Animated](https://en.wikipedia.org/wiki/Animated \"Animated\""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Everlasting",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Romantic fantasy](https://en.wikipedia.org/wiki/Romantic_fa"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Fatherhood",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Grim",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Adult animated](https://en.wikipedia.org/wiki/Adult_animati"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Hit Man",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime comedy](https://en.wikipedia.org/wiki/Crime_comedy \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "The Nanny Diaries",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy drama](https://en.wikipedia.org/wiki/Comedy_drama \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Persona",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Supernatural](https://en.wikipedia.org/wiki/Supernatural_fi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Powers",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Adult animated](https://en.wikipedia.org/wiki/Adult_animati"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Sonic",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Animated](https://en.wikipedia.org/wiki/Animated \"Animated\""
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Alec Berg",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime comedy](https://en.wikipedia.org/wiki/Crime_comedy \"C"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Crash Bandicoot",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Animation](https://en.wikipedia.org/wiki/Animation \"Animati"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "David Zabel",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal drama](https://en.wikipedia.org/wiki/Legal_drama \"Leg"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Extraordinary Attorney Woo",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Legal drama](https://en.wikipedia.org/wiki/Legal_drama \"Leg"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Halley Feiffer",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Marc Cherry",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Drama](https://en.wikipedia.org/wiki/Drama_(film_and_televi"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Main Line murders",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Crime drama](https://en.wikipedia.org/wiki/Crime_drama \"Cri"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Matt Rife",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Workplace comedy](https://en.wikipedia.org/wiki/Workplace_c"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "New York Yankees",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports drama](https://en.wikipedia.org/wiki/Sports_drama \"S"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "One Tree Hill",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Teen drama](https://en.wikipedia.org/wiki/Teen_drama \"Teen "
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Overcooked",
+   "year": null,
+   "type": "reality",
+   "language": "Unknown",
+   "genres": [
+    "[Cooking competition](https://en.wikipedia.org/wiki/Reality_"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Paige DeSorbo",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Comedy](https://en.wikipedia.org/wiki/Television_comedy \"Te"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "Prince Harry",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Sports drama](https://en.wikipedia.org/wiki/Sports_drama \"S"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  },
+  {
+   "name": "We Solve Murders",
+   "year": null,
+   "type": "series",
+   "language": "Unknown",
+   "genres": [
+    "[Murder mystery](https://en.wikipedia.org/wiki/Murder_myster"
+   ],
+   "is_original": true,
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_programming",
+   "source_date": "date unknown"
+  }
+ ]
+}

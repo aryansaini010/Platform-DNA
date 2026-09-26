@@ -133,44 +133,122 @@ def scrape(url, wait_ms=0, retries=2):
             "onlyMainContent": True, "timeout": 30000}
     if wait_ms:
         body["waitFor"] = wait_ms
+    short_chars = 0
     for attempt in range(retries):
         try:
             r = httpx.post(f"{FIRE}/v1/scrape", json=body, timeout=45)
             r.raise_for_status()
-            data = r.json()["data"]
-            md, meta = data.get("markdown", ""), data.get("metadata", {})
-            if len(md.strip()) < 500:
-                raise ValueError(f"short scrape ({len(md)} chars): {url}")
+            data = r.json().get("data") or {}
+            md, meta = data.get("markdown") or "", data.get("metadata") or {}
+            if len((md or "").strip()) < 500:
+                short_chars = max(short_chars, len((md or "").strip()))
+                raise ValueError(f"short scrape ({len(md or '')} chars): {url}")
             _cache_put(key, {"markdown": md[:200_000], "metadata": meta})
             return md, meta
         except Exception:
             if attempt == retries - 1:
                 # Do NOT cache failures — return transient "" so the next
                 # run retries the live backend instead of replaying failure.
-                return "", {"statusCode": 0, "failed": True}
+                # `chars` tells the caller whether a JS wait could help:
+                # fully-empty pages sometimes hydrate; short-but-nonempty
+                # paywalls never grow with waiting.
+                return "", {"statusCode": 0, "failed": True, "chars": short_chars}
             time.sleep(2 ** attempt)
-    return "", {}
+    return "", {"statusCode": 0, "failed": True, "chars": short_chars}
 
 
 def scrape_many(urls: list[str], wait_ms: int = 0,
                 max_workers: int = 6,
-                progress=None) -> dict[str, tuple[str, dict]]:
-    """Parallel scrape with live progress. Returns {url: (md, meta)} in order."""
+                progress=None, deadline_s: float | None = None,
+                **kwargs) -> dict[str, tuple[str, dict]]:
+    """Parallel scrape with live progress. Returns {url: (md, meta)} in order.
+
+    deadline_s optionally bounds the whole batch: URLs still pending when it
+    lapses are marked failed (error "deadline") instead of blocking the
+    generate. Default None preserves legacy wait-for-all behavior.
+    `scrape_deadline_s` is accepted as an alias for backward compat with
+    callers that use the autodraft naming.
+    """
+    # Backward-compat alias: autodraft passes scrape_deadline_s.
+    if deadline_s is None and "scrape_deadline_s" in kwargs:
+        deadline_s = kwargs.pop("scrape_deadline_s")
+    from concurrent.futures import TimeoutError as _FutTimeout
     from concurrent.futures import as_completed
+
+    # Dedupe upfront so progress counts and thread budget are accurate.
+    urls = list(dict.fromkeys(urls or []))
+    if not urls:
+        return {}
 
     def _one(u: str):
         try:
             return u, scrape(u, wait_ms=wait_ms)
         except Exception as e:  # noqa: BLE001
-            return u, ("", {"statusCode": 0, "failed": True, "error": str(e)[:120]})
+            return u, ("", {"statusCode": 0, "failed": True, "chars": 0,
+                            "error": str(e)[:120]})
 
     out: dict[str, tuple[str, dict]] = {}
-    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+    if deadline_s is not None and deadline_s <= 0:
+        # Explicit non-positive deadline means "no wait": mark all failed
+        # immediately instead of clamping to 1s of work.
+        for u in urls:
+            out[u] = ("", {"statusCode": 0, "failed": True, "chars": 1,
+                           "error": "deadline"})
+        return {u: out[u] for u in urls if u in out}
+    if deadline_s is None:
+        with ThreadPoolExecutor(max_workers=max_workers) as ex:
+            futs = {ex.submit(_one, u): u for u in urls}
+            for i, fut in enumerate(as_completed(futs)):
+                try:
+                    u, res = fut.result()
+                except Exception as e:  # noqa: BLE001
+                    u = futs.get(fut, "")
+                    res = ("", {"statusCode": 0, "failed": True, "chars": 0,
+                                "error": str(e)[:120]})
+                out[u] = res
+                if progress:
+                    ok = sum(1 for m, _ in out.values() if m)
+                    progress(f"scraped {i + 1}/{len(urls)} ({ok} with content)…")
+        return {u: out[u] for u in urls if u in out}
+    # Bounded pass: collect completions until the deadline, then mark the
+    # rest failed. Threads are not killed — the pool is shut down without
+    # waiting so a hung httpx.post does not block the generate; late
+    # results are simply unused.
+    _deadline = time.time() + max(1.0, deadline_s)
+    ex = ThreadPoolExecutor(max_workers=max_workers)
+    try:
         futs = {ex.submit(_one, u): u for u in urls}
-        for i, fut in enumerate(as_completed(futs)):
-            u, res = fut.result()
-            out[u] = res
-            if progress:
-                ok = sum(1 for m, _ in out.values() if m)
-                progress(f"scraped {i + 1}/{len(urls)} ({ok} with content)…")
+        pending = dict(futs)
+        while pending:
+            wait = _deadline - time.time()
+            if wait <= 0:
+                break
+            try:
+                for fut in as_completed(list(pending), timeout=wait):
+                    u = pending.pop(fut)
+                    try:
+                        _u, res = fut.result()
+                    except Exception as e:  # noqa: BLE001
+                        res = ("", {"statusCode": 0, "failed": True, "chars": 0,
+                                    "error": str(e)[:120]})
+                        _u = u
+                    out[_u] = res
+                    if progress:
+                        ok = sum(1 for m, _ in out.values() if m)
+                        progress(f"scraped {len(out)}/{len(urls)} ({ok} with content)…")
+            except _FutTimeout:
+                break
+        for fut, u in pending.items():
+            fut.cancel()
+            if u not in out:
+                # chars=1 so the escalation filter skips deadline-expired
+                # URLs (a wait-2000 retry would also hit the deadline).
+                out[u] = ("", {"statusCode": 0, "failed": True, "chars": 1,
+                               "error": "deadline"})
+    finally:
+        try:
+            ex.shutdown(wait=False, cancel_futures=True)
+        except TypeError:
+            # Python <3.9 without cancel_futures.
+            ex.shutdown(wait=False)
     return {u: out[u] for u in urls if u in out}

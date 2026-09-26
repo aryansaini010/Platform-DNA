@@ -1,0 +1,9 @@
+{
+ "status": "valid",
+ "errors": [],
+ "reverted": [
+  "revenue.ad_dependency"
+ ],
+ "platform": "BINGE",
+ "region": "Australia"
+}

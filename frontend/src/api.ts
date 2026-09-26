@@ -15,9 +15,9 @@ function throwDetail(path: string, status: number, text: string): never {
   throw err;
 }
 
-async function jget(path: string) {
+async function jget(path: string, timeoutMs = 60000) {
   const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), 30000);
+  const t = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
     const r = await fetch(API + path, { signal: ctrl.signal });
     if (!r.ok) throwDetail(path, r.status, await r.text());

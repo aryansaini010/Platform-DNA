@@ -535,6 +535,41 @@
   "label": "Moldova (MD)"
  },
  {
+  "code": "IQ",
+  "name": "Iraq",
+  "label": "Iraq (IQ)"
+ },
+ {
+  "code": "IR",
+  "name": "Iran",
+  "label": "Iran (IR)"
+ },
+ {
+  "code": "JO",
+  "name": "Jordan",
+  "label": "Jordan (JO)"
+ },
+ {
+  "code": "LB",
+  "name": "Lebanon",
+  "label": "Lebanon (LB)"
+ },
+ {
+  "code": "PS",
+  "name": "Palestine",
+  "label": "Palestine (PS)"
+ },
+ {
+  "code": "SY",
+  "name": "Syria",
+  "label": "Syria (SY)"
+ },
+ {
+  "code": "YE",
+  "name": "Yemen",
+  "label": "Yemen (YE)"
+ },
+ {
   "code": "WW",
   "name": "Global",
   "label": "Global (WW)"
@@ -710,21 +745,6 @@
   "label": "Holy See (VA)"
  },
  {
-  "code": "IQ",
-  "name": "Iraq",
-  "label": "Iraq (IQ)"
- },
- {
-  "code": "IR",
-  "name": "Iran",
-  "label": "Iran (IR)"
- },
- {
-  "code": "JO",
-  "name": "Jordan",
-  "label": "Jordan (JO)"
- },
- {
   "code": "KI",
   "name": "Kiribati",
   "label": "Kiribati (KI)"
@@ -743,11 +763,6 @@
   "code": "KG",
   "name": "Kyrgyzstan",
   "label": "Kyrgyzstan (KG)"
- },
- {
-  "code": "LB",
-  "name": "Lebanon",
-  "label": "Lebanon (LB)"
  },
  {
   "code": "LS",
@@ -855,11 +870,6 @@
   "label": "Palau (PW)"
  },
  {
-  "code": "PS",
-  "name": "Palestine",
-  "label": "Palestine (PS)"
- },
- {
   "code": "PR",
   "name": "Puerto Rico",
   "label": "Puerto Rico (PR)"
@@ -940,11 +950,6 @@
   "label": "Suriname (SR)"
  },
  {
-  "code": "SY",
-  "name": "Syria",
-  "label": "Syria (SY)"
- },
- {
   "code": "TJ",
   "name": "Tajikistan",
   "label": "Tajikistan (TJ)"
@@ -978,10 +983,5 @@
   "code": "VU",
   "name": "Vanuatu",
   "label": "Vanuatu (VU)"
- },
- {
-  "code": "YE",
-  "name": "Yemen",
-  "label": "Yemen (YE)"
  }
 ]

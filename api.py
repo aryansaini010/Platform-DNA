@@ -1,7 +1,8 @@
 """FastAPI backend for Vite React frontend (127.0.0.1:8001).
 
 Wraps the existing deterministic pipeline:
-research -> draft -> (optional Groq enhance) -> build_report -> validate -> library.
+research -> draft -> Ollama enhance -> build_report -> validate -> library.
+Pure Ollama-only backend: no cloud LLM fallback. Ollama down = loud 500.
 """
 from __future__ import annotations
 
@@ -50,7 +51,6 @@ from platform_dna.library import delete_report, list_reports, load_report, save_
 from platform_dna.llm import (  # noqa: E402
     active_provider,
     has_any_key,
-    has_groq_key,
     has_ollama,
     is_ollama_unreachable,
     ollama_reachable,
@@ -71,7 +71,7 @@ CATALOG_DIR = ROOT / "data" / "catalog"
 app = FastAPI(title="Platform DNA API", version="1.0.0")
 _allowed_origins = [o.strip() for o in os.environ.get(
     "CORS_ORIGINS",
-    "http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:3001,http://localhost:3001").split(",") if o.strip()]
+    "http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:3001,http://localhost:3001,http://127.0.0.1:4173,http://localhost:4173").split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_allowed_origins,
@@ -84,7 +84,7 @@ app.add_middleware(
 class GenerateRequest(BaseModel):
     platform: str
     region: str = "India"
-    # Legacy client flags, IGNORED (hard-coded policy: deep + Groq-always
+    # Legacy client flags, IGNORED (hard-coded policy: deep + Ollama
     # + cache-first platform+region, never expires). Kept for compat.
     depth: str = "deep"
     force: bool = False
@@ -98,9 +98,6 @@ class GenerateRequest(BaseModel):
     retry: list[str] | None = None
 
 
-GROQ_PACING_S = float(os.environ.get("GROQ_PACING_S", "2"))
-
-
 def _catalog(name: str):
     p = CATALOG_DIR / name
     if p.exists():
@@ -110,11 +107,10 @@ def _catalog(name: str):
 
 @app.get("/api/health")
 def health():
-    has_groq = has_groq_key()
-    has_any = has_any_key()
+    has_oll = has_ollama()
     return {"ok": True, "provider": active_provider(),
-            "groq": has_groq, "any_key": has_any,
-            "has_groq": has_groq, "has_any": has_any,
+            "ollama": has_oll, "any_key": has_oll,
+            "has_ollama": has_oll, "has_any": has_oll,
             "searx": research.SEARX, "fire": research.FIRE,
             "time": int(time.time())}
 
@@ -159,7 +155,11 @@ def _region_name(code_or_name: str) -> str:
 
 
 @app.get("/api/platforms")
-def platforms():
+def platforms(region: str | None = Query(default=None)):
+    # Query() default is a params object, not None, on direct python calls
+    # (HTTP calls resolve correctly via FastAPI DI) — normalize defensively.
+    if region is not None and not isinstance(region, str):
+        region = None
     items = _catalog("platforms.json")
     if not items:  # fallback to legacy config
         try:
@@ -169,7 +169,34 @@ def platforms():
                       "regions_count": 1} for k, v in cfg.items()]
         except Exception:
             items = []
+    if region:
+        # Region-first lookup: ?region=AU | Australia | Australia (AU).
+        # Matches code, name, or label (case-insensitive); unknown region
+        # returns [] with the echo so the UI can show a gap message.
+        want = (region or "").strip()
+        code = None
+        for r in _catalog("regions.json"):
+            if want.upper() == str(r.get("code", "")).upper() \
+                    or want.lower() == str(r.get("name", "")).lower() \
+                    or want == r.get("label"):
+                code = str(r.get("code", "")).upper()
+                break
+        if code is None:
+            m = re.match(r"^(.*)\(([^)]+)\)\s*$", want)
+            if m:
+                code = m.group(2).strip().upper()
+        if code is None:
+            code = want.upper()
+        items = [p for p in items
+                 if code in [str(c).upper() for c in (p.get("regions") or [])]]
+        return {"platforms": items, "count": len(items), "region": code}
     return {"platforms": items, "count": len(items)}
+
+
+@app.get("/api/regions/{code}/platforms")
+def region_platforms(code: str):
+    # Alias route for region-first browsing: /api/regions/AU/platforms.
+    return platforms(region=code)
 
 
 @app.get("/api/regions")
@@ -180,7 +207,10 @@ def regions():
 
 @app.get("/api/library")
 def library():
-    reports = list_reports()
+    try:
+        reports = list_reports()
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(500, f"library rebuild failed: {str(e)[:300]}")
     return {"reports": reports, "count": len(reports)}
 
 
@@ -193,8 +223,13 @@ def get_report(rid: str):
     # Rebuild live so sources/citations always match the stored pack even
     # after writer upgrades (stored .md may carry an older numbering).
     from platform_dna.renderer import render as _render
+    from platform_dna.library import _read_meta as _rm
     report = build_report(pack)
-    return {"pack": pack, "report": report, "markdown": _render(report)}
+    _meta = _rm(rid)
+    return {"pack": pack, "report": report, "markdown": _render(report),
+            "status": _meta.get("status", "valid"),
+            "errors": _meta.get("errors", []),
+            "reverted": _meta.get("reverted", [])}
 
 
 @app.delete("/api/report/{rid}")
@@ -272,8 +307,7 @@ def generate(req: GenerateRequest):
             _to = _first.get("name") or _pick
             region_snap = {"from": region, "to": _to}
             region = _to
-    # LLM policy: Ollama-primary when OLLAMA_URL is set (LLM_PROVIDER
-    # auto/ollama), Groq/Anthropic only as fallback. force=true bypasses
+    # LLM policy: Ollama-only (LLM_PROVIDER auto/ollama). force=true bypasses
     # the library cache for a fresh run.
     depth = "deep"
 
@@ -292,17 +326,24 @@ def generate(req: GenerateRequest):
                         stats0["region_snap"] = region_snap
                     return {"reused": r["id"], "pack": pack, "report": report,
                             "markdown": _render(report), "errors": [],
+                            "entry": r,
+                            "overall": (report.get("overall", {}) or {}).get("score"),
                             "stats": stats0}
                 except Exception:
                     continue
 
-    # LLM-required policy: refuse loudly before burning research time.
-    # Ollama needs no key — OLLAMA_URL alone satisfies the gate.
+    # Ollama-only gate: refuse loudly before burning research time.
+    # OLLAMA_URL alone satisfies the gate (no key needed). Ollama down =
+    # loud 500, never a silent deterministic report.
     if not has_any_key():
         raise HTTPException(
-            500, "AI polish is mandatory but no provider is configured. "
+            500, "Ollama is mandatory but not configured. "
                  "Set OLLAMA_URL (e.g. via SSH tunnel to the GPU server) "
-                 "or GROQ_API_KEY in .env and restart the API.")
+                 "in .env and restart the API.")
+    if not ollama_reachable():
+        raise HTTPException(
+            500, "Ollama is unreachable (SSH tunnel down or server stopped). "
+                 "Restart the tunnel/server, then retry — nothing was researched or saved.")
 
     t0 = time.time()
     # Retry path: re-enhance only listed kinds from a previous attempt's
@@ -341,7 +382,7 @@ def generate(req: GenerateRequest):
         with _RPool(max_workers=2) as _rp:
             _fr = _rp.submit(research_platform, platform, queries,
                              top_n=3, pages=1, depth=depth, progress=None,
-                             language=language)
+                             language=language, scrape_deadline_s=60)
             _fw = _rp.submit(mine_wikipedia_titles, platform)
             facts, stats = _fr.result()
             titles, wikisrc = _fw.result()
@@ -374,85 +415,56 @@ def generate(req: GenerateRequest):
         enhance_errors.append(f"polish_facts: {stats.pop('polish_error')}")
         stats.pop("polish_skipped", None)
 
-    def _is_rate_limit(e: Exception) -> bool:
-        s = str(e).lower()
-        return "429" in str(e) or "rate limit" in s or "too many requests" in s
-
-    def _is_permission_error(e: Exception) -> bool:
-        s = str(e).lower()
-        return "403" in str(e) or "permission" in s or "blocked" in s
-
     def _try(label: str, fn, *args):
-        """Serial paced call + one retry; record failures.
+        """Ollama call + one retry; record failures.
 
-        Serial 1-wide with shared >=11s spacing keeps the org TPM bucket
-        under 8000 for 120b. Permission errors (403/project-blocked) are
-        not retried. 429s already waited (capped Retry-After + jitter)
-        inside groq_complete; the outer retry waits 10s once.
         Ollama-unreachable errors (dead tunnel) skip the outer retry: the
         per-process cooldown guarantees an instant second failure.
+        Per-call wall time is recorded in _timings for speed diagnosis.
         """
+        _t0 = time.time()
         try:
-            _spaced_pace()
             return fn(*args)
         except Exception as e1:  # noqa: BLE001
-            if _is_permission_error(e1):
-                enhance_errors.append(f"{label}: {str(e1)[:400]} (no retry: permission-blocked)")
-                return None
             if is_ollama_unreachable(e1):
-                enhance_errors.append(f"{label}: {str(e1)[:400]} (no retry: ollama unreachable)")
+                with _err_lock:
+                    enhance_errors.append(f"{label}: {str(e1)[:400]} (no retry: ollama unreachable)")
                 return None
             time.sleep(10 + _rnd.uniform(0, 2))
             try:
-                _spaced_pace()
                 return fn(*args)
             except Exception as e2:  # noqa: BLE001
-                enhance_errors.append(f"{label}: {str(e2)[:400]}")
+                with _err_lock:
+                    enhance_errors.append(f"{label}: {str(e2)[:400]}")
                 return None
+        finally:
+            try:
+                with _tim_lock:
+                    _timings[label] = round(time.time() - _t0, 1)
+            except Exception:
+                pass
 
     def _wanted(kind: str) -> bool:
         return not retry_kinds or kind in retry_kinds
 
-    # LLM enhance, serial 1-wide: 6 sections + voice + deal in order.
-    # Groq path keeps >=11s shared spacing (org TPM bucket). Ollama path
-    # has no TPM bucket: zero inter-call sleep, longer deadline (600s) for
-    # local inference. Baseline prompts/input sizes stay unchanged.
+    # Ollama-only enhance: 6 sections + voice + deal, 2-wide pool with
+    # draft-snapshot inputs (disjoint keys, identical to serial). No pacing,
+    # no TPM bucket. Deadline 600s for local inference.
     import random as _rnd
     import threading as _th
     _provider = active_provider()
-    if _provider == "ollama":
-        GROQ_MIN_SPACING_S = float(os.environ.get("OLLAMA_MIN_SPACING_S", "0"))
-        ENHANCE_DEADLINE_S = float(os.environ.get("ENHANCE_DEADLINE_S", "600"))
-    else:
-        GROQ_MIN_SPACING_S = float(os.environ.get("GROQ_MIN_SPACING_S", "11"))
-        ENHANCE_DEADLINE_S = float(os.environ.get("ENHANCE_DEADLINE_S", "150"))
+    ENHANCE_DEADLINE_S = float(os.environ.get("ENHANCE_DEADLINE_S", "600"))
     _enh_start = time.time()
-    _groq_lock = _th.Lock()
-    _last_groq_ts = [0.0]
+    _err_lock = _th.Lock()
+    _tim_lock = _th.Lock()
+    _timings: dict = {}
 
     def _over_deadline() -> bool:
         return (time.time() - _enh_start) > ENHANCE_DEADLINE_S
 
-    def _spaced_pace():
-        # Shared spacing: serialize LLM starts apart with small jitter so
-        # retries don't herd back onto the same window. Groq-only concern
-        # (TPM bucket); the Ollama path skips sleeps entirely.
-        if _provider == "ollama":
-            return
-        with _groq_lock:
-            wait = GROQ_MIN_SPACING_S - (time.time() - _last_groq_ts[0])
-            if wait > 0:
-                time.sleep(wait + _rnd.uniform(0, 1.5))
-            if GROQ_PACING_S > 0:
-                time.sleep(GROQ_PACING_S)
-            _last_groq_ts[0] = time.time()
-
-    # Per-generate Ollama liveness: one 3s ping so a dead tunnel is
-    # reported once up front (per-call cooldown + retry-skip handle speed;
-    # this only makes the cause visible in enhance_errors).
-    if _provider == "ollama" and not ollama_reachable():
-        enhance_errors.append("ollama pre-check: OLLAMA_URL unreachable "
-                              "(SSH tunnel down?) — using fallback path")
+    # Gate above already 500s when unreachable; this per-generate ping only
+    # records timing context (a tunnel that died mid-generate surfaces per
+    # call via is_ollama_unreachable fast-skip).
 
     try:
         from platform_dna.config import SECTION_SLOTS as _SSLOTS
@@ -463,13 +475,14 @@ def generate(req: GenerateRequest):
         tstats = compute_stats(titles)
         tstats["facts"] = len(facts)
 
-        for sec in ("content", "audience", "emotional",
-                    "distribution", "revenue", "editorial"):
+        _SECS = ("content", "audience", "emotional",
+                 "distribution", "revenue", "editorial")
+
+        def _enhance_one(sec: str):
             if not _wanted(sec):
-                continue
+                return sec, None, None
             if _over_deadline():
-                enhance_errors.append("enhance deadline: remaining sections kept deterministic")
-                break
+                return sec, None, "deadline"
             sec_facts = [f for f in facts if f["slot"] in _SSLOTS[sec]]
             fields = {"score": scores.get(sec, 65)}
             if sec == "content":
@@ -479,35 +492,117 @@ def generate(req: GenerateRequest):
                     fields["standout_titles"] = []
             new = _try(sec, _enh, platform, region, sec, fields,
                        sec_facts or facts[:10], tstats, ex.get(sec, ""))
-            if new:
-                try:
-                    pack["sections"][sec].update(new)
-                except Exception:
-                    pass
-                enhanced_sections.append(sec)
-        # Top-of-report in TWO merged calls (voice + deal), not five.
-        if _wanted("voice") and not _over_deadline():
+            # A long LLM call started just before the deadline may finish
+            # after it with new=None: flag it so the deadline note appears.
+            if new is None and _over_deadline():
+                return sec, None, "deadline"
+            return sec, new, None
+
+        def _voice_one():
+            # Snapshot draft inputs BEFORE the pool starts so the prompt is
+            # bit-identical whether run serially or overlapped with sections.
+            # Voice reads only facts + draft top fields (never enhanced
+            # section prose), so overlapping is quality-neutral.
+            if not _wanted("voice"):
+                return "voice", None, None
+            if _over_deadline():
+                return "voice", None, "deadline"
             v = _try("voice", _voice, platform, region, facts,
-                     pack.get("identity_line", ""), pack.get("summary", ""),
-                     pack.get("positioning", ""))
-            if isinstance(v, dict) and all((v.get(k, "") or "").strip()
-                                           for k in ("identity_line", "summary", "positioning")):
-                pack.update(v)
-                enhanced_top.append("voice")
-        if _wanted("deal") and not _over_deadline():
+                     _voice_snap[0], _voice_snap[1], _voice_snap[2])
+            if v is None and _over_deadline():
+                return "voice", None, "deadline"
+            return "voice", v, None
+
+        def _deal_one():
+            # Same snapshot guarantee as voice: facts + draft wishlist/pitch.
+            if not _wanted("deal"):
+                return "deal", None, None
+            if _over_deadline():
+                return "deal", None, "deadline"
             w = _try("deal", _deal, platform, region, facts,
-                     pack.get("wishlist", []), pack.get("pitch", {}))
-            if isinstance(w, dict):
+                     _deal_snap[0], _deal_snap[1])
+            if w is None and _over_deadline():
+                return "deal", None, "deadline"
+            return "deal", w, None
+
+        # Snapshot draft top fields once: guarantees parallel prompts equal
+        # serial prompts even if section merges ran first.
+        try:
+            _voice_snap = (pack.get("identity_line", ""), pack.get("summary", ""),
+                           pack.get("positioning", ""))
+        except Exception:
+            _voice_snap = ("", "", "")
+        try:
+            _deal_snap = (pack.get("wishlist", []), pack.get("pitch", {}))
+        except Exception:
+            _deal_snap = ([], {})
+
+        # Ollama 2-wide pool for all 8 jobs (6 sections + voice + deal):
+        # voice/deal inputs are draft snapshots with disjoint keys, so merging
+        # serially after join is identical to a serial tail while saving ~55s.
+        try:
+            _workers = max(1, min(2, int(os.environ.get("OLLAMA_CONCURRENCY", "2"))))
+        except Exception:
+            _workers = 2
+        _deadline_hit = False
+        if True:
+            from concurrent.futures import ThreadPoolExecutor as _EPool
+            _jobs = [(sec, _enhance_one, (sec,)) for sec in _SECS]
+            _jobs += [("voice", _voice_one, ()), ("deal", _deal_one, ())]
+            # Only submit wanted kinds that are not already past deadline;
+            # _wanted/_over_deadline re-checked inside each worker for safety.
+            with _EPool(max_workers=_workers) as _ep:
+                _futs = [(kind, _ep.submit(fn, *args)) for kind, fn, args in _jobs]
+                _results: dict = {}
+                for kind, _fu in _futs:
+                    try:
+                        _results[kind] = _fu.result()
+                    except Exception as e:  # noqa: BLE001
+                        _results[kind] = (kind, None, None)
+                        with _err_lock:
+                            enhance_errors.append(f"{kind} pool: {str(e)[:200]}")
+            # Merge serially in FIXED order so output is deterministic
+            # regardless of thread completion order.
+            for sec in _SECS:
+                _r = _results.get(sec, (sec, None, None))
+                _sec, new, note = _r[0], _r[1], _r[2] if len(_r) == 3 else None
+                if note == "deadline":
+                    _deadline_hit = True
+                    continue
+                if new:
+                    try:
+                        pack["sections"][sec].update(new)
+                    except Exception:
+                        pass
+                    enhanced_sections.append(sec)
+            _v = _results.get("voice", ("voice", None, None))
+            if _v[2] == "deadline":
+                _deadline_hit = True
+            elif isinstance(_v[1], dict) and all((_v[1].get(k, "") or "").strip()
+                                                 for k in ("identity_line", "summary", "positioning")):
+                pack.update(_v[1])
+                enhanced_top.append("voice")
+            _w = _results.get("deal", ("deal", None, None))
+            if _w[2] == "deadline":
+                _deadline_hit = True
+            elif isinstance(_w[1], dict):
                 try:
                     from platform_dna.autodraft import _bold_lead as _bl
-                    w["wishlist"] = [_bl(str(x)) for x in w["wishlist"]]
+                    _w[1]["wishlist"] = [_bl(str(x)) for x in _w[1]["wishlist"]]
                 except Exception:
                     pass
-                pack["wishlist"] = w["wishlist"]
-                pack["pitch"] = w["pitch"]
-                enhanced_top.append("deal")
+                try:
+                    pack["wishlist"] = _w[1]["wishlist"]
+                    pack["pitch"] = _w[1]["pitch"]
+                    enhanced_top.append("deal")
+                except Exception:
+                    pass
+        if _deadline_hit:
+            with _err_lock:
+                enhance_errors.append("enhance deadline: remaining sections kept deterministic")
         if _over_deadline():
-            enhance_errors.append("enhance deadline reached: kept deterministic text for remainder")
+            with _err_lock:
+                enhance_errors.append("enhance deadline reached: kept deterministic text for remainder")
     except Exception as e:  # noqa: BLE001
         enhance_errors.append(f"enhance setup: {str(e)[:400]}")
 
@@ -516,13 +611,40 @@ def generate(req: GenerateRequest):
     # validate() below still re-checks everything.
     try:
         from platform_dna.validator import repair_share_figures as _repair
+        from platform_dna.validator import revert_fields as _revert
         for _note in _repair(pack, facts, titles):
             enhance_errors.append(f"share repair: {_note}")
     except Exception as e:  # noqa: BLE001
+        _revert = None  # type: ignore[assignment]
         enhance_errors.append(f"share repair setup: {str(e)[:200]}")
 
-    report = build_report(pack)
-    errors = validate(report, pack.get("facts", []), pack.get("titles", []))
+    # Deterministic reference (never polished) for field-level auto-revert.
+    try:
+        from platform_dna.autodraft import draft_pack as _draft
+        _det = _draft(platform, facts, titles, scores,
+                      pack.get("catalogue_note", ""), region=region)
+    except Exception as e:  # noqa: BLE001
+        _det = None
+        enhance_errors.append(f"deterministic redraft setup: {str(e)[:200]}")
+
+    # Validate → revert failing prose fields → re-validate (max 3 passes).
+    # Reverted fields keep deterministic validator-safe text and are
+    # disclosed in stats; counts/structure errors still fail loudly (now
+    # as saved drafts, never silent discards).
+    reverted_all: list[str] = []
+    report: dict = {}
+    errors: list[str] = ["not validated"]
+    for _pass in range(3):
+        report = build_report(pack)
+        errors = validate(report, pack.get("facts", []), pack.get("titles", []))
+        if not errors or _det is None or _revert is None:
+            break
+        rev = _revert(pack, _det, errors)
+        if not rev:
+            break
+        reverted_all = sorted(set(reverted_all) | set(rev))
+    if reverted_all:
+        enhance_errors.append("auto-revert to deterministic text: " + ", ".join(reverted_all))
     if region_snap:
         stats["region_snap"] = region_snap
     _elapsed = round(time.time() - t0, 1)
@@ -536,31 +658,43 @@ def generate(req: GenerateRequest):
                   "enhanced": enhanced_sections,
                   "enhanced_top": enhanced_top,
                   "enhance_errors": enhance_errors,
+                  "enhance_timings": dict(_timings),
+                  "enhance_workers": _workers,
+                  "reverted_fields": reverted_all,
                   "provider": active_provider()}
+    # Save-everything: valid reports AND failed drafts persist. Drafts carry
+    # status + errors in a sidecar so the UI can badge, list and retry them.
+    # entry is never None anymore. (Step 2 threads reverted-fields here.)
+    try:
+        md = render(report)
+    except Exception as e:  # noqa: BLE001
+        # Structural draft that even the renderer rejects: persist the pack
+        # with raw markdown fallback so nothing is silently discarded.
+        md = f"# PLATFORM DNA REPORT\n\nRender failed: {str(e)[:500]}"
+        enhance_errors.append(f"render fallback: {str(e)[:200]}")
+        errors = (errors or []) + [f"render failed: {str(e)[:200]}"]
+    ent = save_report(pack, report, md,
+                      status="valid" if not errors else "draft",
+                      errors=errors,
+                      reverted=reverted_all or None)
     if errors:
-        return {"pack": pack, "report": report, "markdown": render(report),
-                "errors": errors, "entry": None, "overall": report.get("overall", {}).get("score"),
+        return {"pack": pack, "report": report, "markdown": md,
+                "errors": errors, "entry": ent, "overall": (report.get("overall", {}) or {}).get("score"),
                 "stats": base_stats}
-    md = render(report)
-    ent = save_report(pack, report, md)
     return {"pack": pack, "report": report, "markdown": md, "errors": [],
-            "entry": ent, "overall": report["overall"]["score"],
+            "entry": ent, "overall": (report.get("overall", {}) or {}).get("score"),
             "stats": {**base_stats, "wikisrc": wikisrc}}
 
 
 @app.get("/api/provider")
 def provider():
-    groq_model = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
     ollama_model = os.environ.get("OLLAMA_MODEL", "gpt-oss:20b")
     ollama_url = os.environ.get("OLLAMA_URL", "")
-    has_groq = has_groq_key()
     has_oll = has_ollama()
-    has_any = has_any_key()
-    return {"provider": active_provider(), "groq_model": groq_model,
+    return {"provider": active_provider(),
             "ollama_model": ollama_model,
             "ollama": has_oll, "has_ollama": has_oll,
             "ollama_configured": bool(ollama_url),
-            "groq": has_groq, "any_key": has_any,
-            "has_groq": has_groq, "has_any": has_any,
-            "hint": ("AI polish ready." if has_any
-                      else "Set OLLAMA_URL (SSH tunnel to GPU server) or GROQ_API_KEY env then restart api.")}
+            "any_key": has_oll, "has_any": has_oll,
+            "hint": ("Ollama polish ready." if has_oll
+                      else "Set OLLAMA_URL (SSH tunnel to GPU server) in .env then restart api.")}

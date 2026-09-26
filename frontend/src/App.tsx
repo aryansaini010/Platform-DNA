@@ -4,7 +4,6 @@ import {
   generateDNA,
   getLibrary,
   getPlatforms,
-  getProvider,
   getRegions,
   getReport,
   jsonUrl,
@@ -120,17 +119,22 @@ export default function App() {
   const [report, setReport] = useState<any | null>(null);
   const [pack, setPack] = useState<any | null>(null);
   const [entry, setEntry] = useState<any | null>(null);
-  const [errors, setErrors] = useState<string[]>([]);
+  // Validation diagnostics are kept in state for retry math but never
+  // rendered as log lists (green timing banner + re-polish button only).
+  const [, setErrors] = useState<string[]>([]);
   const [enhWarn, setEnhWarn] = useState<string[]>([]);
   const [lib, setLib] = useState<any[]>([]);
   const [forceFresh, setForceFresh] = useState(false);
-  const [provider, setProvider] = useState<any | null>(null);
+  const [libBusy, setLibBusy] = useState(false);
   const [markdown, setMarkdown] = useState<string | null>(null);
   const [regionSnap, setRegionSnap] = useState<{ from: string; to: string } | null>(null);
   // Cumulative polish success across the initial generate + retries, so a
   // second retry only targets kinds that never succeeded (backend returns
   // per-attempt lists, not cumulative).
   const [doneKinds, setDoneKinds] = useState<Set<string>>(new Set());
+  // Kinds polished then auto-reverted to deterministic text — retry must
+  // include them even though they appear in doneKinds.
+  const [revertedKinds, setRevertedKinds] = useState<string[]>([]);
   const abortRef = useRef<AbortController | null>(null);
 
   useEffect(() => {
@@ -140,22 +144,59 @@ export default function App() {
     getRegions()
       .then((r) => { if (r.length) setRegions(r); })
       .catch(() => {});
-    getProvider().then(setProvider).catch(() => {});
     refreshLib();
   }, []);
 
   async function refreshLib() {
+    if (libBusy) return;
+    setLibBusy(true);
     try {
       setLib(await getLibrary());
-    } catch {
-      setLib([]);
+    } catch (e: any) {
+      console.warn("library refresh failed", e);
+      setStatus(`Library refresh failed: ${String(e?.message ?? e)} — is the API on :8001?`);
+      // Never wipe a populated list on a failed manual refresh; a failed
+      // first load still lands on [] via the initial state.
+      setLib((prev) => (prev.length ? prev : []));
+    } finally {
+      setLibBusy(false);
     }
   }
 
-  const platformOptions = useMemo(
-    () => platforms.map((p) => ({ value: p.name, label: p.name, group: p.group || "Other" })),
-    [platforms]
+  // Bidirectional invariant: platform ⇄ region always resolve to a valid
+  // pair. Picking a region filters the channel list to that region's
+  // catalogued channels; picking a platform filters regions to its coverage.
+  // Either picker snap-corrects the other when the pair goes out of scope.
+  const platformOptions = useMemo(() => {
+    const code = regionCode(region);
+    const list = code
+      ? platforms.filter((p) => (p.regions ?? []).includes(code))
+      : platforms;
+    // Fall back to the full list when the region has no catalogued
+    // channels yet.
+    const shown = list.length ? list : platforms;
+    return shown.map((p) => ({ value: p.name, label: p.name, group: p.group || "Other" }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [platforms, region, regions]);
+
+  const channelNames = useMemo(
+    () => new Set(platformOptions.map((o) => o.value)),
+    [platformOptions]
   );
+
+  const allowedKey = platformOptions.map((o) => o.value).join(",");
+  useEffect(() => {
+    // Region-first snap: if the selected platform isn't served in the
+    // selected region, switch to that region's first channel. The
+    // platform-first effect below then sees a valid pair and stays quiet,
+    // so the two effects converge instead of ping-ponging.
+    if (!channelNames.size) return;
+    if (!channelNames.has(platform)) {
+      const first = platformOptions[0]?.value;
+      if (first) setPlatform(first);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [region, regions, platforms, allowedKey]);
 
   // Invariant: a selected platform ALWAYS resolves to ≥1 region.
   // The dropdown offers only the platform's regions; changing platform
@@ -176,23 +217,19 @@ export default function App() {
     const unknown = p.regions.filter((c: string) => !known.has(c));
     if (unknown.length) console.warn(`dangling region codes for ${p.name}: ${unknown.join(",")}`);
     // Keep unknown codes visible (label falls back to the code) instead of
-    // silently shrinking regionCount.
+    // silently shrinking the region list.
     return p.regions as string[];
   }, [platforms, platform, regions]);
 
-  const regionOptions = useMemo(
+  // Region-first: full region list, unfiltered — picking one filters
+  // the channel list above via platformOptions.
+  const regionOptionsFull = useMemo(
     () =>
-      allowedCodes.map((c) => {
-        const label = codeToLabel.get(c) ?? c;
-        const nm = regions.find((r) => r.code === c)?.name ?? label;
-        return { value: label, label, group: nm.charAt(0).toUpperCase() };
-      }),
-    [allowedCodes, codeToLabel, regions]
+      regions.map((r) => ({ value: r.label, label: r.label, group: r.name.charAt(0).toUpperCase() })),
+    [regions]
   );
 
-  const regionCount = allowedCodes.length;
-
-  const allowedKey = allowedCodes.join(",");
+  const regionKey = allowedCodes.join(",");
   useEffect(() => {
     if (!allowedCodes.length) return;
     const cur = /\(([^)]+)\)\s*$/.exec(region || "")?.[1];
@@ -200,13 +237,19 @@ export default function App() {
       setRegion(codeToLabel.get(allowedCodes[0]) ?? allowedCodes[0]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [platform, platforms, allowedKey]);
+  }, [platform, platforms, regionKey]);
 
   function regionCode(label: string) {
     const m = /\(([^)]+)\)\s*$/.exec(label || "");
     if (m) return m[1];
     const hit = regions.find((r) => r.label === label || r.name === label || r.code === label);
     return hit?.code ?? label;
+  }
+
+  function timingsSuffix(s: any) {
+    if (!s?.enhance_timings) return "";
+    const parts = Object.entries(s.enhance_timings).map(([k, v]) => `${k} ${v}s`).join(", ");
+    return ` [${parts}${s.enhance_workers ? ` · ${s.enhance_workers}-wide` : ""}]`;
   }
 
   async function onGenerate() {
@@ -217,8 +260,7 @@ export default function App() {
     setErrors([]);
     setEnhWarn([]);
     setRegionSnap(null);
-    const backend = provider?.provider === "ollama" ? "Ollama GPU polish"
-      : provider?.provider === "groq" ? "Groq polish" : "AI polish";
+    const backend = "Ollama GPU polish";
     // Fresh runs: research (~2 min) + 8 enhance calls. Timeout is 13 min.
     setStatus(forceFresh
       ? `Fresh re-research requested — deep research + ${backend} (up to 13 min timeout)…`
@@ -238,14 +280,22 @@ export default function App() {
       setErrors(res.errors ?? []);
       setEnhWarn(res.stats?.enhance_errors ?? []);
       setDoneKinds(new Set([...(res.stats?.enhanced ?? []), ...(res.stats?.enhanced_top ?? [])]));
+      // Reverted kinds were polished then rolled back to deterministic text:
+      // surface them so a retry can re-polish them.
+      const _rev: string[] = res.stats?.reverted_fields ?? [];
+      setRevertedKinds(_rev);
+      if (_rev.length) {
+        setEnhWarn((prev) => [...prev, `auto-revert to deterministic text: ${_rev.join(", ")} — retry will re-polish`]);
+      }
       const snap = res.stats?.region_snap;
       setRegionSnap(snap ?? null);
       const snapNote = snap ? ` Region snapped to ${snap.to} (platform doesn't serve ${snap.from}).` : "";
       const s = res.stats ?? {};
+      const _tim = timingsSuffix(s);
       const detail = s.reused ? "" :
         ` Research: ${s.pages_ok ?? "?"} ok / ${s.pages_failed ?? "?"} failed, ${s.queries ?? "?"} queries in ${s.research_s ?? "?"}s`
         + (s.gaps_remaining?.length ? `, gaps: ${s.gaps_remaining.join(", ")}` : ", no gaps")
-        + (s.enhanced ? ` · polished: ${(s.enhanced ?? []).join(",")}${s.enhanced_top?.length ? "+" + s.enhanced_top.join(",") : ""} in ${s.enhance_s ?? "?"}s` : "");
+        + (s.enhanced ? ` · polished: ${(s.enhanced ?? []).join(",")}${s.enhanced_top?.length ? "+" + s.enhanced_top.join(",") : ""} in ${s.enhance_s ?? "?"}s${_tim}` : "");
       if ((res.errors ?? []).length === 0) {
         setStatus((res.reused ? `Loaded saved evidence (${res.reused}) — no re-scrape.` : `Valid — overall ${res.report?.overall?.score}/100 in ${s.elapsed_s ?? "?"}s. Saved to library.${detail}`) + snapNote);
         if (snap && snap.to) {
@@ -254,20 +304,19 @@ export default function App() {
         }
         refreshLib();
       } else {
-        setStatus("Generated with validation errors — fix facts or sharpen fields, then regenerate." + snapNote + detail);
+        setStatus("Saved to Recently ready — use Retry polish to improve it." + snapNote + detail);
         refreshLib();
       }
     } catch (e: any) {
       if (ctrl.signal.aborted) {
-        setErrors(["Cancelled — the backend may still be working. Use Refresh below; a late-saved report will appear in Recently ready."]);
+        setStatus("Cancelled — the backend may still be working. Use Refresh below; a late-saved report will appear in Recently ready.");
       } else {
         const msg = String(e?.message ?? e);
         const aborted = /abort/i.test(msg);
-        setErrors([aborted
+        setStatus(aborted
           ? "Request timed out after 13 min — the backend may still be working. Use Refresh below; a late-saved report will appear in Recently ready."
-          : msg]);
+          : msg);
       }
-      setStatus("");
       // Backend may finish late even after abort — refresh so a late save appears.
       refreshLib();
     } finally {
@@ -283,7 +332,21 @@ export default function App() {
   async function retryPolish() {
     if (!pack || busy) return;
     const all = ["content", "audience", "emotional", "distribution", "revenue", "editorial", "voice", "deal"];
-    const missing = all.filter((k) => !doneKinds.has(k));
+    // doneKinds tracks polished kinds; revertedKinds tracks polished kinds
+    // that were rolled back to deterministic text — both need a retry.
+    // Also parse the enhance_errors string fallback for older responses.
+    const revertedFromWarn: string[] = [];
+    for (const w of enhWarn) {
+      const m = /auto-revert[^:]*:\s*(.+)/i.exec(w);
+      if (m) {
+        for (const k of m[1].split(",")) {
+          const kk = k.trim().split(/\s+/)[0].replace(/[.,;]+$/, "");
+          if (all.includes(kk) && !revertedFromWarn.includes(kk)) revertedFromWarn.push(kk);
+        }
+      }
+    }
+    const mustRetry = new Set([...revertedKinds, ...revertedFromWarn]);
+    const missing = all.filter((k) => !doneKinds.has(k) || mustRetry.has(k));
     if (!missing.length) return;
     setBusy(true);
     setStatus(`Retrying AI polish for: ${missing.join(", ")} (no research, saves tokens)…`);
@@ -300,10 +363,18 @@ export default function App() {
       setErrors(res.errors ?? []);
       setEnhWarn(res.stats?.enhance_errors ?? []);
       setDoneKinds((prev) => new Set([...prev, ...(res.stats?.enhanced ?? []), ...(res.stats?.enhanced_top ?? [])]));
-      setStatus((res.errors ?? []).length === 0 ? "Retry complete — report saved." : "Retry done with validation errors (listed above).");
+      setRevertedKinds(res.stats?.reverted_fields ?? []);
+      {
+        const rs = res.stats ?? {};
+        const rtim = timingsSuffix(rs);
+        const polished = [...(rs.enhanced ?? []), ...(rs.enhanced_top ?? [])].join(",");
+        setStatus((res.errors ?? []).length === 0
+          ? `Retry complete —${polished ? ` polished ${polished}` : ""}${rs.enhance_s != null ? ` in ${rs.enhance_s}s` : ""}${rtim}. Report saved.`
+          : "Retry done — report saved to Recently ready; use Retry polish to improve further.");
+      }
       refreshLib();
     } catch (e: any) {
-      setErrors([String(e?.message ?? e)]);
+      setStatus(String(e?.message ?? e));
       refreshLib();
     } finally {
       setBusy(false);
@@ -316,9 +387,19 @@ export default function App() {
       setPack(res.pack);
       setMarkdown(res.markdown ?? null);
       setEntry({ id });
-      setErrors([]);
-      setEnhWarn([]);
+      // Drafts carry validation context from the sidecar — surface it in
+      // the opened view instead of clearing it. Polish timings live only on
+      // fresh generate/retry responses (GET /report has no timings), so the
+      // green banner keeps the draft message here.
+      setErrors(res.errors ?? []);
+      setEnhWarn(res.enhance_errors ?? []);
+      if ((res.status ?? "valid") !== "valid" && (res.errors ?? []).length) {
+        setStatus(`Opened report ${id} — use Retry polish to improve it.`);
+      } else {
+        setStatus("");
+      }
       setDoneKinds(new Set());
+      setRevertedKinds(res.reverted ?? []);
       setRegionSnap(null);
       // Sync the dropdowns to the opened report so Regenerate targets
       // the visible report instead of a stale dropdown selection.
@@ -327,10 +408,9 @@ export default function App() {
         const lbl = regions.find((r) => r.name === res.pack.region || r.code === res.pack.region)?.label;
         setRegion(lbl ?? res.pack.region);
       }
-      setStatus("");
       window.scrollTo({ top: 0, behavior: "smooth" });
     } catch (e: any) {
-      setErrors([String(e?.message ?? e)]);
+      setStatus(String(e?.message ?? e));
     }
   }
 
@@ -376,51 +456,44 @@ export default function App() {
           <div className="grid2">
             <div>
               <Dropdown
+                label="Region"
+                value={region}
+                options={regionOptionsFull}
+                onPick={setRegion}
+                searchPlaceholder="Search regions…"
+              />
+            </div>
+            <div>
+              <Dropdown
                 label="Platform"
                 value={platform}
                 options={platformOptions}
                 onPick={setPlatform}
-                searchPlaceholder="Search platforms…"
+                searchPlaceholder="Search channels…"
               />
-              <div className="hint">Sourced from the curated catalogue ({platforms.length} services).</div>
-            </div>
-            <div>
-              <Dropdown
-                label="Region"
-                value={region}
-                options={regionOptions}
-                onPick={setRegion}
-                searchPlaceholder="Search regions…"
-              />
-              <div className="hint">{regionCount} region(s) available for {platform || "—"}. Pick a platform first.</div>
             </div>
           </div>
-          <div className="row" style={{ justifyContent: "center" }}>
-            <button className="btn primary" disabled={!platform.trim() || busy} onClick={onGenerate}>✦ {busy ? "Generating…" : "Generate DNA"}</button>
-            {busy && <button className="btn small" onClick={onCancel}>✕ Cancel</button>}
-          </div>
-          <div className="row" style={{ justifyContent: "center", marginTop: 8 }}>
+          <div className="row" style={{ justifyContent: "space-between", alignItems: "center" }}>
             <label className="muted" style={{ display: "flex", gap: 6, alignItems: "center", cursor: "pointer" }}>
               <input type="checkbox" checked={forceFresh} disabled={busy} onChange={(e) => setForceFresh(e.target.checked)} />
               Force fresh re-research (ignore saved report)
             </label>
+            <span style={{ display: "flex", gap: 8, alignItems: "center" }}>
+              <button className="btn primary" disabled={!platform.trim() || !regionCode(region) || busy} onClick={onGenerate}>✦ {busy ? "Generating…" : "Generate DNA"}</button>
+              {busy && <button className="btn small" onClick={onCancel}>✕ Cancel</button>}
+            </span>
           </div>
-          <div className="hint">Saved reports load instantly · fresh runs use deep research + AI polish.</div>
-          {provider && (
-            <div className="hint">
-              Backend: {provider.provider}
-              {provider.provider === "ollama" ? ` (${provider.ollama_model ?? "Ollama"})` : ""}
-              {provider.provider === "groq" ? ` (${provider.groq_model ?? "Groq"})` : ""}
-              {!provider.has_any ? " — no LLM configured; reports will be deterministic drafts." : ""}
-              {provider.provider === "ollama" && !provider.has_ollama ? " — Ollama URL not reachable; check the SSH tunnel." : ""}
-            </div>
-          )}
           {regionSnap && (
             <div className="warn">Region snapped: {regionSnap.from} → {regionSnap.to} (platform doesn’t serve the requested region).</div>
           )}
           {status && <div className="ok" role="status">{busy ? <span className="spin">{status}</span> : status}</div>}
-          {errors.length > 0 && <div className="err" role="alert">{errors.map((e, i) => <div key={i}>• {e}</div>)}
-            {!entry && markdown && (
+          {pack && !busy && (
+            <div style={{ marginTop: 8 }}>
+              <button className="btn small" onClick={retryPolish}>↻ Retry polish only (no re-research)</button>
+            </div>
+          )}
+          {!entry && markdown && (
+            <div className="err" role="alert">
               <div style={{ marginTop: 8 }}>
                 <button
                   className="btn small"
@@ -433,19 +506,20 @@ export default function App() {
                     setTimeout(() => URL.revokeObjectURL(a.href), 5000);
                   }}
                 >⬇ Download unsaved draft (Markdown)</button>{" "}
-                <span className="muted">Not saved — failed validation.</span>
+                <span className="muted">Transport failed before the backend could save — use Refresh; a late save may appear above.</span>
               </div>
-            )}
-          </div>}
-          {enhWarn.length > 0 && <div className="warn">AI polish fell back to deterministic text:<div>{enhWarn.map((e, i) => <div key={i}>• {e}</div>)}</div>{pack && <div style={{ marginTop: 8 }}><button className="btn small" disabled={busy} onClick={retryPolish}>↻ Retry failed polish only (no re-research)</button></div>}</div>}
+            </div>
+          )}
         </div>
 
         <div className="card">
           <div className="row" style={{ marginTop: 0 }}>
             <h2 style={{ textAlign: "left" }}>Recently ready</h2>
-            <button className="btn small" onClick={refreshLib}>⟳ Refresh</button>
+            <span style={{ display: "flex", gap: 8, alignItems: "center" }}>
+              <button className="btn small" disabled={libBusy} onClick={refreshLib}>{libBusy ? "⟳ Refreshing…" : "⟳ Refresh"}</button>
+            </span>
           </div>
-          {lib.length === 0 && <div className="muted">Library is empty — generate a report above (auto-saved on success).</div>}
+          {lib.length === 0 && !libBusy && <div className="muted">Library is empty — generate a report above (every run is saved).</div>}
           {lib.slice(0, 12).map((r) => (
             <div className="lib-card" key={r.id} onClick={() => openEntry(r.id)} title="Open report">
               <div>
@@ -454,7 +528,22 @@ export default function App() {
               </div>
               <span style={{ display: "flex", gap: 8, alignItems: "center" }}>
                 <span className="dot" />
-                <button className="btn small" onClick={async (e) => { e.stopPropagation(); await deleteReport(r.id); refreshLib(); }}>✕</button>
+                <button className="btn small" onClick={async (e) => {
+                  e.stopPropagation();
+                  if (!window.confirm(`Delete ${r.platform} · ${r.region} (${r.id})?`)) return;
+                  try {
+                    await deleteReport(r.id);
+                    // If the deleted entry is open, clear the stale view.
+                    if (entry?.id === r.id) {
+                      setReport(null); setPack(null); setEntry(null);
+                      setMarkdown(null); setErrors([]); setEnhWarn([]);
+                      setStatus("Deleted open report — library refreshed.");
+                    }
+                  } catch (err: any) {
+                    setStatus(`Delete failed: ${String(err?.message ?? err)}`);
+                  }
+                  refreshLib();
+                }}>✕</button>
               </span>
             </div>
           ))}

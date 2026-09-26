@@ -78,11 +78,12 @@ search:
 
 ```bash
 pip install -r requirements.txt
-# optional (enables live research + TMDB + LLM polish):
+# optional (enables live research + TMDB):
 set SEARXNG_URL=http://localhost:8080
 set FIRECRAWL_URL=http://localhost:3002
 set TMDB_API_KEY=...
-set ANTHROPIC_API_KEY=...
+# LLM polish is Ollama-only (no cloud keys):
+# OLLAMA_URL=http://localhost:11434 (via SSH tunnel or on-server)
 ```
 
 Without those env vars the pipeline runs in **fact-pack mode**
@@ -115,22 +116,22 @@ To add a new platform:
 - `prompts/system_prompt.md` — the analyst brief, verbatim (`[[OTT_PLATFORM_NAME]]` /
   `[[REGION]]` filled per run). `prompts/pipeline_addendum.md` adds the three
   machine rules: sampling disclaimer, conflict surfacing, example-is-format-only.
-- Without a key, sections are composed deterministically (`composer.py`) — every
+- Without Ollama, sections are composed deterministically (`composer.py`) — every
   figure traces to the fact store.
-- With a key, Auto DNA offers **Enhance draft prose with AI**: each section is
+- With Ollama, Auto DNA offers **Enhance draft prose with AI**: each section is
   rewritten under the system prompt with facts + stats + the matching JioHotstar
   section as format reference (`src/platform_dna/llm.py`). Scores, validation
   and layout stay in code; invented figures still fail validation.
 
 ```powershell
-$env:ANTHROPIC_API_KEY = "..."   # optional; ANTHROPIC_MODEL overrides default
+$env:OLLAMA_URL = "http://localhost:11434"   # mandatory; OLLAMA_MODEL overrides default
 ```
 
 ## Web UI (Vite React + FastAPI)
 
 ```powershell
 pip install -r requirements.txt
-# terminal 1 — API on :8001 (loads GROQ_API_KEY from .env)
+# terminal 1 — API on :8001 (loads OLLAMA_URL from .env)
 python -m uvicorn api:app --host 127.0.0.1 --port 8001
 # terminal 2 — app on :5173
 cd frontend; npm install; npm run dev -- --port 5173 --host 127.0.0.1 --strictPort
@@ -139,7 +140,7 @@ cd frontend; npm install; npm run dev -- --port 5173 --host 127.0.0.1 --strictPo
 
 - **Platform DNA:** pick any of 129 platforms + 197 regions → full research
   (query pack + top-N scraping + fact extraction + Wikipedia title mining)
-  → Groq-polished draft (scores stay computed, never chosen) → validated
+  → Ollama-polished draft (scores stay computed, never chosen) → validated
   report, download **.md / .pdf / fact-pack JSON**.
 - **Recently ready:** every validated report is stored in `data/library/`,
   viewable and deletable from the UI.

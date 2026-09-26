@@ -165,12 +165,14 @@ def default_queries(platform: str, region: str = "India") -> list[str]:
 
 
 def collect_hits(queries: list[str], per_query: int = 4, pages: int = 1,
-                  progress: Callable[[str], None] | None = None,
-                  language: str | None = None) -> list[dict]:
+                   progress: Callable[[str], None] | None = None,
+                   language: str | None = None) -> list[dict]:
     """Phase 1: gather candidate source URLs (no scraping yet).
 
-    Queries run 4-at-a-time; junk URLs (share stubs, login walls) are
-    dropped before they can waste a scrape.
+    Queries run 7-at-a-time (one wave for the standard 7-query pack);
+    junk URLs (share stubs, login walls) are dropped before they can
+    waste a scrape. Order and per-query caps are unchanged, so the fact
+    set is identical to the old 4-wide run — only faster.
     """
     from concurrent.futures import ThreadPoolExecutor
 
@@ -181,7 +183,7 @@ def collect_hits(queries: list[str], per_query: int = 4, pages: int = 1,
             return q, []
 
     hits, seen = [], set()
-    with ThreadPoolExecutor(max_workers=4) as ex:
+    with ThreadPoolExecutor(max_workers=7) as ex:
         per_q = list(ex.map(_one, queries))
     for q, res in per_q:
         n = 0
@@ -205,6 +207,7 @@ def collect_hits(queries: list[str], per_query: int = 4, pages: int = 1,
 def research_platform(platform: str, queries: list[str] | None = None,
                       top_n: int = 3, pages: int = 1, depth: str = "standard",
                       wait_ms: int = 0, language: str | None = None,
+                      scrape_deadline_s: float | None = None,
                       progress: Callable[[str], None] | None = None
                       ) -> tuple[list[dict], dict]:
     """One-shot research with coverage-driven re-search (plan Step D).
@@ -212,7 +215,9 @@ def research_platform(platform: str, queries: list[str] | None = None,
     Pass 1 runs the query pack; pass 2 fires targeted queries for required
     slots still empty. Deep mode widens hits (not pages) to fit the 3-4 min
     budget: globals stay pages=1, only Wiki/list queries use pages=2.
-    Quality guards (STRICT_SLOTS, SKIP_URL, dedupe, corroboration) unchanged.
+    scrape_deadline_s optionally bounds each scrape batch (overruns keep
+    collected facts; thin slots stay honestly thin). Quality guards
+    (STRICT_SLOTS, SKIP_URL, dedupe, corroboration) unchanged.
     """
     queries = default_queries(platform) if queries is None else queries
     aliases = get_aliases(platform)
@@ -224,11 +229,11 @@ def research_platform(platform: str, queries: list[str] | None = None,
     facts: list[dict] = []
     seen: set[tuple] = set()
     scraped: set[str] = set()
-    ok = fail = skipped = 0
+    ok = fail = skipped = escalated_ok = 0
     n_queries = 0
 
     def _run(qs: list[str], tn: int) -> None:
-        nonlocal ok, fail, skipped, n_queries
+        nonlocal ok, fail, skipped, n_queries, escalated_ok
         n_queries += len(qs)
         room = budget - (ok + fail)
         if room <= 0:
@@ -249,10 +254,12 @@ def research_platform(platform: str, queries: list[str] | None = None,
             scraped.add(h["url"])
         f, s = extract_from_urls(fresh, platform=platform, aliases=aliases,
                                  wait_ms=wait_ms,
-                                 max_workers=8 if depth == "deep" else 6,
+                                 max_workers=12 if depth == "deep" else 8,
+                                 scrape_deadline_s=scrape_deadline_s,
                                  progress=progress)
-        ok += s["pages_ok"]
-        fail += s["pages_failed"]
+        ok += (s or {}).get("pages_ok", 0)
+        fail += (s or {}).get("pages_failed", 0)
+        escalated_ok += (s or {}).get("escalated_ok", 0)
         for fact in f:
             key = (fact["slot"], fact["value"], (fact.get("claim") or "")[:200])
             if key not in seen:
@@ -291,6 +298,7 @@ def research_platform(platform: str, queries: list[str] | None = None,
             progress(f"pass 2 done — {len(facts) - before} new facts")
     stats = {"pages_ok": ok, "pages_failed": fail, "queries": n_queries,
              "skipped_dupes": skipped, "budget": budget,
+             "escalated_ok": escalated_ok,
              "gaps_remaining": gaps, "gaps_filled": filled}
     return facts, stats
 
@@ -298,14 +306,16 @@ def research_platform(platform: str, queries: list[str] | None = None,
 def extract_from_urls(items: list, platform: str = "",
                       aliases: tuple[str, ...] = (), wait_ms: int = 0,
                       max_workers: int = 6,
+                      scrape_deadline_s: float | None = None,
                       progress: Callable[[str], None] | None = None
                       ) -> tuple[list[dict], dict]:
     """Phase 2: scrape the URLs 6-at-a-time and extract facts from text.
 
     Adaptive wait: static trade press needs no JS wait — scrape with
-    wait 0 first, escalate only empty pages to 2000ms. Article dates fall
-    back to Firecrawl page metadata. A figure cited by 2+ independent
-    sources (one tier<=2) is promoted to high confidence.
+    wait 0 first, escalate only fully-empty pages to 2000ms (short but
+    nonempty paywalls never grow with waiting, so they are skipped).
+    Article dates fall back to Firecrawl page metadata. A figure cited by
+    2+ independent sources (one tier<=2) is promoted to high confidence.
     """
     urls: list[str] = []
     pubs: dict[str, str] = {}
@@ -318,18 +328,24 @@ def extract_from_urls(items: list, platform: str = "",
     if progress:
         progress(f"scraping {len(urls)} pages ({max_workers} parallel)…")
     results = scrape_many(urls, wait_ms=wait_ms, max_workers=max_workers,
+                          deadline_s=scrape_deadline_s,
                           progress=progress)
-    # Escalate empty pages once with a JS wait (cheap: usually 1-3 URLs).
-    # JS-shell domains (disneyplus.com, app-store walls) are excluded: they
-    # return 0 chars at any wait, so escalation only burns wall-clock.
+    # Escalate fully-empty pages once with a JS wait (cheap: usually 1-3
+    # URLs). Short-but-nonempty results (paywalls, login stubs — meta
+    # "chars" > 0) never grow with waiting, deadline-expired URLs already
+    # hit the time budget, and NO_ESCALATE domains never render: all skipped.
     empty = [u for u, (md, _m) in results.items()
-             if not (md or "").strip() and not is_no_escalate(u)]
+             if not (md or "").strip() and not (_m or {}).get("chars")
+             and (_m or {}).get("error") != "deadline"
+             and not is_no_escalate(u)]
+    escalated_ok = 0
     if empty and wait_ms == 0:
         retry = scrape_many(empty[:6], wait_ms=2000, max_workers=3,
-                            progress=None)
+                            deadline_s=None, progress=None)
         for u, res in retry.items():
             if (res[0] or "").strip():
                 results[u] = res
+                escalated_ok += 1
     facts: list[dict] = []
     seen: set[tuple] = set()
     ok = fail = 0
@@ -368,7 +384,7 @@ def extract_from_urls(items: list, platform: str = "",
                     n_boost += 1
     if progress:
         progress(f"{ok} ok / {fail} failed, {len(facts)} facts ({n_boost} corroborated)")
-    return facts, {"pages_ok": ok, "pages_failed": fail}
+    return facts, {"pages_ok": ok, "pages_failed": fail, "escalated_ok": escalated_ok}
 
 
 def mine_wikipedia_titles(platform: str) -> tuple[list[dict], str]:
@@ -385,12 +401,26 @@ def mine_wikipedia_titles(platform: str) -> tuple[list[dict], str]:
             queries.append(f'"List of {alias} original programming"')
     cands: list[dict] = []
     try:
-        for q in queries:
-            for h in searx(q, pages=1):
+        # Parallel queries (same result set as the old serial
+        # stop-at-first-hit: every query's wikipedia hits are collected,
+        # then the first query (in order) that hit anything wins).
+        # 5-wide covers the max 5-query pack in a single wave.
+        from concurrent.futures import ThreadPoolExecutor as _WPool
+
+        def _safe_searx(q: str):
+            try:
+                return q, (searx(q, pages=1) or [])
+            except Exception:
+                return q, []
+
+        with _WPool(max_workers=5) as _wp:
+            per_q = list(_wp.map(_safe_searx, queries))
+        for q, res in per_q:
+            for h in res or []:
                 if "wikipedia.org" in h.get("url", "") and h["url"] not in [c.get("url") for c in cands]:
                     cands.append(h)
             if cands:
-                break  # stop after the first query that hits
+                break  # first hitting query (in order) wins, as before
     except Exception:
         return [], ""
     cands = cands[:3]
@@ -400,7 +430,7 @@ def mine_wikipedia_titles(platform: str) -> tuple[list[dict], str]:
     best_url = cands[0]["url"]
     try:
         results = scrape_many([c["url"] for c in cands], wait_ms=0,
-                              max_workers=3, progress=None)
+                              max_workers=4, progress=None)
     except Exception:
         results = {}
     for cand in cands:
